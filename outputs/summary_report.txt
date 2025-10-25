@@ -2,7 +2,7 @@
      EMAIL+CALENDAR GRAPH SYSTEM - ANALYSIS REPORT
 ======================================================================
 
-Generated: 2025-10-25 15:10:59
+Generated: 2025-10-25 16:02:46
 
 
 ──────────────────────────────────────────────────────────────────────
@@ -28,16 +28,16 @@ Average Degree: 21.48
 ──────────────────────────────────────────────────────────────────────
 TOP PARTICIPANTS (by activity)
 ──────────────────────────────────────────────────────────────────────
-20. terry.palmer@consultingco.com            | Consultingco    |  43 events (23E, 20M)
-23. jamie.adams@startupco.com                | Startupco       |  29 events (15E, 14M)
- 3. hayden.moore@consultingco.com            | Consultingco    |  21 events (10E, 11M)
- 9. taylor.parker@consultingco.com           | Consultingco    |  17 events ( 9E,  8M)
-18. hayden.evans@consultingco.com            | Consultingco    |  15 events ( 7E,  8M)
-31. kelly.underwood@consultingco.com         | Consultingco    |  15 events ( 7E,  8M)
-26. oakley.brooks@consultingco.com           | Consultingco    |  15 events ( 6E,  9M)
-24. indigo.walker@consultingco.com           | Consultingco    |  15 events ( 6E,  9M)
-14. terry.garcia@consultingco.com            | Consultingco    |  12 events ( 6E,  6M)
-37. elliott.evans@startupco.com              | Startupco       |   8 events ( 2E,  6M)
+22. terry.palmer@consultingco.com            | Consultingco    |  43 events (23E, 20M)
+ 2. jamie.adams@startupco.com                | Startupco       |  29 events (15E, 14M)
+26. hayden.moore@consultingco.com            | Consultingco    |  21 events (10E, 11M)
+19. taylor.parker@consultingco.com           | Consultingco    |  17 events ( 9E,  8M)
+15. oakley.brooks@consultingco.com           | Consultingco    |  15 events ( 6E,  9M)
+41. hayden.evans@consultingco.com            | Consultingco    |  15 events ( 7E,  8M)
+28. kelly.underwood@consultingco.com         | Consultingco    |  15 events ( 7E,  8M)
+ 7. indigo.walker@consultingco.com           | Consultingco    |  15 events ( 6E,  9M)
+42. terry.garcia@consultingco.com            | Consultingco    |  12 events ( 6E,  6M)
+14. elliott.evans@startupco.com              | Startupco       |   8 events ( 2E,  6M)
 
 ──────────────────────────────────────────────────────────────────────
 COLLABORATION BURSTS
@@ -201,16 +201,16 @@ COMMUNICATION PATTERN ANALYSIS
 ──────────────────────────────────────────────────────────────────────
 TOP INFLUENCERS (PageRank)
 ──────────────────────────────────────────────────────────────────────
- 1. jamie.walker@consultingco.com            | Contributor       | Score: 0.0238
- 2. jordan.lopez@consultingco.com            | Contributor       | Score: 0.0238
- 3. indigo.walker@consultingco.com           | Executor          | Score: 0.0238
- 4. drew.young@client14.com                  | Contributor       | Score: 0.0238
- 5. oakley.brooks@consultingco.com           | Executor          | Score: 0.0238
- 6. bailey.taylor@consultingco.com           | Contributor       | Score: 0.0238
- 7. mariel@startupco.com                     | Contributor       | Score: 0.0238
- 8. jules.gray@consultingco.com              | Contributor       | Score: 0.0238
- 9. hesham.a@consultingco.com                | Contributor       | Score: 0.0238
-10. kelly.underwood@consultingco.com         | Executor          | Score: 0.0238
+ 1. rowan.garcia@client1.com                 | Contributor       | Score: 0.0238
+ 2. skylar.stone@consultingco.com            | Contributor       | Score: 0.0238
+ 3. quinn.baker@startupco.com                | Contributor       | Score: 0.0238
+ 4. sam.stone@startupco.com                  | Contributor       | Score: 0.0238
+ 5. hayden.moore@consultingco.com            | Executor          | Score: 0.0238
+ 6. jamie.walker@consultingco.com            | Contributor       | Score: 0.0238
+ 7. kelly.underwood@consultingco.com         | Executor          | Score: 0.0238
+ 8. hesham.a@consultingco.com                | Contributor       | Score: 0.0238
+ 9. hicham@consultingco.com                  | Contributor       | Score: 0.0238
+10. morgan.allen@startupco.com               | Contributor       | Score: 0.0238
 
 Role Distribution:
   Contributor: 33

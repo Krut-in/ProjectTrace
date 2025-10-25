@@ -21,12 +21,14 @@
 ## ✨ Latest Analysis Results (Oct 25, 2025)
 
 **Dataset Analyzed:**
+
 - 📧 **47 events** (27 email threads + 20 meetings)
 - 👥 **42 participants** across 5+ organizations
 - 📅 **1,340 days** (Aug 2022 - Apr 2026)
 - 🕸️ **956 connections** in network graph
 
 **Key Findings:**
+
 - ✅ **7 collaboration bursts** detected (avg 66% confidence)
 - ✅ **8 milestones** identified (4 deliverables, 4 planning phases)
 - ✅ **4 phase transitions** mapped (avg 80% confidence, 93% topic shifts)
@@ -79,6 +81,7 @@ streamlit run src/visualization/dashboard.py
 **Dashboard URL**: `http://localhost:8501`
 
 **6 Interactive Tabs:**
+
 - 📊 **Overview** - Timeline and key metrics
 - 🔥 **Bursts** - Collaboration intensity peaks
 - 🎯 **Milestones** - Key project events
@@ -95,6 +98,7 @@ ls -lh outputs/
 ```
 
 **Generated Files:**
+
 - 📄 `summary_report.txt` - Comprehensive 267-line report
 - 📅 `timeline.csv` - 47 events with full metadata
 - 🔥 `collaboration_bursts.csv` - 7 detected bursts
@@ -117,6 +121,7 @@ ls -lh outputs/
 ### ✅ Phase 1: Core Intelligence (COMPLETE)
 
 #### **1. Data Preprocessing**
+
 - Robust JSON parsing with Pydantic validation
 - Email thread and calendar event cleaning
 - Timezone normalization (all UTC)
@@ -124,6 +129,7 @@ ls -lh outputs/
 - Graceful error handling (1 malformed thread handled)
 
 #### **2. Multi-Layer Graph Construction**
+
 - **Person nodes** (42) with organization metadata
 - **Event nodes** (47) for emails and meetings
 - **Temporal edges** (20) linking sequential events
@@ -131,12 +137,14 @@ ls -lh outputs/
 - Graph density: 0.1221 (healthy collaboration network)
 
 #### **3. Adaptive Collaboration Burst Detection** ⭐
+
 - **Innovation**: Dynamic parameter tuning based on data density
 - Sliding window analysis (720 hours for sparse data)
 - Detects intensity peaks with confidence scoring
 - **Result**: 7 bursts vs. 0-1 with fixed parameters
 
 #### **4. Milestone Detection** ⭐
+
 - Pattern matching across 3 categories:
   - **Decision Points**: Large meetings + follow-ups + calm periods
   - **Deliverables**: Presentation/demo keywords + participation
@@ -145,12 +153,14 @@ ls -lh outputs/
 - **Result**: 8 milestones (4 deliverables at 75% confidence)
 
 #### **5. Phase Transition Detection** ⭐
+
 - TF-IDF topic modeling with 30-day windows
 - Jaccard similarity for transition detection (<0.4 = shift)
 - Automatic phase naming from dominant keywords
 - **Result**: 4 major transitions (avg 80% confidence)
 
 #### **6. Multi-Dimensional Communication Analysis** ⭐⭐⭐
+
 - Analyzes **12+ metrics** per event:
   - Urgency detection (25+ keywords)
   - Formality analysis (30+ markers)
@@ -163,12 +173,14 @@ ls -lh outputs/
 - **Result**: 47 events analyzed with rich pattern detection
 
 #### **7. Influence Mapping**
+
 - PageRank on person-to-person collaboration subgraph
 - Degree centrality and betweenness centrality
 - Role classification (Leaders, Strategists, Executors, Contributors)
 - **Result**: 42 participants ranked (9 executors, 33 contributors)
 
 #### **8. Handoff Event Detection**
+
 - Gap resumptions (14+ day silence)
 - Team expansions (2+ new members)
 - High turnover (>70% change)
@@ -176,6 +188,7 @@ ls -lh outputs/
 - **Result**: 38 handoff events detected
 
 #### **9. Interactive Visualization Dashboard**
+
 - Streamlit-based UI with 6 tabs
 - Plotly interactive charts
 - Pyvis network graph (force-directed layout)
@@ -335,14 +348,14 @@ Phase Transitions:
 
 ### Core Libraries
 
-| Category | Libraries | Purpose |
-|----------|-----------|---------|
-| **Data Processing** | pandas, numpy, python-dateutil | Data manipulation & analysis |
-| **Graph Analysis** | networkx | Graph construction & algorithms |
-| **Validation** | pydantic | Data validation & schemas |
-| **NLP** | scikit-learn | TF-IDF topic modeling |
-| **Visualization** | streamlit, plotly, pyvis | Interactive dashboards & charts |
-| **Utilities** | logging, pathlib, json | System utilities |
+| Category            | Libraries                      | Purpose                         |
+| ------------------- | ------------------------------ | ------------------------------- |
+| **Data Processing** | pandas, numpy, python-dateutil | Data manipulation & analysis    |
+| **Graph Analysis**  | networkx                       | Graph construction & algorithms |
+| **Validation**      | pydantic                       | Data validation & schemas       |
+| **NLP**             | scikit-learn                   | TF-IDF topic modeling           |
+| **Visualization**   | streamlit, plotly, pyvis       | Interactive dashboards & charts |
+| **Utilities**       | logging, pathlib, json         | System utilities                |
 
 ### Python Version
 
@@ -352,6 +365,7 @@ Phase Transitions:
 ### Dependencies
 
 See `requirements.txt` for complete list. Key dependencies:
+
 - `networkx>=3.0`
 - `pandas>=2.0.0`
 - `pydantic>=2.0.0`
@@ -432,31 +446,37 @@ print(f"Positive sentiment: {(sentiment['sentiment']=='positive').sum()}")
 ## 📝 Future Enhancement Ideas
 
 ### 1. **Sentiment Deep Dive**
+
 - Track sentiment changes over time per person
 - Detect frustration/enthusiasm patterns
 - Correlation with project phases
 
 ### 2. **Predictive Analytics**
+
 - Forecast next collaboration burst
 - Predict milestone completion dates
 - Identify at-risk projects early
 
 ### 3. **Blocker Identification**
+
 - Detect recurring issues without resolution
 - Topic clustering + temporal persistence
 - Auto-flag blockers for project managers
 
 ### 4. **Comparative Analysis**
+
 - Benchmark against similar projects
 - Industry-standard collaboration patterns
 - Best practice identification
 
 ### 5. **Real-Time Monitoring**
+
 - Incremental updates as new emails/meetings arrive
 - Live dashboard with alerts
 - Scheduled analysis runs
 
 ### 6. **Integration APIs**
+
 - REST API for programmatic access
 - Webhook notifications for key events
 - Export to project management tools
@@ -494,13 +514,13 @@ print(f"Positive sentiment: {(sentiment['sentiment']=='positive').sum()}")
 
 ## 📄 Documentation Files
 
-| File | Purpose | Lines |
-|------|---------|-------|
-| `README.md` | This file - Quick start & features | ~400 |
-| `ANALYSIS.md` | Complete analysis report & insights | 1,593 |
-| `IMPLEMENTATION_SUMMARY.md` | Technical implementation details | ~470 |
-| `NEXT_STEPS.md` | Future enhancement ideas | ~440 |
-| `DASHBOARD_GUIDE.txt` | Dashboard usage instructions | ~100 |
+| File                        | Purpose                             | Lines |
+| --------------------------- | ----------------------------------- | ----- |
+| `README.md`                 | This file - Quick start & features  | ~400  |
+| `ANALYSIS.md`               | Complete analysis report & insights | 1,593 |
+| `IMPLEMENTATION_SUMMARY.md` | Technical implementation details    | ~470  |
+| `NEXT_STEPS.md`             | Future enhancement ideas            | ~440  |
+| `DASHBOARD_GUIDE.txt`       | Dashboard usage instructions        | ~100  |
 
 ---
 
@@ -580,5 +600,5 @@ MIT License - Feel free to use, modify, and distribute!
 
 **🚀 Ready to analyze your project communications? Run `python src/main.py` to get started!**
 
-*Last Updated: October 25, 2025*  
-*Version: 2.0 (Production Release)*
+_Last Updated: October 25, 2025_  
+_Version: 2.0 (Production Release)_

@@ -56,18 +56,21 @@ Data Ingestion → Preprocessing → Graph Construction → Multi-Agent Analysis
 ### 1. **Data Preprocessing** (`src/data/preprocessor.py`)
 
 **Input Processing:**
+
 - Raw JSON files: `Antler_Hackathon_Email_Data.json` + `Antler_Hackathon_Calendar_Data.json`
 - Validation: Pydantic schemas with error handling (1 malformed thread skipped)
 - Timezone normalization: All timestamps converted to UTC
 - Deduplication: Removed duplicate participant entries
 
 **Output Statistics:**
+
 - ✅ **47 total events** (27 emails + 20 meetings)
 - ✅ **42 unique participants** across 5+ organizations
 - ✅ **1,340-day timeline** (2022-08-05 to 2026-04-06)
 - ✅ **Participant statistics CSV** with email/meeting breakdowns
 
 **Top 5 Most Active Participants:**
+
 1. **terry.palmer@consultingco.com** (Consultingco) - 43 events (23E, 20M)
 2. **jamie.adams@startupco.com** (Startupco) - 29 events (15E, 14M)
 3. **hayden.moore@consultingco.com** (Consultingco) - 21 events (10E, 11M)
@@ -77,14 +80,16 @@ Data Ingestion → Preprocessing → Graph Construction → Multi-Agent Analysis
 ### 2. **Graph Construction** (`src/models/graph_builder.py`)
 
 **Graph Architecture:**
+
 - **Multi-layer NetworkX graph** with typed nodes and edges
 - **Node types:** Person nodes (42) + Event nodes (47) = 89 total
-- **Edge types:** 
+- **Edge types:**
   - Participation edges (person ↔ event)
   - Temporal edges (event → event)
   - Collaboration edges (person ↔ person, implicit)
 
 **Graph Metrics (Fresh from Latest Run):**
+
 ```
 Total Nodes:     89
 ├─ People:       42
@@ -99,6 +104,7 @@ Average Degree:  21.48
 ```
 
 **Key Insights:**
+
 - High density (0.12) indicates strong collaboration network
 - Average degree of 21.5 means each node connects to ~24% of network
 - 20 temporal links create chronological event sequence
@@ -112,6 +118,7 @@ Six specialized analysis agents working in parallel:
 **Innovation:** Dynamic parameter tuning based on data density
 
 **Algorithm:**
+
 ```python
 1. Calculate dataset density: events / total_days = 0.035 events/day
 2. Adapt parameters based on density:
@@ -125,6 +132,7 @@ Six specialized analysis agents working in parallel:
 ```
 
 **Results from Fresh Run:**
+
 - **7 Collaboration Bursts** detected
 - Average confidence: **66.2%**
 - Largest burst: **19 participants** (October 2022)
@@ -132,37 +140,42 @@ Six specialized analysis agents working in parallel:
 
 **Top 3 Bursts:**
 
-| Period | Duration | Events | Participants | Confidence |
-|--------|----------|--------|--------------|------------|
-| Aug 5 - Sep 2, 2022 | 680 hrs | 5 (4E, 1M) | 13 | 70.0% |
-| Oct 19 - Nov 11, 2022 | 553 hrs | 7 (4E, 3M) | 19 | 68.5% |
-| Nov 10 - Dec 8, 2022 | 655 hrs | 4 (3E, 1M) | 12 | 64.3% |
+| Period                | Duration | Events     | Participants | Confidence |
+| --------------------- | -------- | ---------- | ------------ | ---------- |
+| Aug 5 - Sep 2, 2022   | 680 hrs  | 5 (4E, 1M) | 13           | 70.0%      |
+| Oct 19 - Nov 11, 2022 | 553 hrs  | 7 (4E, 3M) | 19           | 68.5%      |
+| Nov 10 - Dec 8, 2022  | 655 hrs  | 4 (3E, 1M) | 12           | 64.3%      |
 
 #### **Agent 2: Milestone Detector** (`src/analysis/milestone_detector.py`)
 
 **Pattern Matching Categories:**
+
 1. **Decision Points** - Large meetings + follow-up activity + subsequent calm
 2. **Deliverables** - Keywords: presentation, demo, launch, release
 3. **Planning Phases** - Keywords: workshop, strategy, planning, briefing
 
 **Confidence Scoring Formula:**
+
 ```
 confidence = (participant_weight × 0.4) + (keyword_weight × 0.3) + (followup_weight × 0.3)
 ```
 
 **Results from Fresh Run:**
+
 - **8 Total Milestones** detected
   - 0 Decision Points
   - **4 Deliverables** (avg confidence: 72.5%)
   - **4 Planning Phases** (avg confidence: 55.1%)
 
 **Deliverable Milestones:**
+
 1. **Sep 20, 2022** - ConsultingCo // StartupCo demo (69% confidence, 8 participants)
 2. **Oct 7, 2022** - Brand Identity and Strategy Presentation (75%, 13 participants)
 3. **Oct 19, 2022** - Brand Identity Presentation (75%, 15 participants)
 4. **Nov 2, 2022** - Brand Identity Presentation (75%, 16 participants)
 
 **Planning Phase Milestones:**
+
 1. **Sep 5, 2022** - StartupCo Workshop Discussion (36%, 4 participants)
 2. **Sep 7, 2022** - ConsultingCo x StartupCo Brand Strategy Workshop (71%, 10 participants)
 3. **Sep 14, 2022** - StartupCo Briefing Session (56%, 15 participants)
@@ -173,6 +186,7 @@ confidence = (participant_weight × 0.4) + (keyword_weight × 0.3) + (followup_w
 **Algorithm:** TF-IDF topic modeling with Jaccard similarity
 
 **Process:**
+
 ```
 1. Create 30-day sliding windows across timeline
 2. Extract top keywords using TF-IDF (5 keywords per window)
@@ -182,6 +196,7 @@ confidence = (participant_weight × 0.4) + (keyword_weight × 0.3) + (followup_w
 ```
 
 **Results from Fresh Run:**
+
 - **4 Phase Transitions** detected
 - Average confidence: **79.6%**
 - Average topic shift: **7.1% similarity** (92.9% change)
@@ -202,18 +217,19 @@ Design (Jun 2024)
 
 **Phase Details:**
 
-| Transition Date | From → To | Topic Shift | Confidence | New Focus Keywords |
-|----------------|-----------|-------------|------------|--------------------|
-| Aug 22, 2022 | Design → Planning | 82.4% | 85.2% | workshop, consultingco, startupco |
-| Jan 4, 2023 | Design → Scoping | 94.7% | 79.4% | small favor, small, favor |
-| Sep 15, 2023 | Scoping → Opinion Important | 100.0% | 77.0% | opinion important, opinion |
-| Jun 7, 2024 | Opinion Important → Design | 94.4% | 76.2% | interactive, startupco, brand |
+| Transition Date | From → To                   | Topic Shift | Confidence | New Focus Keywords                |
+| --------------- | --------------------------- | ----------- | ---------- | --------------------------------- |
+| Aug 22, 2022    | Design → Planning           | 82.4%       | 85.2%      | workshop, consultingco, startupco |
+| Jan 4, 2023     | Design → Scoping            | 94.7%       | 79.4%      | small favor, small, favor         |
+| Sep 15, 2023    | Scoping → Opinion Important | 100.0%      | 77.0%      | opinion important, opinion        |
+| Jun 7, 2024     | Opinion Important → Design  | 94.4%       | 76.2%      | interactive, startupco, brand     |
 
 #### **Agent 4: Communication Pattern Analyzer** (`src/analysis/sentiment_analyzer.py`)
 
 **Multi-Dimensional Analysis Engine**
 
 **Analyzed Dimensions:**
+
 1. **Urgency Detection** (25+ keywords: urgent, asap, deadline, critical...)
 2. **Formality Analysis** (30+ markers: dear, sincerely, regards, hey...)
 3. **Collaboration Style** (directive vs. collaborative vs. balanced)
@@ -225,6 +241,7 @@ Design (Jun 2024)
 9. **Handoff Language** (transition, handoff, takeover...)
 
 **Data Sources:**
+
 - Full email body text
 - Email subject lines
 - Meeting titles and descriptions
@@ -233,11 +250,13 @@ Design (Jun 2024)
 **Results from Fresh Run (47 events analyzed):**
 
 **📊 Urgency Distribution:**
+
 - **Low:** 28 events (59.6%) - Routine communication
 - **Medium:** 10 events (21.3%) - Some time pressure
 - **High:** 9 events (19.1%) - Urgent/critical items
 
 **💬 Communication Pattern Classification:**
+
 - **Routine:** 32 events (68.1%) - Standard communication
 - **Crisis Management:** 6 events (12.8%) - High urgency problem-solving
 - **Problem Solving:** 5 events (10.6%) - Technical/strategic issues
@@ -245,16 +264,19 @@ Design (Jun 2024)
 - **Status Review:** 1 event (2.1%) - Progress updates
 
 **🎩 Formality Levels:**
+
 - **Formal:** 4 events (8.5%)
 - **Neutral:** 43 events (91.5%)
 - **Casual:** 0 events (0.0%)
 
 **🤝 Collaboration Styles:**
+
 - **Balanced:** 28 events (59.6%) - Mix of directive and collaborative
 - **Directive:** 12 events (25.5%) - Clear instructions/decisions
 - **Collaborative:** 7 events (14.9%) - Open discussion/brainstorming
 
 **🎯 Key Activity Indicators:**
+
 - **Decision-making events:** 9 (19.1%)
 - **Problem-solving events:** 11 (23.4%)
 - **Action items present:** 24 (51.1%)
@@ -262,11 +284,13 @@ Design (Jun 2024)
 - **Handoff language:** 5 (10.6%)
 
 **💭 Sentiment Distribution:**
+
 - **Positive:** 21 events (44.7%)
 - **Neutral:** 25 events (53.2%)
 - **Negative:** 1 event (2.1%)
 
 **⚡ Email Response Efficiency (17 email threads with responses):**
+
 - **Very Fast (<6 hrs):** 1 (5.9%)
 - **Fast (6-24 hrs):** 7 (41.2%)
 - **Moderate (24-48 hrs):** 4 (23.5%)
@@ -274,11 +298,13 @@ Design (Jun 2024)
 - **Average response time:** 42.8 hours
 
 **🚨 Highest Urgency Event:**
+
 - Date: September 2, 2022
 - Subject: StartupCo Brand Strategy Workshop
 - Urgency Score: 1.00 (maximum)
 
 **🌟 Most Collaborative Event:**
+
 - Date: November 4, 2022
 - Subject: MediaPlatform <> ConsultingCo
 - Participants: 7
@@ -289,11 +315,13 @@ Design (Jun 2024)
 **Core Algorithm:** PageRank on person-to-person collaboration subgraph
 
 **Metrics Calculated:**
+
 1. **PageRank** - Network influence (Google's algorithm)
 2. **Degree Centrality** - Direct connection count
 3. **Betweenness Centrality** - Bridge/connector role
 
 **Role Classification Matrix:**
+
 ```
               High Activity    Low Activity
 High Influence    Leader         Strategist
@@ -305,25 +333,27 @@ Low Influence     Executor       Contributor
 **Note:** Due to sparse person-to-person edges, all participants received equal PageRank scores (0.0238). Role classification based on event participation:
 
 **Role Distribution:**
+
 - **Contributors:** 33 (78.6%) - Lower activity participants
 - **Executors:** 9 (21.4%) - Higher activity participants
 
 **Top 10 Participants by Activity:**
 
-| Rank | Participant | Role | Events | Emails | Meetings | Score |
-|------|-------------|------|--------|--------|----------|-------|
-| 1 | jamie.walker@consultingco.com | Contributor | 3 | 1 | 2 | 0.0238 |
-| 2 | jordan.lopez@consultingco.com | Contributor | 1 | 1 | 0 | 0.0238 |
-| 3 | indigo.walker@consultingco.com | Executor | 15 | 6 | 9 | 0.0238 |
-| 4 | drew.young@client14.com | Contributor | 1 | 1 | 0 | 0.0238 |
-| 5 | oakley.brooks@consultingco.com | Executor | 15 | 6 | 9 | 0.0238 |
-| 6 | bailey.taylor@consultingco.com | Contributor | 1 | 1 | 0 | 0.0238 |
-| 7 | mariel@startupco.com | Contributor | 7 | 2 | 5 | 0.0238 |
-| 8 | jules.gray@consultingco.com | Contributor | 3 | 1 | 2 | 0.0238 |
-| 9 | hesham.a@consultingco.com | Contributor | 1 | 0 | 1 | 0.0238 |
-| 10 | kelly.underwood@consultingco.com | Executor | 14 | 7 | 7 | 0.0238 |
+| Rank | Participant                      | Role        | Events | Emails | Meetings | Score  |
+| ---- | -------------------------------- | ----------- | ------ | ------ | -------- | ------ |
+| 1    | jamie.walker@consultingco.com    | Contributor | 3      | 1      | 2        | 0.0238 |
+| 2    | jordan.lopez@consultingco.com    | Contributor | 1      | 1      | 0        | 0.0238 |
+| 3    | indigo.walker@consultingco.com   | Executor    | 15     | 6      | 9        | 0.0238 |
+| 4    | drew.young@client14.com          | Contributor | 1      | 1      | 0        | 0.0238 |
+| 5    | oakley.brooks@consultingco.com   | Executor    | 15     | 6      | 9        | 0.0238 |
+| 6    | bailey.taylor@consultingco.com   | Contributor | 1      | 1      | 0        | 0.0238 |
+| 7    | mariel@startupco.com             | Contributor | 7      | 2      | 5        | 0.0238 |
+| 8    | jules.gray@consultingco.com      | Contributor | 3      | 1      | 2        | 0.0238 |
+| 9    | hesham.a@consultingco.com        | Contributor | 1      | 0      | 1        | 0.0238 |
+| 10   | kelly.underwood@consultingco.com | Executor    | 14     | 7      | 7        | 0.0238 |
 
 **Most Active Participants (actual influence):**
+
 1. **terry.palmer@consultingco.com** - 43 events (highest activity)
 2. **jamie.adams@startupco.com** - 29 events
 3. **hayden.moore@consultingco.com** - 21 events
@@ -331,12 +361,14 @@ Low Influence     Executor       Contributor
 #### **Agent 6: Handoff Detector** (`src/analysis/handoff_detector.py`)
 
 **Detection Patterns:**
+
 1. **Gap Resumption** - New participants after 14+ day silence
 2. **Team Expansion** - 2+ new members join
 3. **High Turnover** - >70% participant change
 4. **Departure** - Members leaving without replacement
 
 **Results from Fresh Run:**
+
 - **38 Total Handoff Events**
 - **Type Distribution:**
   - Team Expansion: 16 (42.1%)
@@ -346,13 +378,13 @@ Low Influence     Executor       Contributor
 
 **Top 5 Handoff Events:**
 
-| Date | Type | Description | Confidence |
-|------|------|-------------|------------|
-| Aug 22, 2022 | Gap Resumption | 2 new participants after 17-day gap | 37.8% |
-| Aug 30, 2022 | Team Expansion | Team expanded by 3 people | 60.0% |
-| Sep 2, 2022 | Team Expansion | Team expanded by 5 people | 100.0% |
-| Sep 5, 2022 | Departure | 7 participants departed | 100.0% |
-| Sep 7, 2022 | Team Expansion | Team expanded by 6 people | 100.0% |
+| Date         | Type           | Description                         | Confidence |
+| ------------ | -------------- | ----------------------------------- | ---------- |
+| Aug 22, 2022 | Gap Resumption | 2 new participants after 17-day gap | 37.8%      |
+| Aug 30, 2022 | Team Expansion | Team expanded by 3 people           | 60.0%      |
+| Sep 2, 2022  | Team Expansion | Team expanded by 5 people           | 100.0%     |
+| Sep 5, 2022  | Departure      | 7 participants departed             | 100.0%     |
+| Sep 7, 2022  | Team Expansion | Team expanded by 6 people           | 100.0%     |
 
 ---
 
@@ -762,7 +794,7 @@ Total Events Analyzed: 47
 - **People-Centric** - Understand **how humans work together**, not just what they talk about
 - **Crisis Detection** - Automatically flags urgent/problem-solving patterns
 
-**Real-World Application:**  
+**Real-World Application:**
 Managers can identify communication bottlenecks, measure team responsiveness, detect crises early, and understand team morale through gratitude tracking.
 
 ---
@@ -795,7 +827,7 @@ Then classify into 4 roles:
 | 5    | arden.wilson@consultingco.com  | Contributor | 4      | ConsultingCo |
 | 9    | taylor.parker@consultingco.com | Executor    | 17     | ConsultingCo |
 
-**Critical Observation:**  
+**Critical Observation:**
 All top influencers have identical PageRank (0.0238) - this indicates the network structure is **highly egalitarian** with no single bottleneck or gatekeeper.
 
 **Team Structure Inference:**
@@ -823,7 +855,7 @@ The system detected multiple handoff patterns across the 1,340-day timeline, wit
 - Team composition changes between phases
 - Work resumes after strategic pauses
 
-**Use Case Value:**  
+**Use Case Value:**
 In real projects, handoff detection helps identify knowledge transfer risks and onboarding needs.
 
 ---
@@ -840,7 +872,7 @@ In real projects, handoff detection helps identify knowledge transfer risks and 
 - Color-coded by event type (email vs. meeting)
 - Y-axis = participant count per event
 
-**Key Pattern:**  
+**Key Pattern:**
 Clustering in Q4 2022 confirms burst detection findings - highest activity concentration.
 
 ---
@@ -855,7 +887,7 @@ Clustering in Q4 2022 confirms burst detection findings - highest activity conce
 - Vertical rectangles mark burst windows
 - Confidence scores shown for each burst
 
-**Visual Insight:**  
+**Visual Insight:**
 Gaps between bursts clearly visible - periods of silence lasting months.
 
 ---
@@ -870,7 +902,7 @@ Gaps between bursts clearly visible - periods of silence lasting months.
 - Breakdown of emails vs. meetings
 - Organization affiliation
 
-**Dominance Pattern:**  
+**Dominance Pattern:**
 Terry Palmer (43 events), Jamie Adams (29 events), Hayden Moore (21 events) form the core team.
 
 ---
@@ -885,7 +917,7 @@ Terry Palmer (43 events), Jamie Adams (29 events), Hayden Moore (21 events) form
 - Burst summary statistics
 - Participant distribution
 
-**Meta-Analysis:**  
+**Meta-Analysis:**
 System health indicators - shows the graph is well-formed and analysis-ready.
 
 ---
@@ -970,24 +1002,24 @@ Non-technical stakeholders can explore complex data without code - click, filter
 
 #### 1. **Adaptive Burst Detection Success** ⭐⭐⭐
 
-**Problem:** Traditional fixed-parameter burst detection fails on sparse data  
-**Solution:** Dynamic parameter adaptation based on dataset density  
+**Problem:** Traditional fixed-parameter burst detection fails on sparse data
+**Solution:** Dynamic parameter adaptation based on dataset density
 **Result:** Detected 7 bursts vs. 0-1 with fixed parameters
 
 **Impact:** Revealed true collaboration rhythm in episodic consulting engagement
 
 #### 2. **Iterative Delivery Model Discovered** ⭐⭐
 
-**Finding:** 3 consecutive brand presentations with 75% confidence  
-**Pattern:** Oct 7 (13 people) → Oct 19 (15 people) → Nov 2 (16 people)  
+**Finding:** 3 consecutive brand presentations with 75% confidence
+**Pattern:** Oct 7 (13 people) → Oct 19 (15 people) → Nov 2 (16 people)
 **Interpretation:** Client-collaborative refinement approach, not big-bang delivery
 
 **Business Value:** Understanding delivery model enables better project planning
 
 #### 3. **Complete Phase Pivot Detected** ⭐⭐⭐
 
-**Finding:** 100% topic shift on Sep 15, 2023 (Scoping → Opinion Important)  
-**Evidence:** 0.0% similarity score between consecutive 30-day windows  
+**Finding:** 100% topic shift on Sep 15, 2023 (Scoping → Opinion Important)
+**Evidence:** 0.0% similarity score between consecutive 30-day windows
 **Significance:** Major strategic redirect, not gradual evolution
 
 **Strategic Implication:** Client needs changed dramatically mid-engagement
@@ -1004,16 +1036,16 @@ Non-technical stakeholders can explore complex data without code - click, filter
 
 #### 5. **Egalitarian Network Structure** ⭐
 
-**Finding:** All 42 participants have identical PageRank (0.0238)  
-**Reason:** Sparse person-to-person edges in this email/calendar data  
+**Finding:** All 42 participants have identical PageRank (0.0238)
+**Reason:** Sparse person-to-person edges in this email/calendar data
 **Insight:** No single bottleneck or gatekeeper - distributed collaboration
 
 **Alternative View:** True influence measured by activity (terry.palmer: 43 events)
 
 #### 6. **Crisis Management Capability** ⭐⭐
 
-**Detection:** 6 crisis management events (12.8% of total)  
-**Method:** Email body text analysis with urgency keywords  
+**Detection:** 6 crisis management events (12.8% of total)
+**Method:** Email body text analysis with urgency keywords
 **Examples:** High urgency workshop prep, problem-solving sessions
 
 **Value:** Proves team can handle pressure situations effectively
@@ -1414,36 +1446,36 @@ This Email+Calendar Graph System successfully demonstrates how **automated multi
 
 ---
 
-*Analysis completed: October 25, 2025 at 15:10:59*  
-*Total execution time: ~7 seconds*  
-*All outputs verified: ✅*  
+*Analysis completed: October 25, 2025 at 15:10:59*
+*Total execution time: ~7 seconds*
+*All outputs verified: ✅*
 *Report generated by: Email+Calendar Graph System v1.0*
 
 
 
 ### Finding #1: Episodic Collaboration Model
 
-**Evidence:** 7 bursts with long gaps (up to 9 months)  
+**Evidence:** 7 bursts with long gaps (up to 9 months)
 **Conclusion:** This is a consulting engagement, not continuous development. Teams activate for specific deliverables, then pause.
 
 ### Finding #2: Iterative Design Process
 
-**Evidence:** 4 brand presentations in Oct-Nov 2022  
+**Evidence:** 4 brand presentations in Oct-Nov 2022
 **Conclusion:** ConsultingCo used feedback loops - present, gather input, refine, repeat.
 
 ### Finding #3: Egalitarian Network Structure
 
-**Evidence:** All participants have similar PageRank scores  
+**Evidence:** All participants have similar PageRank scores
 **Conclusion:** No bottlenecks or gatekeepers - healthy collaborative culture.
 
 ### Finding #4: Adaptive Parameters Essential
 
-**Evidence:** 1 burst with fixed params vs. 7 with adaptive  
+**Evidence:** 1 burst with fixed params vs. 7 with adaptive
 **Conclusion:** Real-world data requires intelligent parameter tuning.
 
 ### Finding #5: Cross-Organizational Coordination
 
-**Evidence:** Burst #2 involved 19 people from both orgs  
+**Evidence:** Burst #2 involved 19 people from both orgs
 **Conclusion:** Successful collaboration required alignment across company boundaries.
 
 ---
@@ -1589,5 +1621,6 @@ This system transforms raw communication data into **actionable intelligence**. 
 
 ---
 
-_Generated by Email+Calendar Graph System v2.0_  
+_Generated by Email+Calendar Graph System v2.0_
 _For questions or issues, refer to README.md and DASHBOARD_GUIDE.txt_
+````
