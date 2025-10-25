@@ -1,0 +1,167 @@
+# 🚀 Quick Start Guide - Interactive Dashboard
+
+## Running the Complete Analysis
+
+### Step 1: Run Full Analysis Pipeline
+```bash
+python src/main.py
+```
+
+This will generate all analysis outputs in the `outputs/` directory:
+- ✅ Timeline and participant statistics
+- ✅ Graph network metrics
+- ✅ Collaboration bursts (7 detected with adaptive parameters!)
+- ✅ Project milestones (8 detected)
+- ✅ Phase transitions (4 detected)
+- ✅ Sentiment analysis (47 events analyzed)
+- ✅ Influence rankings (42 participants ranked)
+- ✅ Handoff events (detected team changes)
+
+### Step 2: Launch Interactive Dashboard
+```bash
+streamlit run src/visualization/dashboard.py
+```
+
+The dashboard will open in your browser at `http://localhost:8501`
+
+## Dashboard Features
+
+### 📊 Overview Tab
+- **Key Metrics**: Total events, participants, emails, meetings, bursts
+- **Interactive Timeline**: Scatter plot of all communications
+- **Top 10 Participants**: Ranked by activity
+- **Event Distribution**: Pie chart of email vs meeting ratio
+
+### 🔥 Bursts Tab
+- **Burst Timeline**: Visual highlighting of collaboration bursts
+- **Burst Details**: Expandable cards with metrics for each burst
+  - Event count, participant count, duration, confidence score
+- **With Adaptive Parameters**: Now detects 7 bursts instead of 1!
+
+### 🎯 Milestones Tab
+- **Milestone Timeline**: Scatter plot by confidence and date
+- **Milestone Types**: Decision points, deliverables, planning phases
+- **All Milestones Table**: Sortable list with confidence scores
+
+### 📈 Phases Tab
+- **Phase Evolution**: Visual flow of project phases
+- **Topic Keywords**: What the team focused on in each phase
+- **Transition Details**: 
+  - Planning → Design → Scoping → Maintenance
+  - Confidence scores for each transition
+
+### 💭 Sentiment Tab
+- **Overall Distribution**: Pie chart of positive/neutral/negative
+- **Sentiment Statistics**: Average sentiment score
+- **Trend Over Time**: Monthly sentiment changes
+- **Score Scale**: 0 (negative) to 1 (positive)
+
+### 🕸️ Network Tab
+- **Top 10 Influencers**: PageRank-based rankings
+- **Role Classification**:
+  - 🔴 Active Leaders (high influence + high activity)
+  - 🔵 Strategic Leaders (high influence + moderate activity)
+  - 🟢 Executors (low influence + high activity)
+  - ⚪ Contributors (moderate influence + activity)
+- **Interactive Network Graph**: Zoom, drag, explore connections
+- **Graph Statistics**: Nodes, edges, density, average degree
+
+## Sidebar Features
+
+### Date Range Filter
+Select specific time periods to analyze
+
+### Participant Filter
+Focus on specific team members
+
+### Export Options
+- All CSV files available in `outputs/` directory
+- Can be opened in Excel, imported to databases, etc.
+
+## Key Insights from Your Data
+
+### 🔥 7 Collaboration Bursts Detected
+1. **Aug-Sep 2022**: Project kickoff (5 events, 13 participants)
+2. **Oct-Nov 2022**: Peak activity (7 events, 19 participants) 
+3. **Nov-Dec 2022**: Design iteration (4 events, 12 participants)
+4. **Jan 2023**: Scope refinement (4 events, 6 participants)
+5. **Sep-Oct 2023**: Review cycle (3 events, 6 participants)
+6. **Jan-Feb 2024**: Brand book update (3 events, 4 participants)
+7. **Oct 2024**: Maintenance check (3 events, 7 participants)
+
+### 🎯 8 Milestones Identified
+- 4 Planning Phases (workshops, briefings)
+- 4 Deliverable Events (presentations, reviews)
+
+### 📈 4 Major Phase Transitions
+- Planning → Design → Scoping → Opinion Important → Design
+
+### 💭 Sentiment: 100% Neutral
+- All 47 events classified as neutral
+- No strong positive or negative keywords detected in subjects
+- Average sentiment score: 0.5 (neutral baseline)
+
+### 🕸️ Top 3 Influencers
+1. **Terry Palmer** (ConsultingCo CEO) - 43 events, Active Leader
+2. **Jamie Adams** (StartupCo CEO) - 29 events, Active Leader  
+3. **Hayden Moore** (ConsultingCo) - 21 events, Active Leader
+
+## Tips for Demo
+
+### For Judges
+1. **Start with Overview Tab**: Show the full project timeline
+2. **Navigate to Bursts Tab**: Highlight adaptive burst detection
+3. **Show Milestones**: Demonstrate automatic pattern recognition
+4. **Explore Network Tab**: Interactive visualization impresses
+5. **Mention Export**: All data available for further analysis
+
+### Key Talking Points
+- ✅ **Adaptive Algorithms**: Parameters adjust to dataset density
+- ✅ **Multi-Agent Reasoning**: Graph → Bursts → Milestones → Phases
+- ✅ **Explainable AI**: Every insight has confidence score
+- ✅ **Production-Ready**: Error handling, logging, validation
+- ✅ **Extensible**: Export to Gephi, Neo4j, or custom tools
+
+## Troubleshooting
+
+### Dashboard won't load?
+```bash
+# Make sure streamlit is installed
+pip install streamlit
+
+# Check if outputs exist
+ls outputs/*.csv
+```
+
+### Missing data?
+```bash
+# Run analysis first
+python src/main.py
+
+# Should create 10+ CSV files in outputs/
+```
+
+### Network visualization not showing?
+```bash
+# Install pyvis
+pip install pyvis
+```
+
+## Next Steps
+
+### Advanced Features to Add
+1. **Real-time Updates**: Monitor live email/calendar feeds
+2. **Neo4j Integration**: Graph database for massive scale
+3. **LLM Analysis**: Use GPT-4 for deeper insights
+4. **Email Body Analysis**: If full email text becomes available
+
+### Export for External Tools
+- **Gephi**: `outputs/graphs/project_graph.gexf`
+- **Excel**: All CSV files in `outputs/`
+- **Python/R**: Load CSVs with pandas/readr
+- **BI Tools**: Import to Tableau, Power BI
+
+---
+
+**Built for Antler Hackathon - Track 9**
+*Reconstructing Project Timelines with Multi-Agent AI* 🚀

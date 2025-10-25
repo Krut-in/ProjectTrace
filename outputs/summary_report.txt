@@ -2,7 +2,7 @@
      EMAIL+CALENDAR GRAPH SYSTEM - ANALYSIS REPORT
 ======================================================================
 
-Generated: 2025-10-25 13:03:10
+Generated: 2025-10-25 14:24:57
 
 
 ──────────────────────────────────────────────────────────────────────
@@ -28,28 +28,172 @@ Average Degree: 21.48
 ──────────────────────────────────────────────────────────────────────
 TOP PARTICIPANTS (by activity)
 ──────────────────────────────────────────────────────────────────────
-23. terry.palmer@consultingco.com            | Consultingco    |  43 events (23E, 20M)
-21. jamie.adams@startupco.com                | Startupco       |  29 events (15E, 14M)
- 2. hayden.moore@consultingco.com            | Consultingco    |  21 events (10E, 11M)
-16. taylor.parker@consultingco.com           | Consultingco    |  17 events ( 9E,  8M)
-34. kelly.underwood@consultingco.com         | Consultingco    |  15 events ( 7E,  8M)
-10. hayden.evans@consultingco.com            | Consultingco    |  15 events ( 7E,  8M)
-12. oakley.brooks@consultingco.com           | Consultingco    |  15 events ( 6E,  9M)
-28. indigo.walker@consultingco.com           | Consultingco    |  15 events ( 6E,  9M)
-38. terry.garcia@consultingco.com            | Consultingco    |  12 events ( 6E,  6M)
-11. elliott.evans@startupco.com              | Startupco       |   8 events ( 2E,  6M)
+15. terry.palmer@consultingco.com            | Consultingco    |  43 events (23E, 20M)
+38. jamie.adams@startupco.com                | Startupco       |  29 events (15E, 14M)
+32. hayden.moore@consultingco.com            | Consultingco    |  21 events (10E, 11M)
+30. taylor.parker@consultingco.com           | Consultingco    |  17 events ( 9E,  8M)
+ 1. oakley.brooks@consultingco.com           | Consultingco    |  15 events ( 6E,  9M)
+36. kelly.underwood@consultingco.com         | Consultingco    |  15 events ( 7E,  8M)
+35. indigo.walker@consultingco.com           | Consultingco    |  15 events ( 6E,  9M)
+17. hayden.evans@consultingco.com            | Consultingco    |  15 events ( 7E,  8M)
+ 3. terry.garcia@consultingco.com            | Consultingco    |  12 events ( 6E,  6M)
+37. elliott.evans@startupco.com              | Startupco       |   8 events ( 2E,  6M)
 
 ──────────────────────────────────────────────────────────────────────
 COLLABORATION BURSTS
 ──────────────────────────────────────────────────────────────────────
-Total Bursts Detected: 1
+Total Bursts Detected: 7
 
 Burst #1:
-  Period: 2022-11-04 to 2022-11-11
-  Duration: 166.9 hours
+  Period: 2022-08-05 to 2022-09-02
+  Duration: 680.0 hours
   Events: 5 (4 emails, 1 meetings)
-  Participants: 15
+  Participants: 13
+  Confidence: 0.70
+
+Burst #2:
+  Period: 2022-10-19 to 2022-11-11
+  Duration: 553.4 hours
+  Events: 7 (4 emails, 3 meetings)
+  Participants: 19
+  Confidence: 0.69
+
+Burst #3:
+  Period: 2022-11-10 to 2022-12-08
+  Duration: 654.9 hours
+  Events: 4 (3 emails, 1 meetings)
+  Participants: 12
+  Confidence: 0.64
+
+Burst #4:
+  Period: 2023-01-04 to 2023-01-21
+  Duration: 389.1 hours
+  Events: 4 (3 emails, 1 meetings)
+  Participants: 6
   Confidence: 0.68
+
+Burst #5:
+  Period: 2023-09-15 to 2023-10-10
+  Duration: 597.8 hours
+  Events: 3 (3 emails, 0 meetings)
+  Participants: 6
+  Confidence: 0.52
+
+Burst #6:
+  Period: 2024-06-07 to 2024-06-13
+  Duration: 138.7 hours
+  Events: 3 (1 emails, 2 meetings)
+  Participants: 4
+  Confidence: 0.66
+
+Burst #7:
+  Period: 2026-03-10 to 2026-04-06
+  Duration: 649.5 hours
+  Events: 3 (1 emails, 2 meetings)
+  Participants: 7
+  Confidence: 0.67
+
+
+──────────────────────────────────────────────────────────────────────
+PROJECT MILESTONES
+──────────────────────────────────────────────────────────────────────
+Total Milestones Detected: 8
+
+
+Deliverables (4):
+  • 2022-09-20: ConsultingCo // StartupCo demo
+    Confidence: 69.00%, Participants: 8
+  • 2022-10-07: ConsultingCo | StartupCo- Brand Identity and Strategy Presentation
+    Confidence: 75.00%, Participants: 13
+  • 2022-10-19: ConsultingCo | StartupCo- Brand Identity Presentation
+    Confidence: 75.00%, Participants: 15
+  • 2022-11-02: ConsultingCo | StartupCo - Brand Identity Presentation
+    Confidence: 75.00%, Participants: 16
+
+Planning Phases (4):
+  • 2022-09-05: StartupCo Workshop Discussion
+    Confidence: 36.00%, Participants: 4
+  • 2022-09-07: ConsultingCo x StartupCo Brand Strategy Workshop 
+    Confidence: 71.00%, Participants: 10
+  • 2022-09-14: StartupCo Briefing Session
+    Confidence: 56.00%, Participants: 15
+  • 2022-11-10: StartupCo Brand Strategy
+    Confidence: 53.50%, Participants: 11
+
+──────────────────────────────────────────────────────────────────────
+PHASE TRANSITIONS
+──────────────────────────────────────────────────────────────────────
+Total Transitions Detected: 4
+
+• 2022-08-22: Design → Planning
+  Confidence: 85.20%, Topic Shift: 17.60% similarity
+  New Focus: workshop, consultingco, consultingco startupco
+
+• 2023-01-04: Design → Scoping
+  Confidence: 79.40%, Topic Shift: 5.30% similarity
+  New Focus: small favor, small, favor
+
+• 2023-09-15: Small Favor → Opinion Important
+  Confidence: 77.00%, Topic Shift: 0.00% similarity
+  New Focus: opinion important, opinion, important
+
+• 2024-06-07: Opinion Important → Design
+  Confidence: 76.20%, Topic Shift: 5.60% similarity
+  New Focus: startupco interactive, startupco, interactive brand
+
+
+──────────────────────────────────────────────────────────────────────
+SENTIMENT ANALYSIS
+──────────────────────────────────────────────────────────────────────
+Overall Distribution:
+  Positive: 0 (0.0%)
+  Neutral: 47 (100.0%)
+  Negative: 0 (0.0%)
+
+Average Sentiment Score: 0.50 (0=negative, 1=positive)
+
+──────────────────────────────────────────────────────────────────────
+TOP INFLUENCERS (PageRank)
+──────────────────────────────────────────────────────────────────────
+ 1. oakley.brooks@consultingco.com           | Executor          | Score: 0.0238
+ 2. hayden.moore@consultingco.com            | Executor          | Score: 0.0238
+ 3. skylar.stone@consultingco.com            | Contributor       | Score: 0.0238
+ 4. bailey.taylor@consultingco.com           | Contributor       | Score: 0.0238
+ 5. arden.wilson@consultingco.com            | Contributor       | Score: 0.0238
+ 6. jamie.walker@consultingco.com            | Contributor       | Score: 0.0238
+ 7. reese.anderson@consultingco.com          | Contributor       | Score: 0.0238
+ 8. indigo.davis@consultingco.com            | Contributor       | Score: 0.0238
+ 9. taylor.parker@consultingco.com           | Executor          | Score: 0.0238
+10. perry.scott@consultingco.com             | Contributor       | Score: 0.0238
+
+Role Distribution:
+  Contributor: 33
+  Executor: 9
+
+──────────────────────────────────────────────────────────────────────
+HANDOFF EVENTS
+──────────────────────────────────────────────────────────────────────
+Total Handoffs Detected: 38
+
+• 2022-08-22 [gap_resumption]:
+  2 new participant(s) after 17-day gap
+  Confidence: 37.78%
+
+• 2022-08-30 [team_expansion]:
+  Team expanded by 3 people
+  Confidence: 60.00%
+
+• 2022-09-02 [team_expansion]:
+  Team expanded by 5 people
+  Confidence: 100.00%
+
+• 2022-09-05 [departure]:
+  7 participant(s) departed
+  Confidence: 100.00%
+
+• 2022-09-07 [team_expansion]:
+  Team expanded by 6 people
+  Confidence: 100.00%
 
 
 ──────────────────────────────────────────────────────────────────────
