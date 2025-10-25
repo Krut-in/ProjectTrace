@@ -2,7 +2,7 @@
      EMAIL+CALENDAR GRAPH SYSTEM - ANALYSIS REPORT
 ======================================================================
 
-Generated: 2025-10-25 14:57:52
+Generated: 2025-10-25 15:10:59
 
 
 ──────────────────────────────────────────────────────────────────────
@@ -28,16 +28,16 @@ Average Degree: 21.48
 ──────────────────────────────────────────────────────────────────────
 TOP PARTICIPANTS (by activity)
 ──────────────────────────────────────────────────────────────────────
-30. terry.palmer@consultingco.com            | Consultingco    |  43 events (23E, 20M)
-42. jamie.adams@startupco.com                | Startupco       |  29 events (15E, 14M)
-17. hayden.moore@consultingco.com            | Consultingco    |  21 events (10E, 11M)
- 8. taylor.parker@consultingco.com           | Consultingco    |  17 events ( 9E,  8M)
- 2. hayden.evans@consultingco.com            | Consultingco    |  15 events ( 7E,  8M)
-20. kelly.underwood@consultingco.com         | Consultingco    |  15 events ( 7E,  8M)
-33. oakley.brooks@consultingco.com           | Consultingco    |  15 events ( 6E,  9M)
-32. indigo.walker@consultingco.com           | Consultingco    |  15 events ( 6E,  9M)
-19. terry.garcia@consultingco.com            | Consultingco    |  12 events ( 6E,  6M)
- 5. elliott.evans@startupco.com              | Startupco       |   8 events ( 2E,  6M)
+20. terry.palmer@consultingco.com            | Consultingco    |  43 events (23E, 20M)
+23. jamie.adams@startupco.com                | Startupco       |  29 events (15E, 14M)
+ 3. hayden.moore@consultingco.com            | Consultingco    |  21 events (10E, 11M)
+ 9. taylor.parker@consultingco.com           | Consultingco    |  17 events ( 9E,  8M)
+18. hayden.evans@consultingco.com            | Consultingco    |  15 events ( 7E,  8M)
+31. kelly.underwood@consultingco.com         | Consultingco    |  15 events ( 7E,  8M)
+26. oakley.brooks@consultingco.com           | Consultingco    |  15 events ( 6E,  9M)
+24. indigo.walker@consultingco.com           | Consultingco    |  15 events ( 6E,  9M)
+14. terry.garcia@consultingco.com            | Consultingco    |  12 events ( 6E,  6M)
+37. elliott.evans@startupco.com              | Startupco       |   8 events ( 2E,  6M)
 
 ──────────────────────────────────────────────────────────────────────
 COLLABORATION BURSTS
@@ -201,16 +201,16 @@ COMMUNICATION PATTERN ANALYSIS
 ──────────────────────────────────────────────────────────────────────
 TOP INFLUENCERS (PageRank)
 ──────────────────────────────────────────────────────────────────────
- 1. indigo.webb@consultingco.com             | Contributor       | Score: 0.0238
- 2. indigo.walker@consultingco.com           | Executor          | Score: 0.0238
- 3. indigo.davis@consultingco.com            | Contributor       | Score: 0.0238
- 4. hollis.murray@consultingco.com           | Contributor       | Score: 0.0238
- 5. arden.wilson@consultingco.com            | Contributor       | Score: 0.0238
- 6. hesham.a@consultingco.com                | Contributor       | Score: 0.0238
- 7. morgan.allen@startupco.com               | Contributor       | Score: 0.0238
- 8. rowan.garcia@client1.com                 | Contributor       | Score: 0.0238
- 9. terry.palmer@consultingco.com            | Executor          | Score: 0.0238
-10. gray.clark@consultingco.com              | Contributor       | Score: 0.0238
+ 1. jamie.walker@consultingco.com            | Contributor       | Score: 0.0238
+ 2. jordan.lopez@consultingco.com            | Contributor       | Score: 0.0238
+ 3. indigo.walker@consultingco.com           | Executor          | Score: 0.0238
+ 4. drew.young@client14.com                  | Contributor       | Score: 0.0238
+ 5. oakley.brooks@consultingco.com           | Executor          | Score: 0.0238
+ 6. bailey.taylor@consultingco.com           | Contributor       | Score: 0.0238
+ 7. mariel@startupco.com                     | Contributor       | Score: 0.0238
+ 8. jules.gray@consultingco.com              | Contributor       | Score: 0.0238
+ 9. hesham.a@consultingco.com                | Contributor       | Score: 0.0238
+10. kelly.underwood@consultingco.com         | Executor          | Score: 0.0238
 
 Role Distribution:
   Contributor: 33
