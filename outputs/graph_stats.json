@@ -1,0 +1,9 @@
+{
+  "total_nodes": 89,
+  "total_edges": 956,
+  "person_nodes": 42,
+  "event_nodes": 47,
+  "temporal_edges": 20,
+  "density": 0.12206332992849847,
+  "avg_degree": 21.48314606741573
+}

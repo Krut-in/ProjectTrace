@@ -1,0 +1,2 @@
+burst_id,start,end,duration_hours,event_count,participant_count,confidence,emails,meetings
+0,2022-11-04 23:02:00,2022-11-11 21:55:13,166.88694444444445,5,15,0.6788125932874955,4,1

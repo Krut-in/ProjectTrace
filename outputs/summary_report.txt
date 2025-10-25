@@ -1,0 +1,77 @@
+======================================================================
+     EMAIL+CALENDAR GRAPH SYSTEM - ANALYSIS REPORT
+======================================================================
+
+Generated: 2025-10-25 13:03:10
+
+
+──────────────────────────────────────────────────────────────────────
+PROJECT OVERVIEW
+──────────────────────────────────────────────────────────────────────
+Timeline Span: 2022-08-05 to 2026-04-06
+Total Duration: 1340 days
+Total Events: 47
+  • Email Threads: 27
+  • Meetings: 20
+
+──────────────────────────────────────────────────────────────────────
+GRAPH NETWORK STATISTICS
+──────────────────────────────────────────────────────────────────────
+Total Nodes: 89
+  • People: 42
+  • Events: 47
+Total Edges: 956
+  • Temporal Links: 20
+Graph Density: 0.1221
+Average Degree: 21.48
+
+──────────────────────────────────────────────────────────────────────
+TOP PARTICIPANTS (by activity)
+──────────────────────────────────────────────────────────────────────
+23. terry.palmer@consultingco.com            | Consultingco    |  43 events (23E, 20M)
+21. jamie.adams@startupco.com                | Startupco       |  29 events (15E, 14M)
+ 2. hayden.moore@consultingco.com            | Consultingco    |  21 events (10E, 11M)
+16. taylor.parker@consultingco.com           | Consultingco    |  17 events ( 9E,  8M)
+34. kelly.underwood@consultingco.com         | Consultingco    |  15 events ( 7E,  8M)
+10. hayden.evans@consultingco.com            | Consultingco    |  15 events ( 7E,  8M)
+12. oakley.brooks@consultingco.com           | Consultingco    |  15 events ( 6E,  9M)
+28. indigo.walker@consultingco.com           | Consultingco    |  15 events ( 6E,  9M)
+38. terry.garcia@consultingco.com            | Consultingco    |  12 events ( 6E,  6M)
+11. elliott.evans@startupco.com              | Startupco       |   8 events ( 2E,  6M)
+
+──────────────────────────────────────────────────────────────────────
+COLLABORATION BURSTS
+──────────────────────────────────────────────────────────────────────
+Total Bursts Detected: 1
+
+Burst #1:
+  Period: 2022-11-04 to 2022-11-11
+  Duration: 166.9 hours
+  Events: 5 (4 emails, 1 meetings)
+  Participants: 15
+  Confidence: 0.68
+
+
+──────────────────────────────────────────────────────────────────────
+COMMUNICATION PATTERNS
+──────────────────────────────────────────────────────────────────────
+
+Monthly Activity:
+  2022-08: 4 events
+  2022-09: 9 events
+  2022-10: 7 events
+  2022-11: 6 events
+  2022-12: 1 events
+  2023-01: 4 events
+  2023-07: 1 events
+  2023-09: 2 events
+  2023-10: 2 events
+  2024-06: 3 events
+
+Event Type Distribution:
+  Email: 27 (57.4%)
+  Meeting: 20 (42.6%)
+
+======================================================================
+End of Report
+======================================================================
