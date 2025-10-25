@@ -1,48 +1,1194 @@
-date,type,event_id,subject,participants,participant_count,email_count,duration_days,duration_hours,has_startupco
-2022-08-05 13:15:24,email,email_thread_27,Weekly BD Highlights,"['terry.palmer@consultingco.com', 'hollis.murray@consultingco.com']",2,4.0,10.0,,
-2022-08-22 20:30:14,email,email_thread_26,Fwd: StartupCo re-Branding Project,"['bailey.taylor@consultingco.com', 'jamie.adams@startupco.com', 'terry.palmer@consultingco.com', 'hollis.murray@consultingco.com']",4,9.0,10.0,,
-2022-08-26 18:30:00,meeting,5mvhgrng9q1p0kmvidsipnuid1@calendar.example,ConsultingCo and StartupCo's Call,"['terry.palmer@consultingco.com', 'hayden.moore@consultingco.com', 'hollis.murray@consultingco.com', 'jamie.adams@startupco.com']",4,,,1.0,True
-2022-08-30 15:48:10,email,email_thread_25,StartupCo's Introduction to ConsultingCo's Brand Development Team,"['lennon.quinn@consultingco.com', 'kelly.underwood@consultingco.com', 'terry.palmer@consultingco.com', 'hollis.murray@consultingco.com', 'hayden.evans@consultingco.com', 'jamie.adams@startupco.com', 'hayden.moore@consultingco.com']",7,13.0,2.0,,
-2022-09-02 21:14:32,email,email_thread_24,StartupCo Brand Strategy Workshop,"['lennon.quinn@consultingco.com', 'oakley.brooks@consultingco.com', 'indigo.walker@consultingco.com', 'terry.garcia@consultingco.com', 'kelly.underwood@consultingco.com', 'terry.palmer@consultingco.com', 'jamie.adams@startupco.com', 'hayden.evans@consultingco.com', 'sam.stone@startupco.com', 'taylor.parker@consultingco.com', 'hayden.moore@consultingco.com']",11,153.0,173.0,,
-2022-09-05 23:30:00,meeting,49vafagu3t1em12h2ajtdg3b3p@calendar.example,StartupCo Workshop Discussion,"['terry.palmer@consultingco.com', 'hayden.moore@consultingco.com', 'oakley.brooks@consultingco.com', 'indigo.walker@consultingco.com']",4,,,1.0,True
-2022-09-07 20:30:00,meeting,1ifbrjr4tc4fd7voq2uh7v4i32@calendar.example,ConsultingCo x StartupCo Brand Strategy Workshop ,"['terry.palmer@consultingco.com', 'kelly.underwood@consultingco.com', 'hayden.moore@consultingco.com', 'oakley.brooks@consultingco.com', 'indigo.walker@consultingco.com', 'hayden.evans@consultingco.com', 'jamie.adams@startupco.com', 'mariel@startupco.com', 'elliott.evans@startupco.com', 'katy@startupco.com']",10,,,4.0,True
-2022-09-07 22:37:11,email,email_thread_23,StartupCo Overall Runsheet,"['hayden.moore@consultingco.com', 'terry.palmer@consultingco.com']",2,7.0,0.0,,
-2022-09-14 16:45:00,meeting,59gqfolof8r08efrmig7ok26nv@calendar.example,StartupCo Briefing Session,"['terry.palmer@consultingco.com', 'gray.clark@consultingco.com', 'skylar.stone@consultingco.com', 'kelly.underwood@consultingco.com', 'shimy@consultingco.com', 'taylor.parker@consultingco.com', 'indigo.walker@consultingco.com', 'bailey.brooks@consultingco.com', 'terry.garcia@consultingco.com', 'hesham.a@consultingco.com', 'lennon.quinn@consultingco.com', 'hayden.moore@consultingco.com', 'oakley.brooks@consultingco.com', 'jules.gray@consultingco.com', 'hayden.evans@consultingco.com']",15,,,1.0,True
-2022-09-20 23:30:00,meeting,38rl28ajcqe2uh3oh7ln6tp6gb@calendar.example,ConsultingCo // StartupCo demo,"['elliott.evans@startupco.com', 'terry.palmer@consultingco.com', 'jamie.adams@startupco.com', 'hayden.moore@consultingco.com', 'kelly.underwood@consultingco.com', 'terry.garcia@consultingco.com', 'taylor.parker@consultingco.com', 'hayden.evans@consultingco.com']",8,,,0.75,True
-2022-09-21 15:50:05,email,email_thread_22,StartupCo-Product Demo,"['oakley.brooks@consultingco.com', 'bailey.brooks@consultingco.com', 'terry.garcia@consultingco.com', 'kelly.underwood@consultingco.com', 'terry.palmer@consultingco.com', 'indigo.walker@consultingco.com', 'gray.clark@consultingco.com', 'arden.scott@consultingco.com', 'taylor.parker@consultingco.com', 'hayden.moore@consultingco.com']",10,5.0,12.0,,
-2022-09-29 18:30:00,meeting,1u893qmdmif8gmfcqusuuulhd5@calendar.example,StartupCo Brand Identity Checkpoint,"['arden.wilson@consultingco.com', 'terry.palmer@consultingco.com', 'gray.clark@consultingco.com', 'skylar.stone@consultingco.com', 'hicham@consultingco.com', 'taylor.parker@consultingco.com', 'indigo.walker@consultingco.com', 'parker.jackson@consultingco.com', 'terry.garcia@consultingco.com', 'hayden.moore@consultingco.com', 'oakley.brooks@consultingco.com', 'hayden.evans@consultingco.com', 'jules.gray@consultingco.com', 'lennon.quinn@consultingco.com', 'amina@consultingco.com']",15,,,0.5,True
-2022-09-30 18:30:00,meeting,14fp4fbk8dmda7s2qi31qjni6o@calendar.example,StartupCo Checkpoint,"['terry.palmer@consultingco.com', 'oakley.brooks@consultingco.com', 'hayden.moore@consultingco.com', 'indigo.walker@consultingco.com']",4,,,1.0,True
-2022-10-04 10:48:29,email,email_thread_21,StartupCo Positioning and Essence,"['oakley.brooks@consultingco.com', 'indigo.walker@consultingco.com', 'terry.palmer@consultingco.com', 'hayden.moore@consultingco.com']",4,9.0,1.0,,
-2022-10-04 19:49:02,email,email_thread_20,StartupCo Manifesto for Brand Identity Presentation,"['hayden.moore@consultingco.com', 'terry.palmer@consultingco.com', 'indigo.webb@consultingco.com', 'hayden.evans@consultingco.com']",4,2.0,-1.0,,
-2022-10-06 21:48:28,email,email_thread_19,StartupCo | Rebranding | Final,"['terry.garcia@consultingco.com', 'kelly.underwood@consultingco.com', 'indigo.webb@consultingco.com', 'terry.palmer@consultingco.com', 'skylar.stone@consultingco.com', 'hayden.evans@consultingco.com', 'jules.gray@consultingco.com', 'arden.scott@consultingco.com', 'taylor.parker@consultingco.com', 'perry.scott@consultingco.com', 'parker.jackson@consultingco.com']",11,6.0,0.0,,
-2022-10-07 19:30:01,email,email_thread_18,StartupCo Brand Strategy Final (Keynote),"['oakley.brooks@consultingco.com', 'terry.palmer@consultingco.com']",2,3.0,4.0,,
-2022-10-07 20:30:00,meeting,65qv4s9qtsiusp86tro26902qi@calendar.example,ConsultingCo | StartupCo- Brand Identity and Strategy Presentation,"['terry.palmer@consultingco.com', 'parker.jackson@consultingco.com', 'kelly.underwood@consultingco.com', 'elliott.evans@startupco.com', 'terry.garcia@consultingco.com', 'jamie.adams@startupco.com', 'hayden.moore@consultingco.com', 'oakley.brooks@consultingco.com', 'hayden.evans@consultingco.com', 'taylor.parker@consultingco.com', 'indigo.walker@consultingco.com', 'katy@startupco.com', 'mariel@startupco.com']",13,,,2.0,True
-2022-10-07 20:31:11,email,email_thread_17,MP3 file,"['oakley.brooks@consultingco.com', 'indigo.walker@consultingco.com', 'terry.garcia@consultingco.com', 'terry.palmer@consultingco.com', 'jamie.adams@startupco.com', 'jordan.lopez@consultingco.com', 'taylor.parker@consultingco.com', 'hayden.moore@consultingco.com', 'parker.jackson@consultingco.com']",9,4.0,0.0,,
-2022-10-19 20:30:00,meeting,29jrr6scmler69q5d20e6uaiit@calendar.example,ConsultingCo | StartupCo- Brand Identity Presentation,"['terry.palmer@consultingco.com', 'arden.wilson@consultingco.com', 'katy@startupco.com', 'kelly.underwood@consultingco.com', 'elliott.evans@startupco.com', 'jamie.adams@startupco.com', 'taylor.parker@consultingco.com', 'indigo.walker@consultingco.com', 'terry.garcia@consultingco.com', 'mariel@startupco.com', 'hayden.moore@consultingco.com', 'lennon.quinn@consultingco.com', 'oakley.brooks@consultingco.com', 'hayden.evans@consultingco.com', 'morgan.allen@startupco.com']",15,,,1.5,True
-2022-11-02 20:30:00,meeting,2gpjdooaatldeme02pnbv3so4g@calendar.example,ConsultingCo | StartupCo - Brand Identity Presentation,"['terry.palmer@consultingco.com', 'arden.wilson@consultingco.com', 'katy@startupco.com', 'kelly.underwood@consultingco.com', 'elliott.evans@startupco.com', 'jamie.adams@startupco.com', 'taylor.parker@consultingco.com', 'indigo.walker@consultingco.com', 'terry.garcia@consultingco.com', 'mariel@startupco.com', 'lennon.quinn@consultingco.com', 'hayden.moore@consultingco.com', 'oakley.brooks@consultingco.com', 'hayden.evans@consultingco.com', 'sam.stone@startupco.com', 'morgan.allen@startupco.com']",16,,,1.5,True
-2022-11-04 23:02:00,email,email_thread_15,MediaPlatform <> ConsultingCo,"['terry.palmer@consultingco.com', 'hollis.murray@consultingco.com', 'jamie.adams@startupco.com', 'drew.young@client14.com', 'taylor.parker@consultingco.com', 'hayden.moore@consultingco.com', 'rowan.garcia@client1.com']",7,21.0,18.0,,
-2022-11-05 05:12:54,email,email_thread_16,Re: Branding/Naming & Logo Design Firm Recs?,"['hayden.moore@consultingco.com', 'jamie.adams@startupco.com', 'taylor.parker@consultingco.com', 'terry.palmer@consultingco.com']",4,6.0,0.0,,
-2022-11-10 22:30:00,meeting,75ncmc1enc1s35n919a1j16t2s@calendar.example,StartupCo Brand Strategy,"['terry.palmer@consultingco.com', 'sam.stone@startupco.com', 'katy@startupco.com', 'kelly.underwood@consultingco.com', 'elliott.evans@startupco.com', 'jamie.adams@startupco.com', 'mariel@startupco.com', 'hayden.moore@consultingco.com', 'oakley.brooks@consultingco.com', 'indigo.walker@consultingco.com', 'hayden.evans@consultingco.com']",11,,,1.0,True
-2022-11-10 23:29:24,email,email_thread_14,StartupCo Brand Strategy,"['mariel@startupco.com', 'oakley.brooks@consultingco.com', 'indigo.walker@consultingco.com', 'kelly.underwood@consultingco.com', 'terry.palmer@consultingco.com', 'elliott.evans@startupco.com', 'jamie.adams@startupco.com', 'hayden.evans@consultingco.com', 'katy@startupco.com', 'sam.stone@startupco.com', 'hayden.moore@consultingco.com']",11,1.0,0.0,,
-2022-11-11 21:55:13,email,email_thread_13,StartupCo Messaging Architecture,"['mariel@startupco.com', 'indigo.walker@consultingco.com', 'elliott.evans@startupco.com', 'jamie.adams@startupco.com', 'katy@startupco.com', 'sam.stone@startupco.com']",6,4.0,16.0,,
-2022-12-08 05:21:09,email,email_thread_12,Swag,"['terry.garcia@consultingco.com', 'hayden.evans@consultingco.com', 'jamie.adams@startupco.com', 'kelly.underwood@consultingco.com']",4,7.0,1.0,,
-2023-01-04 19:02:43,email,email_thread_11,StartupCo-Scope,"['kelly.underwood@consultingco.com', 'terry.palmer@consultingco.com']",2,3.0,0.0,,
-2023-01-19 23:30:00,meeting,274sc8u5adko1vckok666pel80@calendar.example,Terry Palmer // Jamie Adams,"['terry.palmer@consultingco.com', 'jamie.adams@startupco.com']",2,,,0.5,True
-2023-01-20 01:19:32,email,email_thread_10,Small favor,"['terry.garcia@consultingco.com', 'jamie.adams@startupco.com', 'taylor.parker@consultingco.com', 'terry.palmer@consultingco.com']",4,7.0,0.0,,
-2023-01-21 00:10:34,email,email_thread_9,Small Favor,"['hayden.evans@consultingco.com', 'jamie.adams@startupco.com']",2,4.0,2.0,,
-2023-07-27 15:18:41,email,email_thread_7,Re: ConsultingCo|StartupCo-New Scope,"['terry.palmer@consultingco.com', 'jamie.adams@startupco.com', 'sage.harris@consultingco.com', 'reese.anderson@consultingco.com', 'charlie.brooks@consultingco.com']",5,22.0,40.0,,
-2023-09-04 16:25:43,email,email_thread_6,Contact - New Scope Proposal,"['avery.young@consultingco.com', 'sage.harris@consultingco.com', 'reese.anderson@consultingco.com']",3,1.0,0.0,,
-2023-09-15 10:56:15,email,email_thread_5,StartupCo Social Media,"['indigo.davis@consultingco.com', 'terry.palmer@consultingco.com', 'taylor.parker@consultingco.com']",3,10.0,3.0,,
-2023-10-05 17:16:15,email,email_thread_4,Your opinion is important to us!,"['terry.palmer@consultingco.com', 'sage.harris@consultingco.com', 'reese.anderson@consultingco.com']",3,2.0,0.0,,
-2023-10-10 08:43:10,email,email_thread_3,Your opinion is important to us!,"['terry.palmer@consultingco.com', 'jamie.adams@startupco.com', 'sage.harris@consultingco.com']",3,4.0,1.0,,
-2024-06-07 20:45:00,meeting,5u4m0m0ljllv6i91umrtcqhune@calendar.example,Terry Palmer x Jamie Adams,"['jamie.adams@startupco.com', 'terry.palmer@consultingco.com']",2,,,0.5,True
-2024-06-12 15:30:00,meeting,61a19nq5hlsi5859bo9eutue5c@calendar.example,StartupCo interactive brand identity discuss,"['taylor.parker@consultingco.com', 'jamie.walker@consultingco.com', 'terry.palmer@consultingco.com']",3,,,1.0,True
-2024-06-13 15:25:51,email,email_thread_2,StartupCo interactive brand identity,"['terry.palmer@consultingco.com', 'taylor.parker@consultingco.com', 'jamie.walker@consultingco.com']",3,2.0,6.0,,
-2025-02-08 02:00:55,email,email_thread_1,Re: Consumer data internship,"['jamie.adams@startupco.com', 'terry.palmer@consultingco.com', 'elarabyferris@client7.com']",3,2.0,0.0,,
-2025-07-06 16:30:00,meeting,4kkm6rbv40mgpe1a0tqjidugbg@calendar.example,Terry Palmer x Jamie Adams,"['jamie.adams@startupco.com', 'terry.palmer@consultingco.com']",2,,,0.5,True
-2025-09-03 19:30:00,meeting,2jhu0dc06ds828onnk5bji9ail@calendar.example,Terry Palmer x Jamie Adams,"['jamie.adams@startupco.com', 'terry.palmer@consultingco.com']",2,,,1.0,True
-2025-09-23 19:00:00,meeting,6111slf6a27nblk116qt10kk3k@calendar.example,Terry Palmer x Naila x Jamie Adams,"['jamie.adams@startupco.com', 'terry.palmer@consultingco.com', 'faroukyn@partnerorg.org']",3,,,1.0,True
-2026-01-11 21:30:00,meeting,1phcvf6fh1sppbi6voous0obhd@calendar.example,Terry Palmer x Jamie Adams,"['jamie.adams@startupco.com', 'terry.palmer@consultingco.com']",2,,,1.0,True
-2026-03-10 15:00:00,meeting,3tu45t4uo3k94av831ggga749n@calendar.example,StartupCo Interactive Brand Manual,"['taylor.parker@consultingco.com', 'jamie.walker@consultingco.com', 'arden.wilson@consultingco.com', 'terry.palmer@consultingco.com']",4,,,0.5,True
-2026-03-25 17:00:08,email,email_thread_0,StartupCo Online Brand Book - Next steps,"['terry.palmer@consultingco.com', 'jamie.adams@startupco.com', 'sage.harris@consultingco.com', 'quinn.baker@startupco.com']",4,7.0,28.0,,
-2026-04-06 16:30:00,meeting,4008tm3offnd2mve2ribm3vmj4@calendar.example,Terry Palmer x Jamie Adams,"['jamie.adams@startupco.com', 'terry.palmer@consultingco.com']",2,,,0.5,True
+date,type,event_id,subject,participants,participant_count,email_count,duration_days,body_text,duration_hours,has_startupco
+2022-08-05 13:15:24,email,email_thread_27,Weekly BD Highlights,"['hollis.murray@consultingco.com', 'terry.palmer@consultingco.com']",2,4.0,10.0,"Wow. July is low We need to really push August to make up for that shortfall. Any ideas? All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hi Terry, I will be sharing weekly financial performance reports with you and Lennon on Sunday so you are aware of any upcoming payment processing implementations. For access to ALL pending payment processing deployments, you can check the financial workflow dashboard easier. Regarding the *monthly processed transaction volume* please find them below: - June= 2,000,000 - 2,100,000 Currency - July= 900,000 - 950,000 Currency - August= Expected 2,000,000 Currency (if we secure a major new account, a large corporation and another enterprise client) Thanks!
+
+---EMAIL SEPARATOR---
+
+Hi Terry Palmer, July was low because 10 days were off and all clients are taking a really long time to get out of Holiday Season mood. All lost projects were because of three main reasons, maybe we can revisit them: 1. Clients ask us to pitch for design and branding services while we don't pitch. 2. Prices are too high, not in the client's budget. 3. Timeframe too slow and kick off dates too late. This is not a problem anymore since the design team should have more capacity starting September, same for strategy team. Another way we can get more work can be: 1. To have a discussion with existing clients before the project end date regarding other challenges they are facing to see how we can help them fix it. They might need support in areas like financial efficiency, transaction analysis, market strategies, payment solutions, or design. 2. Share a list of target companies with ConsultingCo's team to facilitate introductions. Let me know your thoughts. Thanks!",,
+2022-08-22 20:30:14,email,email_thread_26,Fwd: StartupCo re-Branding Project,"['hollis.murray@consultingco.com', 'bailey.taylor@consultingco.com', 'terry.palmer@consultingco.com', 'jamie.adams@startupco.com']",4,9.0,10.0,"Hi Terry Palmer and Hollis Murray, The $10K payment transaction failed. Max's email below details the reason for the failure. Here are the instructions I shared: Anything incorrect there? Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Got it. Thanks, Terry Palmer! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Taylor, A client encountered an issue during a recent $10,000 transaction. Is any of the info incorrect? ---------- Forwarded error ---------
+
+---EMAIL SEPARATOR---
+
+Hi Taylor, Ignore the message please, Terry Palmer sent him the typo. Thanks!",,
+2022-08-26 18:30:00,meeting,5mvhgrng9q1p0kmvidsipnuid1@calendar.example,ConsultingCo and StartupCo's Call,"['terry.palmer@consultingco.com', 'hayden.moore@consultingco.com', 'hollis.murray@consultingco.com', 'jamie.adams@startupco.com']",4,,,,1.0,True
+2022-08-30 15:48:10,email,email_thread_25,StartupCo's Introduction to ConsultingCo's Brand Development Team,"['hayden.moore@consultingco.com', 'hayden.evans@consultingco.com', 'hollis.murray@consultingco.com', 'terry.palmer@consultingco.com', 'lennon.quinn@consultingco.com', 'jamie.adams@startupco.com', 'kelly.underwood@consultingco.com']",7,13.0,2.0,"Dear Jamie Adams, Looking forward to discussing streamlined payment workflows with you.
+
+---EMAIL SEPARATOR---
+
+Hi Hollis Murray and Lennon, I hope you're both doing great! Thanks for sharing all this. Please find below feedback regarding the payment platform integration workshop: * All team members involved are US based (Sunday is a weekend, 6/9 is labor day). Can we aim for the 7th or 8th? * What will be the duration of the workshop? I'd appreciate if we can start it as late as possible, as two of our team members are on the West Coast, presenting a 9-hour time difference. Regarding the proposal for streamlining financial operations: * I think the presentation and invoice templates are missing. * Can you please send it via DocuSign or any e-signature platform? Happy to send it from my account if easier. * Do you need our registration papers here in the US? Thanks again. Really excited to kickstart our partnership in optimizing payment workflows! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, The presentation template is under 'Resources' and the email template will be included in 'Brand Assets'. Also, I have sent the proposal to you and Terry Palmer. Let me know if you have any questions or concerns. Lennon will be getting back to regarding the workshop date. Thank you, Hollis Murray Evans Sr. Business Development Executive *Email:* hollis.murray@ConsultingCo.com <farida.f@ConsultingCo.com> *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Thanks, Fareed! Just signed the agreement for integrating our payment platforms. Excited to streamline financial workflows together! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Lets talk about the implementation schedule for this client please. I'd like to expedite their onboarding process so they can quickly integrate our payment solutions. When can we schedule a call to discuss their payment workflow requirements? All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+OK. ???????????? All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+We can discuss anytime, but we’ve prioritized it and will provide deliverables within a timeframe.
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Please note that our session will take place on September 7th from 7-11 am Pacific Time. We apologize for any prior misunderstandings. Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hey Avery Young, Thanks for sharing this updated project timeline. Some questions below. In my previous email, I requested an 8am PT kickoff. Can you please confirm this is still feasible? A few questions: * Regarding the period from 7/9 to 1/10, will we receive any progress reports or detailed specifications? * How many potential workflows will be presented? * In the event we require adjustments, what's the expected turnaround time? Finally, as I communicated to Peyton, I'm concerned about the week's delay given Hollis Murray's initial dates, especially since the project hasn't officially begun. I hope to avoid further delays as we integrate the fintech solution. Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, After confirming with Peyton, kindly find below the timeline for this project and please feel free to reach out with any questions you regarding the plan: *September 2nd*: Peyton's team will share with you the project scope and data packet for the Project Kickoff Meeting *September 7th* (7-11 AM Pacific Time): Project Kickoff Meeting *September 10th*: The Project team will align with the Implementation Team *October 1st*: We will present the Implementation Plan and Project Roadmap. Looking forward to working together! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Hayden Evans, Great connecting! Sure. I can discuss at 6:30pm or 8pm City A time. Any of that works for you? Sorry if these are late slots but my morning is already booked. Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Thanks for getting back to us- 6:30 pm City A time is confirmed. Looking forward to our meeting to discuss streamlining financial operations! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Awesome. Thanks, Avery Young! Looking forward to our next steps! Best, Jamie Adams",,
+2022-09-02 21:14:32,email,email_thread_24,StartupCo Brand Strategy Workshop,"['oakley.brooks@consultingco.com', 'hayden.moore@consultingco.com', 'hayden.evans@consultingco.com', 'taylor.parker@consultingco.com', 'indigo.walker@consultingco.com', 'sam.stone@startupco.com', 'terry.palmer@consultingco.com', 'lennon.quinn@consultingco.com', 'terry.garcia@consultingco.com', 'jamie.adams@startupco.com', 'kelly.underwood@consultingco.com']",11,153.0,173.0,"Is it better if we ask these questions in a meeting rather than a document? I dont think this is the best way to understand the core challenges and branding. What do you think? All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Good day, Jamie Adams. This is Oakley Brooks, Brand Strategy and Insights Manager at ConsultingCo. We're pleased to begin with the Brand Strategy workshop scheduled for September 7th. Ahead of the workshop, please find attached the workshop workbook. It contains the agenda and a detailed overview of topics we'll be covering. To ensure a productive workshop, we've outlined a few key questions below: What's your primary revenue model and what value does it offer your clients? What are your key performance indicators (KPIs) and recent growth metrics since launching StartupCo.com? What are the main obstacles to optimizing your financial operations? Who are your main competitors in the payment processing and financial software space? Describe your ideal client profile in terms of industry, transaction volume, and financial complexity. How do your clients currently manage their payments and invoicing processes? What is your current payment processing setup and average transaction size? We look forward to your response. Thank you, Oakley Brooks
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, I hope you found the meeting to be as productive and efficient as we did! Kindly find attached the timeline for this project, and please feel free to reach out if you have any questions or concerns. Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Avery Young, We're very pleased with the progress. Thanks so much for all the ConsultingCo team for making it a productive experience. I spoke with Terry Palmer regarding the delay in receiving the deliverables, specifically the branding guide. Our agreement stated delivery in early November. As a rapidly expanding fintech company, adherence to this timeline is critical to maintain our operational efficiency. Terry assured me he'd investigate. Thanks again! We anticipate seeing the results of the workshop. Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Fantastic! As per the proposal, the implementation guidelines take 8-10 weeks to complete once the Platform Specifications are approved. We will definitely do our very best to shorten this period or find another solution that works for both of us. I will keep you updated accordingly and in the meantime please let me know if you have any questions or concerns.
+
+---EMAIL SEPARATOR---
+
+Hi Terry Palmer, Taylor can't track the transaction in our system, that’s why we requested the transaction confirmation. Anyway, we’re expediting the implementation and will brief the financial operations team on Tuesday.
+
+---EMAIL SEPARATOR---
+
+Terry Palmer, We never communicated that payment integration would take a month. The contract outlines a multi-week implementation timeline following system approval, which takes 3 weeks from the initial financial strategy. We don't guarantee a 4-week payment solution deployment. Hollis Murray only confirmed the system setup meeting on the 5th, which was rescheduled due to being on a Sunday. ---------- Forwarded message ---------
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Hope you had a great weekend! I wanted to reach out and ask if you can please share screenshots of the payment platform interface to evaluate the workflow, that would be very helpful. Thanks so much in advance! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Terry Palmer and Avery Young, So sorry for the late reply. Please find attached a pdf with some screenshots from our: * Mobile platform * Web portal * Admin dashboard versions @Terry Palmer, of course. We'll set up an account for you and send you the logins tomorrow. Please note that we offer support and onboarding to customers to ensure platform integration. Happy to schedule a walkthrough of the platform if you'd like. Let me know! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Thank you for sharing the documentation! Yes, a product demo would be helpful. When is your team available to connect and discuss automating your financial reconciliation process? I'm also sharing our newest case study on streamlining invoicing for a similar company. Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Sounds great! How's Monday 6pm Local Time or Tuesday at 4pm? Also, Elliott will be in Ireland for the next few weeks, so he will have more working hours overlapping with you guys in Region B and can provide other time slots. We set up an account for ConsultingCo, so you can now access our payment platform and log in with your work email. Looking forward to getting your feedback on the payment workflows. Have a great weekend, everyone!X Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Thanks for getting back to me so quickly! Monday 6 pm City A time works for us-looking forward to it. Enjoy the rest of your week! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Hope you're having a productive week! Would it be possible to reschedule the meeting to 8 pm City A time? If not we can keep it at 7 pm. Please let me know either way-thanks in advance! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Avery Young, Sure. Looking forward to it! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Hope all is well with you. As promised, we have taken your feedback from the workshop session into consideration and drafted the Operational Principles for FinTech Solutions. Kindly go through this draft in detail and let us know your thoughts. Please note that this draft is created to align you and the team on the direction we feel suits FinTech Solutions operational needs best, and we are happy to discuss and work together to finalize these values and take it forward. As always please feel free to reach out anytime if you have any questions. All the best, Indigo Walker Senior Brand Strategy Executive *Email:* sage.harris@ConsultingCo.com <farida.f@ConsultingCo.com> *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Hey Indigo Walker, Thanks so much for sharing this! I shared the key performance indicators with the team and will get back to you with more feedback (if any). Our initial impression is very positive, though. Thanks so much! Btw, another brand with a similar payment processing solution is something we really like. Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hey Avery Young, Great to connect! Would 11am ET? Really looking forward to the transaction reconciliation! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, No problem at all! We recommend the team members involved in the initial consultation attend if possible. Please let me know if you have any questions-we are really looking forward to streamlining your payment workflows! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Kindly find below a Harper Drive link to the financial reports as well. Please let me know if you need anything else! https://drive.example.com/file/sample Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Hope you're having a productive week! We're glad the initial payment workflow design resonated with your team. We're excited to optimize your financial workflows! We've incorporated your feedback and are refining the platform accordingly. The platform's visual elements, including the circular logo and data visualization, will be finalized upon design approval. We need additional time to ensure the payment processing module meets your exact specifications before sharing the updated design. We will share the updated platform designs with you next Tuesday, October 19th. In the meantime, please let me know if you have any questions regarding the API integration or financial reporting features! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Adding to Avery Young’s email we will be sharing the financial operations overview with you tomorrow. Have a lovely day! All the best, Indigo Walker
+
+---EMAIL SEPARATOR---
+
+Lets discuss before we reply. Things like very disappointed and regret working with ConsultingCo really kill me - especially given the financial solutions are optimized. I really want his company to have a smooth experience and for us to be reliable partners in streamlining his financial operations but I also want us to take the time needed to do amazing work. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hey Jamie Adams, I'm slightly surprised to receive this email after Thursday's demonstration. The difference between this week and the 19th is just a few days. That's ample time to implement the necessary payment configurations. We'll never want you to regret working with ConsultingCo - and to be honest, I can't see anything about what we've done so far that would leave you less than delighted. Our time frames are a bit long, but they are generally very reasonable given the level of sophistication and precision in our implementation. It seems that there was a misunderstanding at some point about the deadlines for the deliverables, and I apologize for that. When all is said and done (and I promise that we will make sure that will be sooner rather than later) StartupCo will be well-positioned for success with a streamlined payment workflow solution. I will discuss the timeline with the team and will see what can be done - but I assure you that we are working at a very good pBusinessSchool to try to optimize your transaction processing before a key business period. We're maintaining strong progress and will continue to deliver a highly effective payment processing solution for you. Have a great day and lets talk soon. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+FYI All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hi Avery Young, Thanks for the update. We can do same time like last Thursday (11am ET) Does that time still work for discussing the invoice management system updates? Thanks again, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Terry Palmer, Thanks for sharing this. I appreciate the context. However, the delays in delivery are impacting our ability to plan effectively. The repeated extensions are becoming a concern. From our initial discussions, we stressed the importance of timely delivery. As a company, the timeline is crucial for achieving our financial goals, and even small delays significantly impact our operations, especially given the cumulative effect of previous extensions. As a reminder, we proceeded based on the understanding that the initial version would be delivered by September 24th. The proposed October 19th deadline represents a significant delay. Regarding our work with the MarketingFirm on StartupCo. We are managing multiple projects simultaneously. Our web developer, initially scheduled for the week of October 4th, is now unavailable for the next two weeks, adding to the complexity. To maintain a positive working relationship, we've ensured prompt payment despite the scheduling challenges. Finally, Given your experience with similar projects, it would have been beneficial to have more realistic timeline expectations set from the outset, especially considering our emphasis on meeting deadlines. That said, we appreciate the effort the ConsultingCo team is putting into the project, and we look forward to reviewing the next iteration this Thursday. Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+FYI. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+We totally appreciate the importance of every day in the world of a tech startup. We will continue to do our very best to turn things around for you quickly, and at the standard that we can be proud of. Im certain that there was an early misalignment on timings that we are still trying to recover from. Rest assured that we are working hard to make up for any lost time. Update on Thursday!! All the best, Terry Palmer p.s. Your feedback was clear and helpful, I think well definitely have a winning direction by Thursday with different platform designs and hopefully another one with a refined financial workflow.
+
+---EMAIL SEPARATOR---
+
+Thanks so much, Terry Palmer! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Oakley Brooks, Thanks for sharing all this. Can you please give us access? Thanks again! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, I hope you are doing well. Please find below the Financial Operations Strategy presentation that we presented as well as another deck listing all the Platform Feature Overview for your perusal. Financial Operations Strategy Presentation Platform Feature Overview Let us know if you have any questions. Thank you and kind regards, Oakley Brooks. Oakley Brooks Financial Solutions and Integration Manager Email: oakley.brooks@ConsultingCo.com Cell: +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Hi Terry Palmer, Unfortunately, it will be at least 2-3 weeks till the platform engineer is available again. So there is no point rushing the team if we’ll have a better outcome on Tuesday. I need to stress that it is so important that we get an effective design we can fall in love with and see its application in the specifications, please. Let me know what you and the team prefer. Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Thoughts? All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, We'll definitely take the extra time to see how we can make the work even better. I think we're very close to having two excellent options. We're struggling a bit with the design concept just because it needs further refinement to clearly represent our platform. I'll have the team come back to you with the new timings. Thank you for the heads up. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+The design element looks unusual. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Having Parker Jackson try something out… And we will have Arden’s option after the edits and Chris’s after incorporating his feedback (which doesn’t work in my opinion) D
+
+---EMAIL SEPARATOR---
+
+The design element is interesting. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hi Terry Palmer, One of the financial workflows is an idea I thought could be very nice if executed well. I'm not married to it, though. Btw, a couple of folks we showed the financial data presentation commented that the payment solution could be slightly off and that there could be an opportunity for optimization there. I thought I'd share in case helpful. Excited to see the outcome on Tuesday. Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Interesting point about feedback All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Thanks Jamie Adams, Good points. Will share the transaction data comment with the team. I guess StartupCo emphasizes efficient financial workflows, and we've tried to balance that by emphasizing operational excellence. I suspect that there might be a way to show payment processing and data reconciliation together in a way that works. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Worth considering implementing
+
+Sincerely,
+Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Hope you're having a fantastic week so far! Can you please let me know what time works for you for Tuesday so we can move forward with payment processing integration? Thanks so much in advance! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hey Terry Palmer, Of course, the transaction data is what needs to be accurate. Reviewing the payment workflows made me reconsider my initial assessment. Sorry, we're facing tight deadlines on this project and I haven't had much rest this week. Please don't let any of my input disrupt your team's optimization strategy. I trust your team's technical expertise. Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+???????? No worries! Get some rest. :-) All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hi Avery Young, Confirmed. Looking forward to it Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Thanks for your quick response! Yes, 5 pm Local Time Tuesday does work for us. If that's alright with you, please let us know and I will book accordingly. Thanks in advance, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Hope you had a great weekend! Thanks for sharing the financial model. As agreed with Terry Palmer and Chris, we will share a new payment processing model (Concept A) alongside the revised financial reconciliation workflow (Concept B). We've addressed the display issues on the payment dashboard. We can demonstrate the new payment flow Tuesday, November 2nd if that works for you and we will share the updated reconciliation process Wednesday, October 27th. Please let me know if you have any questions! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+He’s asked for this a couple of times. This should be a quick turnaround. I know Jamie Adams. He’s being nice and patient and when he doesn’t get what he’s asking for it could escalate. Let's avoid any negative interactions. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hi Avery Young, Thanks for sending this. Can you share the alternative version as well, please? Sorry about the timing. I meant 11am ET / 5pm City A time. Would that work? Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Kindly find attached a screenshot with our payment platform icon in the new user interface as agreed. As for the product demo next Tuesday, is 2 pm local time or PDT? Please let me know. Thanks in advance! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Of course, I will share the updated financial reports with you tomorrow first thing. Also, next Tuesday, November 2nd at 11am ET works for us for a review of the payment workflow. Looking forward to it! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Hope you're having a great week! Kindly find attached the screenshot of the updated logo design. As agreed I will be sharing with you the amended strategic direction for our payment platform today. Please let me know if you have any questions! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Yes of course, I will share it with you within half an hour. Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Honestly, I don’t know what to say. I reviewed Avery Young's account twice in the past week and I informed her that Jamie Adams is experiencing payment processing delays again - and he did. It is disappointing that all this hard work optimizing their transactions will end up not even securing this client's complete satisfaction with our payment platform. I need to know who is managing this account and who will resolve this payment issue - and how I can assist.
+
+---EMAIL SEPARATOR---
+
+P.S. from Jamie Adams “ Please add the email newsletter to the list of deliverables regarding financial reporting.”
+
+---EMAIL SEPARATOR---
+
+Honestly, I don’t know what to say. I've reviewed the Adams account details with Avery Young twice this week, and I flagged that payment reconciliation issues were escalating - and they have. It's disappointing that all our efforts to streamline their payment workflows haven't resulted in improved client satisfaction. I need to understand ownership of this account and the plan for resolving the reconciliation challenges. How can I assist?
+
+---EMAIL SEPARATOR---
+
+I wanna say a few things about this… 1. We NEVER present final deliverables in concept presentations. We present platform directions , interface concepts and user experience on some of the deliverables. We don’t work on specific deliverables as if he’a launching tomorrow for several platform options. When he chooses a direction we work on the deliverables in detail. So we needed to set expectations here from the beginning or as we go along, cause this client obviously doesn’t get this when he expects to see specialized modules for every platform direction or financial report for example for all the different platform concepts. 2. We did everything requested of us in the recap sent on a project management software. Not sure why we never received the rest of the requests. And no one told us not to include a standardized interface again, and two of the new directions that are approved for the next presentation do include a standardized interface. 3. We show the dashboard user experience for every platform direction every single time. If he is looking for a a fully designed homepage for multiple platform options, that’s not gonna happen. When he chooses a platform direction we should start working on it properly. This is becoming really frustrating, we are putting a lot of effort into the work and for some reason his expectations are never met, because they are not set properly. Thanks Taylor Parker
+
+---EMAIL SEPARATOR---
+
+Hi Avery Young, I can finalize the automated payment processing between 6-8pm City A time. Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Hayden Evans, Thank you for the followup and for taking the time to call on your weekend. Please find below my comments in red. Also, missing was seeing the revised UI in the platform interface and more dashboard views. Thanks again and have a great weekend! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, As promised, please find attached the payment processing UI, incorporating updated icons throughout. Please note that we will be sharing the updated platform with the approved icons by EOD tomorrow along with the adjustments to the invoice management module based on feedback from Chris. Please find below a quick recap on the changes you agreed on; - Refine the visual appeal of the transaction confirmation screen - Adjust the styling of the abstract symbol to differentiate it from [competitor logo]. Thank you, Hayden Evans Product Development Sr. Manager *Email:* hayden.evans@ConsultingCo.com *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Let's go team! Let’s put our heads together and wrap this up on a very high note!! We’re almost there. @terry.garcia@ConsultingCo.com<mailto:terry.garcia@ConsultingCo.com> 👏🏼👏🏼👏🏼👏🏼Let's sync up later today. @hayden.moore@ConsultingCo.com<mailto:hayden.moore@ConsultingCo.com> 👏🏼👏🏼👏🏼👏🏼 The Sam Stone presentation will be really important. 💪🏼💪🏼 We managed today's challenges effectively. It was a great example of how we need to maintain operational efficiency under pressure and not be immediately reactive (so hard sometimes!) Let’s stay on our positive, solution-oriented mindset and let’s finish this phase on a HIGH. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Great, thanks!
+
+---EMAIL SEPARATOR---
+
+Hi Hayden Evans, So glad to hear that. Thank you! Can I just ask that we get a screenshot of each design iteration next to various existing financial dashboards? It really helps. Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Hope all is great! We're super excited to have reached this phase in the project and will hopefully land on a fix for the UI/UX direction that we're all happy with. Your requests are well received, we will be sharing the following with you by EOD today; - The key features within the payment platform - The presentation we took you through yesterday after amending the UI/UX mockups - several iterations of the UI/UX design, keeping in mind that for this phase we will be sharing different design concepts only (without specific use cases) and then we can flesh out the shortlisted options on the deliverables you request to take final decisions. Thank you, Hayden Evans Brand Development Sr. Manager *Email:* hayden.evans@ConsultingCo.com *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, As requested, you will find attached 2 more positions for the platform integration. We will add it to full demo tomorrow and send it with the requests we discussed now. Thank you Jamie Adams.
+
+---EMAIL SEPARATOR---
+
+Please stop Jamie Adams apologies this. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, As discussed with Chris now, kindly find attached the different financial operation documents.
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Apologies, kindly find attached the correct screenshot. Best, Sage Harris
+
+---EMAIL SEPARATOR---
+
+Hey Avery Young, Thanks for sharing this. Two quick comments/questions: * I think the original platform design was a streamlined interface, right? I think we like that more than the purple. It would be great if you can add it to the presentation deck you shared. * I think the company mark is smaller in the attachment? I think the initial dimensions were better too Please share what we agreed on with you and Chris on Sunday. But just so you know where we're at: 99% going with the original platform design (abstract symbol). I think other firms in the payment processing sector have logos, but what we have here is a strong brand identity and I don't want to compromise that. We'll make it our own. Have a great weekend all! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+💪🏼💪🏼💪🏼💪🏼💪🏼💪🏼 All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Thanks Peyton. Monday 10:30am PT would work for us.
+
+---EMAIL SEPARATOR---
+
+Great, thanks!
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Apologies for the delay, I overlooked the action item in the notification. yes, of course my pleasure to go through it again with Sam Stone and the team. Please let me know what time would be good for you. :) Peyton
+
+---EMAIL SEPARATOR---
+
+Thank you Avery Young. Looking great! Let's move forward with Iteration 3 for the branding and design elements -- modern, vibrant, rotated: [image: branding - iteration 3.png][image: design - iteration 3.png] Can we get the rest of the elements updated by tomorrow? We need to get this overall direction finalized and get the next steps going asap. Please incorporate the following points of feedback: - use a primary brand color for platform and UI elements (see #1 & #2 below) - use a contrasting brand accent color for charts and data visualizations (see #2 and #3) - please show us different colour combinations (with accent colors) for the financial dashboards? (ie. the two on the right of #4 works well, #3 needs improvement) *1.* [image: 1.png] *2. * [image: 2.png] *3.* [image: 3.png] *4.* [image: 4.png]
+
+---EMAIL SEPARATOR---
+
+To clarify my last feedback bullet: *""- please show us different visual themes for the transaction element ad screens? (ie. the two on the right of #4 is quite strong, #3 is not quite there)""* Please give us a version of #4 where the specific transaction visuals are replaced with alternate visuals, using the existing style already in #4. I'm curious to see if we can use both alternate transaction visuals on different occasions. Thanks, Sam Stone
+
+---EMAIL SEPARATOR---
+
+Hi Sam Stone, Please find the updated financial report after addressing your feedback in the link below; https://example.com/file-link Thank you, Hayden Evans Brand Development Sr. Manager *Email:* hayden.evans@ConsultingCo.com *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Thanks, Avery Young! Have a great weekend, everyone! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, I hope this email finds you well. I know we agreed we'd share the implementation roadmap today, but unfortunately we're still finalizing the integration plan internally, as multiple departments are now involved in ensuring smooth payment workflow compatibility. I will be sharing with you next steps and timelines tomorrow, please let me know if you have any questions regarding the proposed automated reconciliation process! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Hope this email finds you well! I have just shared with you a shared Harper Doc with all the agreed upon deliverables and their deadlines. The amends on the digital assets along with the new additions will be shared Wednesday, November 24th in both XD and preview format, noting that those including the new icons will be dummy mock-ups which your web designer can change once we share the full library of icons (which will be shared on Sunday, November 28th). We will work on the rest of the deliverables at the bottom of the table once we finalize the above. Please let me know if you have any questions! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Avery, We're not okay with the current invoice processing delays nor with not having a timeline for almost 60-70% financial workflows. Plus, the payment automation implementations should be almost done. Why are we experiencing these delays? I'd appreciate if you can come back to us with a revised timeline. Thanks, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Sam Stone, Hope all is great! Please note that we will share with you the payment platform in XD format today and are currently working on the platform interface in XD format as well so we would rather continue as is so that the files are not confusing at the end. Having said that, the below platform interface pages (old and new additional pages) will be ready by Wednesday in XD format. - Dashboard view - Financial Insights (Can you please share with us mockups to ensure alignment) - Placeholder screens (We will share with you 3 placeholder screens; Scenario 1, Scenario 2, and Scenario 3) - The look and feel of the following platform interface pages, please note that the content of these pages will be dummy as this will be considered a template/guide for when developing the actual platform interface pages; - About us - Payment workflow examples - Success stories - API Documentation - Partner Network As for the swag design concepts, we will share them with you tomorrow by EOD. Finally, the below 3 types of Email campaign templates (dummy content as well) will be shared with you on Wednesday along with the platform interface; - Major Company announcement - Email updates - Platform Updates Thank you, Hayden Evans Brand Development Sr. Manager *Email:* hayden.evans@ConsultingCo.com *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams and Sam Stone, I hope you had a great weekend. Kindly find attached drafts for the invoice processing system deployment. Please note we've adjusted the payment automation workflow slightly based on our last discussion. Please let me know if you have any questions! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Thank you Avery Young! The marketing material concepts are looking great. I'm loving those branded documentation! Could we also get a look and feel for the marketing material concepts on: - product branding stickers - branded pens - branded t-shirts - branded masks - branded socks (see examples <https://dummy.example.com/social> and <https://fairware.com/blog-hootsuite-custom-owly-socks/>) - a promotional material box <https://swag.com/in-a-box?utm_campaign=Snack%20Nation%20&utm_source=Blog&utm_medium=CompanySwag> And also, the protective phone cases are quite visually striking -- could you show us a version on a white background that is less overly bold?
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Hope you had a great weekend. Kindly find attached the financial_report.pdf as agreed. Please let me know your thoughts! Best, Avery Young financial_report.pdf <https://drive.example.com/file/sample>
+
+---EMAIL SEPARATOR---
+
+Team - I hope you’re well. I need the final option we landed on with all its automated functions in one pdf urgently, please. To be clear, I’m not asking for anything new. Just all the automated functions you developed for the the financial workflow integration in one PDF. Right now, it’s scattered across many pdfs with other options. Can I please have it by 4pm local time? Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams and Sam Stone, Noted. You will have the compiled financial report the soonest possible. As for the platform demos, we're really glad you liked them :) We will share with you the additional features on Thursday as we're currently working on the user interface development to be able to share them with you tomorrow. Thank you, Hayden Evans Brand Development Sr. Manager *Email:* hayden.evans@ConsultingCo.com *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Hi Hayden Evans, Thanks for the quick turn around. A couple of small comments: * The pdf is missing information * The StartupCo platform icon and its screenshot next to other apps doesn't match the current branding guidelines. Can you send an updated PDF over the next 30-45minutes, please? Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Hayden Evans, Yes, that's the correct direction for the branding. And please include the website as well, I need it for a different purpose. Thanks! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Please find attached the compiled presentation of our approved platform branding. Please note that all updates will be shared tomorrow and added to the compiled deck once approved. Please let us know if you need anything else. ConsultingCo  StartupCo Fintech Platform Branding... <https://drive.example.com/file/sample> Thank you, Hayden Evans Brand Development Sr. Manager *Email:* hayden.evans@ConsultingCo.com *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, We didn't add the platform launch on purpose given that we're still working on it and will share it with you tomorrow, so we can either wait till tomorrow and share with you the final presentation with the platform launch and marketing rollout or add what we previously had and send to you right away? As for the platform design, we will amend the presentation and send it right away, but to make sure there is no confusion, can you please confirm that the attached design mockup is approved. Thank you, Hayden Evans Brand Development Sr. Manager *Email:* hayden.evans@ConsultingCo.com *Cell:* +1-555-0199
+
+---EMAIL SEPARATOR---
+
+Thanks a lot, Avery Young! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Kindly find attached the updated presentation with the new abstract symbol. As requested we added the old platform overview document as well. We will make sure to update this section in the presentation when we share the new platform tomorrow. Please let me know if you need anything else! Best, Avery Young ConsultingCo  Fintech Platform Strategy Presentation V0... <https://drive.example.com/file/sample>
+
+---EMAIL SEPARATOR---
+
+Thank you Avery Young and team. Things are coming together nicely. Could you also send (in a separate file) a full page mock of the platform dashboard? It's hard for me to get a good sense of the user experience with the workflows presented across multiple sections in the presentation. Same with the platform interface design.
+
+---EMAIL SEPARATOR---
+
+Hi Avery Young, The presentation did give me a better sense of the overall design of the dashboard. Is it possible for you to export what you had in the working mock into a single long PDF for us to see it all in one view? Also, as discussed in our meeting, I'm attaching a recent email design from a contractor with no design guidelines. It would be extremely useful for your team to redesign this invoice template with the updated style guide -- so that we can provide a sample with guidance and template on things like layout, fonts, and branding elements for any future work. Thanks, Sam Stone [image: Template_Mockup.png]
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Of course, any time! Kindly find attached the updated deck with the new project updates and marketing materials. As agreed, we will be sharing the additional requested swag and first batch of visual assets on Thursday. Please let us know if you have any questions. Looking forward to your feedback! https://drive.example.com/file/sample Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Sam Stone, Thank you for sharing the below! As per our conversation I will check internally with the team and get back to you tomorrow morning. Have a great evening! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams and Sam Stone, Hope your day's going well! Kindly find attached the amended financial platform update along with the automated email templates and the Reporting Dashboard UI in a single PDF page. Please let me know if you have any questions or need anything else! Best, Avery Young FinServCo PaymentPlatformUpdate.pdf <https://drive.example.com/file/sample>
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Hope you're doing well. We tried our very best to share the new platform features today however we've been having integration challenges so we will deploy on Sunday. Sorry for any inconveniences, please have a great rest of your week. Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Hope your weekend is going well! Kindly find the first set of initial dashboard designs. Please let us know your thoughts so we can proceed with the next set. Thanks in advance! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, I hope your week's off to a good start so far. This is just to recap on the following deliverables we shared last week: - Payment Module Development - Payment Portal Design - Automated Invoice Notifications - Branding Materials - Abstract Visuals Please note that we are pending your feedback/approval to proceed accordingly. Based on the project plan, we'll move to the second integration phase upon successful completion of the initial payment gateway setup. Thanks in advance! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Avery Young, Thanks for the recap. The designs are looking great and are giving us lots of ideas. A couple notes of feedback and clarifications: - platform interface -- Can we get a design for a main component that allows a visitor to navigate different aspects of the platform? see generic website examples below - payment processing module -- we're missing the web app design sample for users exploring the transaction history (see (3) below) - mini-illustrations -- It is more important that we prioritize mini-illustrations that could be used as 'visual elements for marketing purposes' on platform website, emails, presentations, etc. (see highlighted examples from our platform website (4) below), rather than focusing on the module icons for payment actions right now. - email templates -- Can the team provide the new-brand version of the email design I shared last time? As discussed, having that sample converted into the new brand look will go a long way to getting a unified visual identity from our contract designers. - color palette -- Can you provide generic color scheme suggestions for the various color variants? Also, the color code on page 10 for text is a purple, not black - primary color gradient -- Can you provide example gradients for our review? Also, as we had mentioned a while back, direction is fully approved and there's no need to wait for further approvals before proceeding with the deliverables -- we really need to get a move on with other deliverables like document designs, presentation master templates, social cover pages, app store listing designs, etc. Please continue to send over each set as conceptualized to get feedback rather than waiting to send them all at once. Thanks and keep up the great work! (1) ClickUp's hero component with tabs [image: Screen Shot 2021-11-29 at 9.59.31 PM.png] (2) Lattice's hero component with tabs [image: Screen Shot 2021-11-29 at 10.00.57 PM.png] (3) Fintech Platform - Transaction Overview [image: Screen Shot 2021-11-29 at 10.24.31 PM.png] (4) Semi-icons / mini-illustrations as icons on our platform website [image: Screen Shot 2021-11-29 at 10.02.35 PM.png]
+
+---EMAIL SEPARATOR---
+
+Confirmed, 9:15am PT works for discussing payment automation.
+
+---EMAIL SEPARATOR---
+
+Yes. 11am PT would be fine. Thanks,
+
+---EMAIL SEPARATOR---
+
+Hi Sam Stone, Thanks for getting back to me. Unfortunately we won't be available then, would 11 AM PT work for you? Please let me know. Regarding your question about payment automation, I'll check and get back to you ASAP. Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Avery Young, I'm asking for the formatting specifications for the Invoice Template (see below screenshot from a prior build) for each of the fields. I don't understand why these were modified in this latest iteration. Also, could you clarify what else was changed in this latest platform update compared to the prior build? Sam Stone [image: InvoiceTemplate_v3.png]
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams and Sam Stone, I hope this email finds you well. Kindly find attached the updated presentation including the branding guidelines as requested. We will share the below requests on Sunday, December 5th. - Invoice template examples - Dashboard header examples - Payment platform examples - 10 Abstract icon designs In regards to the primary gradient PNG's we can definitely share with you the open source Ai file tomorrow. Phase 2 of deliverables (brand assets) will be shared with you Sunday, December 12th. Please let me know if you have any questions. ConsultingCo FintechCo V07 (1).pdf <https://drive.example.com/file/sample> Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Got it. Thanks Avery Young.
+
+---EMAIL SEPARATOR---
+
+Hi Sam Stone, Kindly find attached the Fintech Platform presentation with the updated Fintech Platform Brand Colors slide as requested. To answer your question, the Fintech Platform presentation is the exact same but with the color codes. Please let me know if you have any questions or need anything else from our end. ConsultingCo Fintech Solutions Inc. V08.pdf <https://drive.example.com/file/sample> Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams and Sam Stone, I hope you had a great weekend! Kindly find attached the new design concepts. Please let us know your thoughts! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Team,
+
+Kindly find below the link to the updated financial operations overview including the below:
+
+- Invoice template
+- Payment platform UI mockups
+- Website design elements focused on transaction security
+
+Please let us know your thoughts or if you have any questions!
+
+https://drive.example.com/file/sample
+
+Best,
+Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Avery Young, Can you please share the initial plan for financial workflows? I don't remember having an automated reconciliation phase. I also want to understand what was the timeline from payment workflow sign-off. Thanks Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Thanks for the clarification re: the font choice. My understanding is that it is essentially the same as Helvetica Neue - is this true? And yes, I’m available tomorrow at 7:30pm your time. Thanks
+
+---EMAIL SEPARATOR---
+
+Hi Sam Stone, Hope your week's off to a great start! Kindly find attached the deliverables requested. In it you will find: 1. A fuller financial report template 2. Invoice template designs 3. The additional automated payment reminder 4. We went ahead and worked on a financial data report template to save time so please let us know if this is the right direction you're looking for. Kindly note you now have the full platform guidelines (including the attached scope) as well as additional deliverables requested below: - Platform interface design - Payment processing module design - Transaction notification template We would be happy to work on any additional financial solutions you need so please let us know so we can share an additional quote. Let me know if you have any questions or feedback! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Avery Young, Regarding the style guide for our platform - could you please ask the designers to apply the new StartupCo branding to the following 5 slide examples? This will give us a consistent look and feel for our payment processing platform's marketing materials. [image: Screen Shot 2022-01-10 at 10.30.41 PM.png][image: Screen Shot 2022-01-10 at 10.30.51 PM.png][image: Screen Shot 2022-01-10 at 10.31.21 PM.png][image: Screen Shot 2022-01-10 at 10.31.32 PM.png][image: Screen Shot 2022-01-10 at 10.31.56 PM.png]
+
+---EMAIL SEPARATOR---
+
+Hi Sam Stone, Thanks for sharing the information. Will discuss internally and get back to you. Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Perfect. Thank you!
+
+---EMAIL SEPARATOR---
+
+Hi Sam Stone, Kindly find below a link to each of the assets exported out as individual PDF and PNG vectors as requested. https://example.com/file-link In addition, I will be sharing the additional presentation slides and document pages tomorrow EOD. Please let me know if you have any questions! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Sam Stone, I hope your weekend is going well! Kindly find attached the updated invoice template as well as the financial reporting template. As agreed, we have templates for various financial reporting structures, focusing on key performance indicators and transaction summaries for the invoice and financial reporting templates. Please let me know if you have any questions or feedback! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Avery Young, Thanks for sharing this! Can you please give me access to share this StartupCo financial documents ( https://drive.example.com/data/sample ) with others? I'd appreciate if you can add it asap, please. And one final request, please. I really like the financial charts you used throughout the financial report. Any chance you can share them with me asap, please? We're working on our financial summary and they would fit in great. Thanks again, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Never mind. Found the financial documents in the secure repository. Thanks so much! I just need to be able to share it with our payment processor integration team I'm working with. Please enable access as soon as you can, please. Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Hope you had a great weekend! I've adjusted the access permissions so anyone with the link can now access the transaction data. Please let me know if you're still encountering issues! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Great, thank you so much Avery Young. Could you also share the Powerpoint and Word doc template files so that we can start building from these?
+
+---EMAIL SEPARATOR---
+
+Thanks for your time Avery Young! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Excellent. Thank you!
+
+---EMAIL SEPARATOR---
+
+Hi Sam Stone, Hope your week's going well! Kindly find below the link to the Powerpoint presentation. I will let you know by EOD today when we will be able to share the word document. Just to touch base, the brand manual has been approved and we will be sharing the brand assets today. Given that we are ready to launch the payment automation workflows, we will be sharing the final invoice for the remaining 50% this week. https://drive.example.com/file/sample Please let me know if you have any questions or need anything else. Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Avery Young, Thanks for sharing this invoice. I paid the invoice amount a few weeks ago. Please reconcile the payment and let me know. Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, We’re transitioning to a new accounting firm so let me check and confirm. Sorry for that. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+No problem! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Sam Stone, Kindly find attached the document template in Word format. We will be sharing the completed brand manual shortly, there has just been a slight delay due to some technical issues. Please let me know if you have any questions or need anything else! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Sam Stone and Jamie Adams, Hope you're both having a great week so far. Kindly find below a link to the final Brand Manual with the open source links included. Please let me know if you have any questions or if you need anything else. https://drive.example.com/file/sample Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Apologies. Missed hitting send on this last week -- Thank you for sending these over. It looks like we're already having formatting inconsistencies with the doc template. Which is the designated label style (see example below) supposed to be using? -- I'm seeing all label formatting as the wrong font. [image: Screen Shot 2022-01-24 at 1.23.58 PM.png]
+
+---EMAIL SEPARATOR---
+
+Thanks for the clarification Hayden Evans. That explains it. I don't see the alternate style guide included in the company documentation -- only the attached PDF.
+
+---EMAIL SEPARATOR---
+
+Hi Sam Stone, Hope all is great! The header should follow the brand guidelines. Please ensure the document uses the specified fonts for consistency. Hayden Evans Brand Development Sr. Manager *Email:* hayden.evans@ConsultingCo.com *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Got it. Thank you.
+
+---EMAIL SEPARATOR---
+
+Hi Sam Stone, Kindly find below the link to the approved license for our payment platform's reporting module for purchase. I've also attached a document of the exact license you will need to purchase. Please let me know if you have any questions! https://www.myfonts.com/fonts/letter-omega/generic-font?tab=familyPackages Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Avery Young, I hope you’re well. Any updates on the financial reports please? Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi! Why are we sending invoice data in .csv format? This needs to be a secure digital format and needs to be in our standardized transaction format. Right? All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+You put me in a difficult predicament here, my friend. 🤔 All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Ok. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Hope all is well at your end! As discussed, kindly find attached a quote for an order of 80 (for the tshirts and sweatshirts) as well as the pricing for the rest of the swag. Kindly find below a list of the requested items: - sweatshirts - t-shirts - bags (unfortunately there are no suppliers in Region B that can make this item in small quantities but we can definitely do the original bag design, kindly find attached a reference) - mugs - notebooks - stickers - pens If the quote is approved please let me know if you would like to proceed and I will share a detailed quote including specs and sizes. Please let me know if you have any questions! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Yes you're right, my bad. Would you like me to resend it or just keep it in mind for next time? I know your pet peeve is ""please disregard"".
+
+---EMAIL SEPARATOR---
+
+That sounds good to me How about for the next invoice when he approves it, I will process it? My apologies.
+
+---EMAIL SEPARATOR---
+
+Hi Avery Young, Let's make it 80 from everything. Thanks a lot! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+We will need to play a transaction accuracy role here to make sure that all transactions are accurate. Let me know if you need help with this. We don’t want them to provide substandard financial data for us. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Hope you're well! Thanks for letting me know, I'll get back to you with an updated quote including platform specifications shortly. Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Hope you're having a great week. Regarding the configurations for the servers and infrastructure, I have the specifications that were shared with me previously: 3 Medium instances, 6 Large instances, 5 XLarge instances, 1 XXLarge instance. Now that we are provisioning a cluster of 80 instances, can you please provide the updated configuration breakdown? This would be extremely helpful for our upcoming payment processing infrastructure deployment. Thanks in advance! Best,
+
+---EMAIL SEPARATOR---
+
+Hi Avery Young, Thank you! Is it possible to include some kids' sizes as well? Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, I will check with the supplier and get back to you asap! Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Thank you! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Hope all is well! In regards to your previous email, kids sizes are available! If you could please share the breakdown of sizes for the 80 sweatshirts/t shirts so we can proceed accordingly that would be great. Thank you so much in advance! Best, Avery Young",,
+2022-09-05 23:30:00,meeting,49vafagu3t1em12h2ajtdg3b3p@calendar.example,StartupCo Workshop Discussion,"['terry.palmer@consultingco.com', 'hayden.moore@consultingco.com', 'oakley.brooks@consultingco.com', 'indigo.walker@consultingco.com']",4,,,,1.0,True
+2022-09-07 20:30:00,meeting,1ifbrjr4tc4fd7voq2uh7v4i32@calendar.example,ConsultingCo x StartupCo Brand Strategy Workshop ,"['terry.palmer@consultingco.com', 'kelly.underwood@consultingco.com', 'hayden.moore@consultingco.com', 'oakley.brooks@consultingco.com', 'indigo.walker@consultingco.com', 'hayden.evans@consultingco.com', 'jamie.adams@startupco.com', 'mariel@startupco.com', 'elliott.evans@startupco.com', 'katy@startupco.com']",10,,,,4.0,True
+2022-09-07 22:37:11,email,email_thread_23,StartupCo Overall Runsheet,"['hayden.moore@consultingco.com', 'terry.palmer@consultingco.com']",2,7.0,0.0,"9. 7:10 - 7:25 - Break 10. 7:25 - 7:40 - Target market definition for payment platform 11. 7:40 - 8:00 - B2B financial workflow analysis workshop 12. 8:00 - 8:15 - Payment Automation Concept Definition 13. 8:15 - 8:35 - Financial Efficiency Value Proposition Assessment 14. 8:35 - 8:50 - Competitive Analysis for Invoice Management Features 15. 8:50 - 9:00 - Brand messaging focusing on Transaction Speed and Reliability
+
+---EMAIL SEPARATOR---
+
+Thank you. I think overall it went well. We uncovered some opportunities to integrate into our financial workflow optimization plan. 👍🏼👍🏼 All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Very important! Goos luck!! All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Good luck. :-) All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+😂 All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Great! Now Client 💪🏽
+
+---EMAIL SEPARATOR---
+
+TYPOOOOO 😱😱😱😱😱",,
+2022-09-14 16:45:00,meeting,59gqfolof8r08efrmig7ok26nv@calendar.example,StartupCo Briefing Session,"['terry.palmer@consultingco.com', 'gray.clark@consultingco.com', 'skylar.stone@consultingco.com', 'kelly.underwood@consultingco.com', 'shimy@consultingco.com', 'taylor.parker@consultingco.com', 'indigo.walker@consultingco.com', 'bailey.brooks@consultingco.com', 'terry.garcia@consultingco.com', 'hesham.a@consultingco.com', 'lennon.quinn@consultingco.com', 'hayden.moore@consultingco.com', 'oakley.brooks@consultingco.com', 'jules.gray@consultingco.com', 'hayden.evans@consultingco.com']",15,,,,1.0,True
+2022-09-20 23:30:00,meeting,38rl28ajcqe2uh3oh7ln6tp6gb@calendar.example,ConsultingCo // StartupCo demo,"['elliott.evans@startupco.com', 'terry.palmer@consultingco.com', 'jamie.adams@startupco.com', 'hayden.moore@consultingco.com', 'kelly.underwood@consultingco.com', 'terry.garcia@consultingco.com', 'taylor.parker@consultingco.com', 'hayden.evans@consultingco.com']",8,,,,0.75,True
+2022-09-21 15:50:05,email,email_thread_22,StartupCo-Product Demo,"['oakley.brooks@consultingco.com', 'arden.scott@consultingco.com', 'bailey.brooks@consultingco.com', 'indigo.walker@consultingco.com', 'terry.palmer@consultingco.com', 'gray.clark@consultingco.com', 'hayden.moore@consultingco.com', 'terry.garcia@consultingco.com', 'taylor.parker@consultingco.com', 'kelly.underwood@consultingco.com']",10,5.0,12.0,"Hi All, Hope you're all having a great week! Kindly find below the link to the financial data review session. Please take a look and feel free to reach out if you have any questions. https://example.com/file-link Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Thank you Avery Young. That is super helpful. Best, Oakley Brooks.
+
+---EMAIL SEPARATOR---
+
+Need a new link please. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hi Terry Palmer, Sure, kindly find a new link below and please let me know if you need anything else. https://example.com/file-link Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Terry Palmer, Kindly find below the Harper Drive link to the StartupCo payment platform demo and screenshots. Please let me know if you need anything else. https://drive.example.com/file/sample Best, Avery Young",,
+2022-09-29 18:30:00,meeting,1u893qmdmif8gmfcqusuuulhd5@calendar.example,StartupCo Brand Identity Checkpoint,"['arden.wilson@consultingco.com', 'terry.palmer@consultingco.com', 'gray.clark@consultingco.com', 'skylar.stone@consultingco.com', 'hicham@consultingco.com', 'taylor.parker@consultingco.com', 'indigo.walker@consultingco.com', 'parker.jackson@consultingco.com', 'terry.garcia@consultingco.com', 'hayden.moore@consultingco.com', 'oakley.brooks@consultingco.com', 'hayden.evans@consultingco.com', 'jules.gray@consultingco.com', 'lennon.quinn@consultingco.com', 'amina@consultingco.com']",15,,,,0.5,True
+2022-09-30 18:30:00,meeting,14fp4fbk8dmda7s2qi31qjni6o@calendar.example,StartupCo Checkpoint,"['terry.palmer@consultingco.com', 'oakley.brooks@consultingco.com', 'hayden.moore@consultingco.com', 'indigo.walker@consultingco.com']",4,,,,1.0,True
+2022-10-04 10:48:29,email,email_thread_21,StartupCo Positioning and Essence,"['hayden.moore@consultingco.com', 'oakley.brooks@consultingco.com', 'terry.palmer@consultingco.com', 'indigo.walker@consultingco.com']",4,9.0,1.0,"Lets discuss quickly. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hi Terry Palmer, Hope all is well with you. We have revised the brand positioning and essence for StartupCo based on your feedback from our last meeting. Please review the updated proposal below. *Brand Positioning * Because we believe streamlining financial operations is key to modern business success, we are the leading fintech solution optimizing payment workflows for financial efficiency and operational excellence. *Brand Essence * Transactions that Scale. Please let us know your thoughts. Have a good day! All the best, Indigo Walker Walker Senior Brand Strategy Executive *Email:* indigo.walker@ConsultingCo.com <farida.f@ConsultingCo.com> *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Are you free to discuss this now? All the best, Indigo Walker
+
+---EMAIL SEPARATOR---
+
+Hi Terry Palmer, As agreed, I have drafted some new positioning statements (shorter + same meaning) and essence for the StartupCo brand. Let me know what you think. *Brand Positioning Statements * Streamlining transaction processing to improve financial efficiency. Using automated payments to streamline financial operations for modern businesses. A B2B payment platform that uses innovative financial workflows to expand the business network. *Brand Essence * Optimizing financial workflows All the best,
+
+---EMAIL SEPARATOR---
+
+***Brand Essence *- Streamlining Financial Operations. All the best, Indigo Walker Senior Brand Strategy Executive *Email:* indigo.walker@ConsultingCo.com  *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+A couple other options: The core of your financial operations Optimizing financial efficiency through transaction automation Ensuring transparent financial reporting across the business network. ?? All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+I reviewed the proposals, but none fully aligns with our needs for transaction scaling. Please revisit them with a focus on financial workflow automation. Best regards, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+I like them all but my favorite is the first one “Streamlining financial operations” for the essence. Did you like any of the value propositions I shared with you? Best, Indigo Walker
+
+---EMAIL SEPARATOR---
+
+I like “Streamlining financial operations” Dakota",,
+2022-10-04 19:49:02,email,email_thread_20,StartupCo Manifesto for Brand Identity Presentation,"['hayden.moore@consultingco.com', 'terry.palmer@consultingco.com', 'indigo.webb@consultingco.com', 'hayden.evans@consultingco.com']",4,2.0,-1.0,"Hey guys, Let me know what you think: Manifesto *Financial Chart showing upward growth trend. Transactions. They have been a powerful tool since the dawn of time. For efficient data transfer. To streamline business operations. For driving growth. Transactions move us. And every payment is important. Every invoice is important. We're here to process your transactions seamlessly. We're here to facilitate payments that flow. We're here to help you grow. So connect with us. And start automating.
+
+---EMAIL SEPARATOR---
+
+Indigo - couple comments. Regarding financial processing timelines, let's be precise. Our payment processing efficiency is key. Let's ensure clarity in our descriptions. Let's consider alternative phrasing to highlight key functionalities. Thanks!!! All the best, Terry Palmer",,
+2022-10-06 21:48:28,email,email_thread_19,StartupCo | Rebranding | Final,"['indigo.webb@consultingco.com', 'hayden.evans@consultingco.com', 'jules.gray@consultingco.com', 'perry.scott@consultingco.com', 'arden.scott@consultingco.com', 'parker.jackson@consultingco.com', 'skylar.stone@consultingco.com', 'terry.palmer@consultingco.com', 'terry.garcia@consultingco.com', 'taylor.parker@consultingco.com', 'kelly.underwood@consultingco.com']",11,6.0,0.0,"Hey Jules, Took a quick look - looks great! Thank you!! All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hello All, Kindly find [Company Name] updated branding guidelines PDF through this *link <https://example.com/file-link>.* *Thanks and regards,* Jules Gray Art Director *Email:* jules.gray@ConsultingCo.com *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Hi again, I am uploading the presentation materials; it will be uploaded to the shared drive. Please revise the pdf I sent before and let us know if there are any changes we need to make. Have a great long weekend.
+
+---EMAIL SEPARATOR---
+
+Hey Guys, Amazing work!! Thank you all so much. There are a few typos though, so please find them below; - *Slide 59 and 97* - The word ""Tutorial"" is misspelled. - *Slide 64 *- Remove the word ""very"" as requested earlier. - *Slide 78 and 82* - There is a "","" before the word warmth Best Regards, Hayden Evans Brand Development Sr. Manager *Email:* hayden.evans@ConsultingCo.com *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Hello All, Kindly find the updated financial report here: https://example.com/file-link Thank you.
+
+---EMAIL SEPARATOR---
+
+Thank you!!!! All the best, Terry Palmer",,
+2022-10-07 19:30:01,email,email_thread_18,StartupCo Brand Strategy Final (Keynote),"['terry.palmer@consultingco.com', 'oakley.brooks@consultingco.com']",2,3.0,4.0,"Hi Terry Palmer, Please find below the link to the Financial Operations Strategy for StartupCo. StartupCo Financial Operations Strategy Best, Oakley Brooks. Oakley Brooks Financial Operations and Strategy Manager Email: oakley.brooks@ConsultingCo.com Cell: +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Is there another, longer version? All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hey Terry Palmer, Yes there is. I'll send over the invoice management integration details. Best, Oakley Brooks.",,
+2022-10-07 20:30:00,meeting,65qv4s9qtsiusp86tro26902qi@calendar.example,ConsultingCo | StartupCo- Brand Identity and Strategy Presentation,"['terry.palmer@consultingco.com', 'parker.jackson@consultingco.com', 'kelly.underwood@consultingco.com', 'elliott.evans@startupco.com', 'terry.garcia@consultingco.com', 'jamie.adams@startupco.com', 'hayden.moore@consultingco.com', 'oakley.brooks@consultingco.com', 'hayden.evans@consultingco.com', 'taylor.parker@consultingco.com', 'indigo.walker@consultingco.com', 'katy@startupco.com', 'mariel@startupco.com']",13,,,,2.0,True
+2022-10-07 20:31:11,email,email_thread_17,MP3 file,"['oakley.brooks@consultingco.com', 'jamie.adams@startupco.com', 'taylor.parker@consultingco.com', 'parker.jackson@consultingco.com', 'terry.palmer@consultingco.com', 'jordan.lopez@consultingco.com', 'hayden.moore@consultingco.com', 'terry.garcia@consultingco.com', 'indigo.walker@consultingco.com']",9,4.0,0.0,"Dear Jamie Adams and team, We are only minutes away from presenting to you the brand identity and we are happy to share with you our own supporting materials for the presentation; this should be complementing the presentation. Please find attached the financial report. Best regards, Oakley Brooks Oakley Brooks Brand Strategy and Insights Manager *Email:* oakley.brooks@ConsultingCo.com *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Thanks so much for sharing this, Oakley Brooks! It looks great! I just posted it on FinPay Solutions for the team to review the initial beta build :) Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Amazing!! All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+There's nothing that makes me more proud than the feeling that we are ACTUALLY streamlining financial operations and driving significant improvements in efficiency for modern businesses. Amazing work. Amazing TEAMWORK. 👏🏼👏🏼👏🏼👏🏼👏🏼👏🏼👏🏼👏🏼 All the best, Terry Palmer",,
+2022-10-19 20:30:00,meeting,29jrr6scmler69q5d20e6uaiit@calendar.example,ConsultingCo | StartupCo- Brand Identity Presentation,"['terry.palmer@consultingco.com', 'arden.wilson@consultingco.com', 'katy@startupco.com', 'kelly.underwood@consultingco.com', 'elliott.evans@startupco.com', 'jamie.adams@startupco.com', 'taylor.parker@consultingco.com', 'indigo.walker@consultingco.com', 'terry.garcia@consultingco.com', 'mariel@startupco.com', 'hayden.moore@consultingco.com', 'lennon.quinn@consultingco.com', 'oakley.brooks@consultingco.com', 'hayden.evans@consultingco.com', 'morgan.allen@startupco.com']",15,,,,1.5,True
+2022-11-02 20:30:00,meeting,2gpjdooaatldeme02pnbv3so4g@calendar.example,ConsultingCo | StartupCo - Brand Identity Presentation,"['terry.palmer@consultingco.com', 'arden.wilson@consultingco.com', 'katy@startupco.com', 'kelly.underwood@consultingco.com', 'elliott.evans@startupco.com', 'jamie.adams@startupco.com', 'taylor.parker@consultingco.com', 'indigo.walker@consultingco.com', 'terry.garcia@consultingco.com', 'mariel@startupco.com', 'lennon.quinn@consultingco.com', 'hayden.moore@consultingco.com', 'oakley.brooks@consultingco.com', 'hayden.evans@consultingco.com', 'sam.stone@startupco.com', 'morgan.allen@startupco.com']",16,,,,1.5,True
+2022-11-04 23:02:00,email,email_thread_15,MediaPlatform <> ConsultingCo,"['hollis.murray@consultingco.com', 'drew.young@client14.com', 'taylor.parker@consultingco.com', 'rowan.garcia@client1.com', 'terry.palmer@consultingco.com', 'hayden.moore@consultingco.com', 'jamie.adams@startupco.com']",7,21.0,18.0,"A new client has been referred to us 💪🏼💪🏼 Can everyone please review the documents and the project overview provided in the link and let’s send them a proposal by Sunday? I’d like to jump on this and start establishing our fintech presence in the US market! Let me know when you can all discuss this project. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+So we need a strategic review or a market analysis? Or a short call to iron out any ambiguities in their requirements? I don't believe we should proceed without thoroughly validating their proposed financial workflows; their strategy needs to be bulletproof. Best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hi Team, After checking out the brief, it is clear that they only need platform branding, not market positioning due to the provided information (strategy section), listed deliverables, and time constraint. [image: abstract_symbol.png] I think including a market positioning will make it seem like we didn't read the brief well. So, in terms of deliverables, I was thinking of just including two options: one style guide with logo + platform assets, and one complete platform guidelines. The proposal will contain an executive summary, the project deliverables, pricing tiers, and project schedule. Thanks, Hollis Murray Smith Sr. Business Development Executive *Email:* hollis.murray@ConsultingCo.com <farida.f@ConsultingCo.com> *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Yes I think this should be positioned as what we need to do to get to our payment workflow implementation and not expanding the financial processing module. We can conduct a review session to finalize the transaction processing parameters efficiently. What do you think?
+
+---EMAIL SEPARATOR---
+
+I think a 20-30% processing fee increase is a significant jump. We should offer tiered payment processing options to cater to varied transaction volumes and client requirements. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Yea but they have problems with it. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hi KK, Please find the updated proposal attached including your comments and considering our conversation this morning: strategy workshop part of our process, and to be used internally for briefing, not a separate deliverable. Let me know your comments so I can finalize and send it out today! @Lennon Quinn <lennon.quinn@ConsultingCo.com> please check if we need to add more terms and conditions/details to ensure no discrepancies occurs like with another partner/PartnerCo. Thanks for the support! Hollis Murray Tohamy Sr. Business Development Executive *Email:* hollis.murray@ConsultingCo.com <farida.f@ConsultingCo.com> *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Hollis Murray, can you send the final payment report to review, I can't find an attachment. Thanks, Taylor Parker Hadi COO & Co- Founder *Email:* taylor.parker@ConsultingCo.com <taylor.parker@ConsultingCo.com> *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+So they have an existing logo? Taylor Parker Hadi COO & Co- Founder Email: taylor.parker@ConsultingCo.com Cell: +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Ok so please remove ""system upgrade"" from the two options, since it is a system redesign / Rebranding exercise. For the middle option, i would remove those from the highest option: - Financial Reports I am also a Founder of the company :) Taylor Parker Hadi COO & Co- Founder *Email:* taylor.parker@ConsultingCo.com <taylor.parker@ConsultingCo.com> *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+I can’t see an attachment All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hi All, Please find the updated proposal attached, based on all your feedback. Only missing pricing for the SEO phase. Feel free to let me know if you have any comments/amends big or small. Also, open this on your laptop as the phone distorts the layout. Thanks, Hollis Murray Murray Sr. Business Development Executive *Email:* hollis.murray@ConsultingCo.com <farida.f@ConsultingCo.com> *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+My apologies, attached is the corrected document. It's been a long day focused on transaction reconciliations...
+
+---EMAIL SEPARATOR---
+
+I attached the payment processing proposal. Let me know what you think. Thanks! Hollis Murray Sr. Business Development Executive *Email:* hollis.murray@ConsultingCo.com <farida.f@ConsultingCo.com> *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Ok. Get green lights from KK and DH. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hi Terry Palmer, I adjusted the proposal scope to include 2 brand strategies, one for the B2B fintech platform (PaymentSolutions) and one for the B2B invoicing solution (CreditEase). I also made changes to the timeline, payment terms and gave a 7.5% discount on the original price per brand (given they develop both brands with us). Peyton will confirm the possibility of having only one workshop for both brands, and Taylor Parker will get back to me about our best iconography work to share with them. Please let me know your comments in the meantime. Thanks, Hollis Murray Smith Sr. Business Development Executive *Email:* hollis.murray@ConsultingCo.com <farida.f@ConsultingCo.com> *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Theres so much successful payment processing examples missing from this. We really need to include some of the more streamlined transaction workflows. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Lets discuss!!! ???????????? All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Wuuu
+
+---EMAIL SEPARATOR---
+
+I can do 3 to 3:30 if that is possible. Peyton",,
+2022-11-05 05:12:54,email,email_thread_16,Re: Branding/Naming & Logo Design Firm Recs?,"['jamie.adams@startupco.com', 'terry.palmer@consultingco.com', 'hayden.moore@consultingco.com', 'taylor.parker@consultingco.com']",4,6.0,0.0,"Thanks Jamie Adams! We appreciate this and will make sure to take good care of anyone you send our way! Constructive feedback is a gift; thank you. We always consider it thoughtfully and work make changes to ensure that we are consistently delivering on our financial efficiency promise. As far as pricing is concerned, well figure out a way to offer a series of tiers tailored to various transaction volumes and reconciliation timelines, while not compromising on precision and reliability. Thanks again and will keep you posted. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+No problem! Btw, during our discussion I didn't say we paid $19K. I told him cost is roughly $25K. Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Thanks - we’ll give him an attractive package. 👍🏼👍🏼 All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Pricing is all yours btw, you don't need to give them any special treatment for me btw. Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Absolutely. We definitely want them to come back and thank you for the referral! I think we can design 2-3 tiered service packages with varying transaction limits and support levels designed to meet different startup needs. Will keep you posted. For now I want to focus on our payment platform and achieving optimal financial processing efficiency for you. :-) All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Great. Thank you, Terry Palmer! :) Best, Jamie Adams",,
+2022-11-10 22:30:00,meeting,75ncmc1enc1s35n919a1j16t2s@calendar.example,StartupCo Brand Strategy,"['terry.palmer@consultingco.com', 'sam.stone@startupco.com', 'katy@startupco.com', 'kelly.underwood@consultingco.com', 'elliott.evans@startupco.com', 'jamie.adams@startupco.com', 'mariel@startupco.com', 'hayden.moore@consultingco.com', 'oakley.brooks@consultingco.com', 'indigo.walker@consultingco.com', 'hayden.evans@consultingco.com']",11,,,,1.0,True
+2022-11-10 23:29:24,email,email_thread_14,StartupCo Brand Strategy,"['oakley.brooks@consultingco.com', 'katy@startupco.com', 'hayden.evans@consultingco.com', 'mariel@startupco.com', 'elliott.evans@startupco.com', 'indigo.walker@consultingco.com', 'terry.palmer@consultingco.com', 'hayden.moore@consultingco.com', 'sam.stone@startupco.com', 'jamie.adams@startupco.com', 'kelly.underwood@consultingco.com']",11,1.0,0.0,Jamie Adams and Sam Stone please use the same link.,,
+2022-11-11 21:55:13,email,email_thread_13,StartupCo Messaging Architecture,"['katy@startupco.com', 'jamie.adams@startupco.com', 'mariel@startupco.com', 'elliott.evans@startupco.com', 'sam.stone@startupco.com', 'indigo.walker@consultingco.com']",6,4.0,16.0,"Hello Jamie Adams and team, I hope all is well with you. As discussed yesterday, we will expand on the financial operations strategy for StartupCo and will be sharing this with you next Wednesday, November 17th. Let me know if that works for you, if not we can accommodate an earlier time. Have a great day! All the best, Indigo Walker Senior Brand Strategy Executive *Email:* indigo.walker@ConsultingCo.com <farida.f@ConsultingCo.com> *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Hello Jamie Adams and team, Hope all is well with you. Attached are the updated financial workflow diagrams, as requested. Please feel free to reach out if you have any questions or would like to discuss further. Have a lovely day! StartupCo Brand Messaging Matrix (1).pdf <https://drive.example.com/file/sample> All the best, Indigo Walker Senior Brand Strategy Executive *Email:* indigo.walker@ConsultingCo.com <farida.f@ConsultingCo.com> *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Hi Indigo Walker,
+Thank you for sending this over and I'm so sorry for the late reply. We're having a big new platform rollout that is driving us all crazy before the thanksgiving holiday. The initial review looks promising. We're reviewing it internally this week and will follow up with you shortly. Thanks again!
+Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Happy Sunday! We completely understand, no worries. Let us know your thoughts and if you would like to discuss the messaging examples further. All the best, Indigo Walker Senior Brand Strategy Executive *Email:* indigo.walker@ConsultingCo.com <farida.f@ConsultingCo.com> *Cell:* +1-555-0100",,
+2022-12-08 05:21:09,email,email_thread_12,Swag,"['terry.garcia@consultingco.com', 'hayden.evans@consultingco.com', 'jamie.adams@startupco.com', 'kelly.underwood@consultingco.com']",4,7.0,1.0,"Hi Avery Young and Chris – I hope you're both doing great. our team is having an offsite planning session this Saturday to discuss the upcoming fintech launch. I want to surprise them with some company swag. I'm new to this part of the business, and unsure of what files/designs are needed for swag production. Can you help? Btw, any advice on where to get high quality swag in the area? I'd greatly appreciate your support. Thanks! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Thanks Avery Young! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Hope your week's going well! Of course, we would be happy to recommend a partner organization specializing in payment processing integrations. I will check and get back to you tomorrow. In regards to the upcoming promotional material for your company event, I will check internally regarding the availability of co-branded collateral and get back to you shortly. Best, Avery Young
+
+---EMAIL SEPARATOR---
+
+Hi Hayden Evans and Avery Young, Thank you so much for sharing all this. It would be great if you can handle the process for the invoice processing in Client X. Can you share more details, please? For the financial reporting templates, do you think we'll need the automated reconciliation feature alone or not? Thanks again! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Hope all is great! Please find attached the final deliverables of the branding assets as requested. Please let us know if you need anything else. Thank you, Hayden Evans Brand Development Sr. Manager *Email:* hayden.evans@ConsultingCo.com *Cell:* +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Thanks Hayden Evans! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Great! We will share with you more details after the weekend. As for the icon design files, we will share all the brand assets that Sam Stone requested on the other thread which will encompass the icon alone. Thank you, Hayden Evans Brand Development Sr. Manager *Email:* hayden.evans@ConsultingCo.com *Cell:* +1-555-123-4567",,
+2023-01-04 19:02:43,email,email_thread_11,StartupCo-Scope,"['terry.palmer@consultingco.com', 'kelly.underwood@consultingco.com']",2,3.0,0.0,"It seems like we’ve already done the bulk of the extra work (website design and payment portal integration). My suggestion would be to send an email that clearly states that once we finalize the payment platform integration, this will complete the agreed payment workflow implementation in addition to x, y, and z that are out of scope. We are excited and pleased to continue to support StartupCo's financial operations and will happily send a quotation for any additional support with their payment processing. What do you think? All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hi Terry Palmer, As discussed, we have some concerns regarding PaymentSolutions Inc.'s scope revisions. As agreed, kindly find the agreed transaction parameters as well as the implementation guidelines attached for your reference. The following requests they made are out of scope: -API Integrations -User Support Documentation As I mentioned, the team feels like the requested API integrations exceed the initially agreed upon parameters and are significantly impacting development timelines. Please let me know how you would like to proceed. Best, Avery Young  Implementation_Guide.pdf <https://drive.example.com/file/sample>
+
+---EMAIL SEPARATOR---
+
+Hi Terry Palmer, Understood. I've updated the financial team and notified Jamie Adams that these extra modifications will be included in the next invoice. Thanks, Avery Young",,
+2023-01-19 23:30:00,meeting,274sc8u5adko1vckok666pel80@calendar.example,Terry Palmer // Jamie Adams,"['terry.palmer@consultingco.com', 'jamie.adams@startupco.com']",2,,,,0.5,True
+2023-01-20 01:19:32,email,email_thread_10,Small favor,"['jamie.adams@startupco.com', 'terry.palmer@consultingco.com', 'terry.garcia@consultingco.com', 'taylor.parker@consultingco.com']",4,7.0,0.0,"Hey Terry Palmer, Great meeting earlier! I'm glad we found the time. I have a small favor to ask. We're working on our Series A pitch deck. Unfortunately, because we didn't launch the new branding yet, we're making it in the old one to avoid confusing people. I just got the idea to add one slide about the new branding to impress investors. Any chance your team can help with that? I'll need it today , though. I'm thinking something very simple that has: * StartupCo: streamlining financial operations for modern businesses * A visual representation of our commitment to financial efficiency * An Illustration * An image representing secure transaction flows Is there a nice way to do this? I'd greatly appreciate it. Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, It was my pleasure. Let me see what fintech solutions we can tailor for your needs. Ideally, the financial data integration proposal should be updated! All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Let's discuss today, please, regarding payment workflow optimization. Also need to create a solid case study demonstrating improved financial workflows for clients of our payment platform. When are you available? All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Thanks, Terry Palmer! I really wanted to. But got advice from many that it would be confusing for investors if, while we're presenting, they check our demo (and they do). Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Ah. Makes sense, of course. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+🙏🏼🙏🏼 All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Thanks for taking care of this. 🙏🏼 All the best, Terry Palmer",,
+2023-01-21 00:10:34,email,email_thread_9,Small Favor,"['hayden.evans@consultingco.com', 'jamie.adams@startupco.com']",2,4.0,2.0,"Hi Jamie Adams, Hope all is great! As requested, please find attached the updated materials. Please let us know your thoughts. Thank you, Hayden Evans
+
+---EMAIL SEPARATOR---
+
+Hi Hayden Evans, I'm so impressed with the invoice automation system! Really appreciate your help! This is exactly what we needed. Hope you have a productive week! Sorry for the late request last night. Thanks again! Best regards, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Please find attached the needed info on one slide as requested. As you can see, we have 3 options for the layout in different formats. Please let us know if you need anything else. Thank you, Hayden Evans
+
+---EMAIL SEPARATOR---
+
+Excellent! Great to confirm. Hope your transactions flowed smoothly this weekend :)",,
+2023-07-27 15:18:41,email,email_thread_7,Re: ConsultingCo|StartupCo-New Scope,"['charlie.brooks@consultingco.com', 'terry.palmer@consultingco.com', 'sage.harris@consultingco.com', 'reese.anderson@consultingco.com', 'jamie.adams@startupco.com']",5,22.0,40.0,"FYI Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Thank you! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hey Reese – these are awesome! Great job! We have some minor feedback on a few of them but generally we really like them. Leandro, our designer, is putting them in a design collaboration platform now to make it easier to leave our comments and I'll share it shortly. The team missed a few from the website, though: * Key Modules We also want some more icons, please: * Approved / Processed (Like a checkmark maybe?) * Processing Indicator * different status icons (success, failure, pending maybe) * Financial Analysis Icon * Business Network Icon (see reference on figma) * Reporting Region *Important request:* can you send the ai files asap, please? We want to try them on the designs. We need the lines in stroke, so please don't convert them to outline. Thanks again! Great work! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Sage Harris, Great connecting with you! And thank for sharing the design files. Here is a Figma ( https://example.com/file-link ) file with the comments and missing items. The LinkedIn and Twitter cover pages weren't delivered either.  We're targeting next month for launch. Can you please deliver them by the 15th? The more critical issue, though, is a graphic I discussed with Chris today with visual elements (I understand this won't count as 1 graphic) as well as the additional icons I shared yesterday. They're for a product demo, so we need them ASAP for the design team to finalize them and deliver on time. These are the icons I'm referring to btw: * Transaction Approved (checkmark icon) * Processing Time * different status indicators (success, pending, error) * Audit Log * circular logo featuring payment flows (see reference on figma) * Transaction Origin Chris will follow up with you and the team. We'd greatly appreciate ConsultingCo's support on this one, please. Thanks again! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Sage Harris, I’m so sorry, I just saw this. Any chance you’re still available? Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, It’s our pleasure, follow up soon regarding the invoice integration.
+
+---EMAIL SEPARATOR---
+
+Hi Sage Harris, Thanks again for taking the time yesterday and for these timelines! I know the team is stretched, so I really appreciate it. If there is any chance you can deliver the design assets sooner, I'd be super grateful. Thanks again so much! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Thanks so much, Sage Harris! I appreciate it! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, We will try our best to process your payment earlier on Thursday this is the best we can do for now; however, we cannot promise anything. Thank you for your patience as we optimize your financial workflows.
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Quick question. We are currently finalizing the system icons and I cannot seem to locate the icon for transaction reconciliation (see reference on our design repository). Can you please send us a screenshot? Thank you.
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Please find attached the data files and screenshots from new integration modules to be used for your project. We are only missing the module mentioned in my previous email which will be ready for deployment on Monday the 15th as promised.
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, As promised, kindly find attached the remaining deliverables along with the open-source file. Appreciate your feedback.
+
+---EMAIL SEPARATOR---
+
+Sure. Looking forward to the next steps! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, No worries at all. Can we make it at 8:00 pm as I’m on my way home now? Regards, Sage Harris
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, We are glad you love them. As mentioned previously the illustrator is off, however, we will do our best to the deliver the following by end of day tomorrow: 1. Module 1 - visual representation of payment workflows. 2. Icon set - various payment methods. 3. Improve clarity of transaction summary in interface element. 4. Implement loading animation for payment processing. As for the rest we will have to wait until he’s back; hope that’s ok and we can manage with what we have for the time being.
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, As promised, kindly find attached the amended visuals and elements as summarized below. Let me know if there’s anything else pending. 1. In the workflow diagram - updated figures from other visuals. 2. Set of symbols - representing various payment methods. 3. Highlight automated reconciliation 4. The transaction flow should be dynamic and active With regards to the updated visuals, we can finalize the key financial reporting layouts when the designer returns. I will confirm the completion timeline by then. Please let me know if you have any questions.
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, I hope you're well. I'm with Sage Harris on the team, I just wanted to reach out to update you on the financial reporting templates while she's away this week. We are happy to amend the templates as per your suggestions but will have to wait until next week to submit them. Let me know if you have any questions. Regards, Charlie Brooks
+
+---EMAIL SEPARATOR---
+
+Hi Charlie Brooks, Thanks for the update. Looking forward to it! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hello Jamie Adams, Hope you are doing well and the project is almost ready for launch. We will be sharing the following by Wednesday however, for the payment processing feature, we are running out of ideas. Do you have something specific in mind that you would like us to illustrate? * Payment Processing Feature * Abstract representations of financial workflows * Ensure data security * Fast, secure, and user-friendly payment automation Let me know and have a great day.
+
+---EMAIL SEPARATOR---
+
+Hello Jamie Adams, Kindly find attached the amended visuals as well as the new design assets. Let us know what you think. Regards,
+
+---EMAIL SEPARATOR---
+
+Hi Jamie Adams, Kindly find attached updated mockups as requested. Let us know if there’s anything else needed from our end and keep us posted with the launch. We cannot wait to see the platform go live and the project succeed.
+
+---EMAIL SEPARATOR---
+
+Hi Sage Harris, They look great. Thank! Quick comment on the design. Could we use a similar design element to what was used in the approval icon? Best, Jamie Adams",,
+2023-09-04 16:25:43,email,email_thread_6,Contact - New Scope Proposal,"['reese.anderson@consultingco.com', 'avery.young@consultingco.com', 'sage.harris@consultingco.com']",3,1.0,0.0,"Hi Sage Harris, Can you fill this form out please. https://docs.example.com/document/sample",,
+2023-09-15 10:56:15,email,email_thread_5,StartupCo Social Media,"['terry.palmer@consultingco.com', 'taylor.parker@consultingco.com', 'indigo.davis@consultingco.com']",3,10.0,3.0,"I suggest 2 financial reports Taylor Parker, its a lot of transactions and they are mainly 2 broad financial processes. Also they will be perfect for the reporting dashboard because they will fill it next to another report. Also this will enable me to report today and tomorrow and elongate the market awareness, and right after, we can report something else (another report?). Is that okay with you? Let me know your thoughts. Thanks BR MZ
+
+---EMAIL SEPARATOR---
+
+We can go ahead and share the attached client update today until we publish the case study. What do you think? Terry Palmer, can you write the caption pls if so. Thanks Taylor Parker ---------- Forwarded message ---------
+
+---EMAIL SEPARATOR---
+
+Will do so. Yes, yes i wont, i think the payment automation module would be a great one to have in summer and very different from those two projects and financial reports. A large university is also another option. Will post as soon as i receive the transaction logs. Thanks
+
+---EMAIL SEPARATOR---
+
+This will all be in one release, so just one message. Indigo revising the process. Terry Palmer needs your approval and message. Yes, tag me pls. Thanks, D
+
+---EMAIL SEPARATOR---
+
+But we have alot more we want to demonstrate for StartupCo's payment platform. Ok let’s split this into two posts, but mix the stuff up please in the two posts. Don’t make one about the payment workflows and one about the branding elements. Let's highlight the versatility of the platform in both. Then we will release a product demo later on. Yes, don't release the finalized branding yet, we'll finalize decisions on Sunday. Thanks Taylor Parker
+
+---EMAIL SEPARATOR---
+
+@Terry Palmer<mailto:terry.palmer@ConsultingCo.com>
+
+---EMAIL SEPARATOR---
+
+What am I captioning? All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+See revision below. All the best, Terry Palmer
+
+---EMAIL SEPARATOR---
+
+Hi Taylor Parker, The Graphics do not work. As soon as they are posted they become static images. I need them in compatible formats please. Thanks BR MZ
+
+---EMAIL SEPARATOR---
+
+They need to be videos, i'll tell Chris. Taylor Parker *Email:* taylor.parker@ConsultingCo.com <taylor.parker@ConsultingCo.com> *Cell:* +1-555-0100",,
+2023-10-05 17:16:15,email,email_thread_4,Your opinion is important to us!,"['reese.anderson@consultingco.com', 'terry.palmer@consultingco.com', 'sage.harris@consultingco.com']",3,2.0,0.0,"Hi Terry Palmer, Hope this email finds you well! Hello Client XXX, We wanted to express our sincere appreciation for your partnership. It's been rewarding to witness your company enhance its operational excellence using our fintech platform. We would greatly appreciate it if you could share your feedback on your experience with our payment platform in a short testimonial. Here are some specific questions that you could answer: · What prompted you to select our financial operations platform? · Which financial workflows did our platform streamline for your business? How did automation improve your efficiency? · What aspects of our payment processing system are most valuable to your team? · How has your financial efficiency improved since implementing our platform? · How would you describe the impact of our platform on your financial operations? · Are there any features or improvements you would like to see in our fintech solution? · If you were to recommend our payment platform to a colleague, what would you emphasize? We appreciate your help! It’s valuable to our future business and, just as importantly, allows us to keep on improving. Sincerely, ConsultingCo Best regards, ConsultingCo
+
+---EMAIL SEPARATOR---
+
+Also, below is the list of clients you mentioned yesterday you want to ask for their case study right away, can you confirm or tell me if there is anything else you want to add. Also I don't have Marcus from Project Alphas email do you have it? *Clients List* 1. *Client A* - Energy Sector Client generic.name@example1.com *2. Client B - Tech Client harper.harris@Client6.com *3. James Wells - *Client C dakota.wells@Client17.com *5. Sarah Williams - *Client C generic.name@example2.com *6. David Mitchell - *Food Client David@example3.com *7. Jamie Adams - *Client X jamie.adams@StartupCo.com *8. Client X * *?????* *9. * *John Peterson - *Client D peter@monuments.com",,
+2023-10-10 08:43:10,email,email_thread_3,Your opinion is important to us!,"['terry.palmer@consultingco.com', 'sage.harris@consultingco.com', 'jamie.adams@startupco.com']",3,4.0,1.0,"Hey Jamie Adams, Would really appreciate your help. We're launching our updated website showcasing our new features, and we'd be honored to include a testimonial from you! We were impressed with your insights on efficient payment workflows in your recent post and believe it perfectly aligns with our vision. Thanks in advance! All the best, Terry Palmer CEO / Chief Brand Builder ConsultingCo Phone: +1-555-0100 Phone Region A: +1-555-0100 https://example.com<https://example.com/>
+
+---EMAIL SEPARATOR---
+
+Hi Sage Harris and Terry Palmer, Of course! And so sorry for the late reply. We had a long weekend here and I was taking a short break after a recent project milestone. How does this look for the payment processing timeline? Please feel free to edit it as you see fit or tell me if there are specific areas you'd like me to highlight. Cheers, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Wonderful! Thank you for this! We'll come back to you with anything but this looks promising! All the best, Terry Palmer CEO / Chief Financial Strategist ConsultingCo Phone: +1-555-0100 Phone: +1-555-0100 https://portfolio.example.com<https://portfolio.example.com/>
+
+---EMAIL SEPARATOR---
+
+Glad to hear it! :) Best, Jamie Adams",,
+2024-06-07 20:45:00,meeting,5u4m0m0ljllv6i91umrtcqhune@calendar.example,Terry Palmer x Jamie Adams,"['jamie.adams@startupco.com', 'terry.palmer@consultingco.com']",2,,,,0.5,True
+2024-06-12 15:30:00,meeting,61a19nq5hlsi5859bo9eutue5c@calendar.example,StartupCo interactive brand identity discuss,"['taylor.parker@consultingco.com', 'jamie.walker@consultingco.com', 'terry.palmer@consultingco.com']",3,,,,1.0,True
+2024-06-13 15:25:51,email,email_thread_2,StartupCo interactive brand identity,"['jamie.walker@consultingco.com', 'terry.palmer@consultingco.com', 'taylor.parker@consultingco.com']",3,2.0,6.0,"Dears,
+
+Kindly find the final quotation from development team (frontend and backend) fro StartupCo Financial Workflow Optimization Platform Development full price = $65k
+
+Development timeline = 2 to 2.5 months
+Platform Design (internally) = 1 to 1.5 month
+Timeline for platform launch (including contingency) = from 3.5 to *4 months*
+
+Thanks
+
+---EMAIL SEPARATOR---
+
+Dears, Kindly reminder for your approved Thanks",,
+2025-02-08 02:00:55,email,email_thread_1,Re: Consumer data internship,"['elarabyferris@client7.com', 'terry.palmer@consultingco.com', 'jamie.adams@startupco.com']",3,2.0,0.0,"Really appreciate this!! All the best, Terry Palmer Cell: +1-555-0100 Cell : +1-555-0100",,
+2025-07-06 16:30:00,meeting,4kkm6rbv40mgpe1a0tqjidugbg@calendar.example,Terry Palmer x Jamie Adams,"['jamie.adams@startupco.com', 'terry.palmer@consultingco.com']",2,,,,0.5,True
+2025-09-03 19:30:00,meeting,2jhu0dc06ds828onnk5bji9ail@calendar.example,Terry Palmer x Jamie Adams,"['jamie.adams@startupco.com', 'terry.palmer@consultingco.com']",2,,,,1.0,True
+2025-09-23 19:00:00,meeting,6111slf6a27nblk116qt10kk3k@calendar.example,Terry Palmer x Naila x Jamie Adams,"['jamie.adams@startupco.com', 'terry.palmer@consultingco.com', 'faroukyn@partnerorg.org']",3,,,,1.0,True
+2026-01-11 21:30:00,meeting,1phcvf6fh1sppbi6voous0obhd@calendar.example,Terry Palmer x Jamie Adams,"['jamie.adams@startupco.com', 'terry.palmer@consultingco.com']",2,,,,1.0,True
+2026-03-10 15:00:00,meeting,3tu45t4uo3k94av831ggga749n@calendar.example,StartupCo Interactive Brand Manual,"['taylor.parker@consultingco.com', 'jamie.walker@consultingco.com', 'arden.wilson@consultingco.com', 'terry.palmer@consultingco.com']",4,,,,0.5,True
+2026-03-25 17:00:08,email,email_thread_0,StartupCo Online Brand Book - Next steps,"['quinn.baker@startupco.com', 'terry.palmer@consultingco.com', 'sage.harris@consultingco.com', 'jamie.adams@startupco.com']",4,7.0,28.0,"Dear Jamie Adams, I hope this email finds you well. Following your conversation with Terry Palmer, we are happy to proceed since you've approved the project scope and requirements. We appreciate your support and coordination with your team to ensure a successful integration. The next step is to align on the *platform access and configuration*, and we have outlined the available options below: *Platform Access Options* 1. *Use your existing payment gateway (Recommended)* – Please share the API keys or grant us access to your existing payment gateway. 2. *Utilize our hosted solution* – If preferred, you can utilize our fully hosted solution. For utilizing your existing payment gateway, we will require *API keys* or *access tokens* to ensure a secure connection. *Data Integration Options* 1. *Integrate directly with your existing financial system (Recommended)* – e.g., *financials.YourCompany.com* 2. *Utilize our secure API for data transfer* – e.g., *StartupCoAPI.com* Please confirm your preferred platform access and data integration method. Once finalized, kindly share the necessary API keys or access credentials so we can proceed accordingly. Additionally, please note that the Financial Reporting Portal will be developed with a role-based access control system to grant access to authorized users. *Additional Requirements* - Secure file sharing details for sample transaction data. Once we receive the required specifications from your end, we will provide a timeline for the next steps leading to the full system integration. Let us know if you need any clarification. We look forward to your update and facilitating streamlined financial operations for your business. Best regards,
+
+---EMAIL SEPARATOR---
+
+Sage, Great to hear from you! How have you been? I hope all is well. Thanks again so much for this project. Its a great idea. I didn't know I needed to approve it though. Are there any changes from the original brand manual? Is it okay to ask someone from our team to take over the financial reconciliation tasks after Holiday Season? Thanks again! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Thanks again Sage! You have a great Holiday Season too! Best, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+You’re a star! ⭐️ All the best, Terry Palmer Cell: +1-555-0100 Cell : +1-555-0100
+
+---EMAIL SEPARATOR---
+
+Hi Sage, Happy Easter! Thanks for following up and I'm so sorry for the late reply. I'm adding Quinn Baker from our operations team who can figure out hosting. Thanks again, Jamie Adams
+
+---EMAIL SEPARATOR---
+
+Hi Quinn Baker, Thank you for your email. Would 5:00 PM City A time on Monday, April 28th, work for you? Awaiting your confirmation to finalize scheduling.
+
+---EMAIL SEPARATOR---
+
+Hi Sage Harris, Yes, it works for me. Thanks!",,
+2026-04-06 16:30:00,meeting,4008tm3offnd2mve2ribm3vmj4@calendar.example,Terry Palmer x Jamie Adams,"['jamie.adams@startupco.com', 'terry.palmer@consultingco.com']",2,,,,0.5,True

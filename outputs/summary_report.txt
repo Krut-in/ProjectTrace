@@ -2,7 +2,7 @@
      EMAIL+CALENDAR GRAPH SYSTEM - ANALYSIS REPORT
 ======================================================================
 
-Generated: 2025-10-25 14:24:57
+Generated: 2025-10-25 14:57:52
 
 
 ──────────────────────────────────────────────────────────────────────
@@ -28,16 +28,16 @@ Average Degree: 21.48
 ──────────────────────────────────────────────────────────────────────
 TOP PARTICIPANTS (by activity)
 ──────────────────────────────────────────────────────────────────────
-15. terry.palmer@consultingco.com            | Consultingco    |  43 events (23E, 20M)
-38. jamie.adams@startupco.com                | Startupco       |  29 events (15E, 14M)
-32. hayden.moore@consultingco.com            | Consultingco    |  21 events (10E, 11M)
-30. taylor.parker@consultingco.com           | Consultingco    |  17 events ( 9E,  8M)
- 1. oakley.brooks@consultingco.com           | Consultingco    |  15 events ( 6E,  9M)
-36. kelly.underwood@consultingco.com         | Consultingco    |  15 events ( 7E,  8M)
-35. indigo.walker@consultingco.com           | Consultingco    |  15 events ( 6E,  9M)
-17. hayden.evans@consultingco.com            | Consultingco    |  15 events ( 7E,  8M)
- 3. terry.garcia@consultingco.com            | Consultingco    |  12 events ( 6E,  6M)
-37. elliott.evans@startupco.com              | Startupco       |   8 events ( 2E,  6M)
+30. terry.palmer@consultingco.com            | Consultingco    |  43 events (23E, 20M)
+42. jamie.adams@startupco.com                | Startupco       |  29 events (15E, 14M)
+17. hayden.moore@consultingco.com            | Consultingco    |  21 events (10E, 11M)
+ 8. taylor.parker@consultingco.com           | Consultingco    |  17 events ( 9E,  8M)
+ 2. hayden.evans@consultingco.com            | Consultingco    |  15 events ( 7E,  8M)
+20. kelly.underwood@consultingco.com         | Consultingco    |  15 events ( 7E,  8M)
+33. oakley.brooks@consultingco.com           | Consultingco    |  15 events ( 6E,  9M)
+32. indigo.walker@consultingco.com           | Consultingco    |  15 events ( 6E,  9M)
+19. terry.garcia@consultingco.com            | Consultingco    |  12 events ( 6E,  6M)
+ 5. elliott.evans@startupco.com              | Startupco       |   8 events ( 2E,  6M)
 
 ──────────────────────────────────────────────────────────────────────
 COLLABORATION BURSTS
@@ -143,28 +143,74 @@ Total Transitions Detected: 4
 
 
 ──────────────────────────────────────────────────────────────────────
-SENTIMENT ANALYSIS
+COMMUNICATION PATTERN ANALYSIS
 ──────────────────────────────────────────────────────────────────────
-Overall Distribution:
-  Positive: 0 (0.0%)
-  Neutral: 47 (100.0%)
-  Negative: 0 (0.0%)
 
-Average Sentiment Score: 0.50 (0=negative, 1=positive)
+📊 Urgency Distribution:
+  High: 9 (19.1%)
+  Medium: 10 (21.3%)
+  Low: 28 (59.6%)
+
+💬 Communication Patterns:
+  Routine: 32 (68.1%)
+  Crisis Management: 6 (12.8%)
+  Problem Solving: 5 (10.6%)
+  Urgent Decision: 3 (6.4%)
+  Status Review: 1 (2.1%)
+
+🎩 Formality Levels:
+  Formal: 4 (8.5%)
+  Neutral: 43 (91.5%)
+  Casual: 0 (0.0%)
+
+🤝 Collaboration Styles:
+  Balanced: 28 (59.6%)
+  Directive: 12 (25.5%)
+  Collaborative: 7 (14.9%)
+
+🎯 Key Activities:
+  Decision-making events: 9 (19.1%)
+  Problem-solving events: 11 (23.4%)
+  Action items present: 24 (51.1%)
+  Gratitude expressed: 23 (48.9%)
+  Handoff language: 5 (10.6%)
+
+💭 Sentiment Analysis:
+  Positive: 21 (44.7%)
+  Neutral: 25 (53.2%)
+  Negative: 1 (2.1%)
+
+⚡ Email Response Efficiency:
+  Very Fast: 1 (5.9%)
+  Fast: 7 (41.2%)
+  Moderate: 4 (23.5%)
+  Slow: 5 (29.4%)
+  Average response time: 42.8 hours
+
+🚨 Highest Urgency Communication:
+  Date: 2022-09-02
+  Subject: StartupCo Brand Strategy Workshop
+  Urgency Score: 1.00
+
+🌟 Most Collaborative Event:
+  Date: 2022-11-04
+  Subject: MediaPlatform <> ConsultingCo
+  Participants: 7
+  Collaboration Score: 1.00
 
 ──────────────────────────────────────────────────────────────────────
 TOP INFLUENCERS (PageRank)
 ──────────────────────────────────────────────────────────────────────
- 1. oakley.brooks@consultingco.com           | Executor          | Score: 0.0238
- 2. hayden.moore@consultingco.com            | Executor          | Score: 0.0238
- 3. skylar.stone@consultingco.com            | Contributor       | Score: 0.0238
- 4. bailey.taylor@consultingco.com           | Contributor       | Score: 0.0238
+ 1. indigo.webb@consultingco.com             | Contributor       | Score: 0.0238
+ 2. indigo.walker@consultingco.com           | Executor          | Score: 0.0238
+ 3. indigo.davis@consultingco.com            | Contributor       | Score: 0.0238
+ 4. hollis.murray@consultingco.com           | Contributor       | Score: 0.0238
  5. arden.wilson@consultingco.com            | Contributor       | Score: 0.0238
- 6. jamie.walker@consultingco.com            | Contributor       | Score: 0.0238
- 7. reese.anderson@consultingco.com          | Contributor       | Score: 0.0238
- 8. indigo.davis@consultingco.com            | Contributor       | Score: 0.0238
- 9. taylor.parker@consultingco.com           | Executor          | Score: 0.0238
-10. perry.scott@consultingco.com             | Contributor       | Score: 0.0238
+ 6. hesham.a@consultingco.com                | Contributor       | Score: 0.0238
+ 7. morgan.allen@startupco.com               | Contributor       | Score: 0.0238
+ 8. rowan.garcia@client1.com                 | Contributor       | Score: 0.0238
+ 9. terry.palmer@consultingco.com            | Executor          | Score: 0.0238
+10. gray.clark@consultingco.com              | Contributor       | Score: 0.0238
 
 Role Distribution:
   Contributor: 33

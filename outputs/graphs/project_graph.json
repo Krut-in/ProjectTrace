@@ -6,98 +6,8 @@
     {
       "type": "person",
       "organization": "Consultingco",
-      "email": "oakley.brooks@consultingco.com",
-      "id": "oakley.brooks@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "gray.clark@consultingco.com",
-      "id": "gray.clark@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "terry.garcia@consultingco.com",
-      "id": "terry.garcia@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "shimy@consultingco.com",
-      "id": "shimy@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
       "email": "indigo.webb@consultingco.com",
       "id": "indigo.webb@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Startupco",
-      "email": "katy@startupco.com",
-      "id": "katy@startupco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Client14",
-      "email": "drew.young@client14.com",
-      "id": "drew.young@client14.com"
-    },
-    {
-      "type": "person",
-      "organization": "Startupco",
-      "email": "quinn.baker@startupco.com",
-      "id": "quinn.baker@startupco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "hesham.a@consultingco.com",
-      "id": "hesham.a@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Partnerorg",
-      "email": "faroukyn@partnerorg.org",
-      "id": "faroukyn@partnerorg.org"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "charlie.brooks@consultingco.com",
-      "id": "charlie.brooks@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "parker.jackson@consultingco.com",
-      "id": "parker.jackson@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Client1",
-      "email": "rowan.garcia@client1.com",
-      "id": "rowan.garcia@client1.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "amina@consultingco.com",
-      "id": "amina@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "terry.palmer@consultingco.com",
-      "id": "terry.palmer@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "hollis.murray@consultingco.com",
-      "id": "hollis.murray@consultingco.com"
     },
     {
       "type": "person",
@@ -108,134 +18,8 @@
     {
       "type": "person",
       "organization": "Consultingco",
-      "email": "sage.harris@consultingco.com",
-      "id": "sage.harris@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "jules.gray@consultingco.com",
-      "id": "jules.gray@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
       "email": "arden.scott@consultingco.com",
       "id": "arden.scott@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Startupco",
-      "email": "morgan.allen@startupco.com",
-      "id": "morgan.allen@startupco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Startupco",
-      "email": "mariel@startupco.com",
-      "id": "mariel@startupco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "bailey.brooks@consultingco.com",
-      "id": "bailey.brooks@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "skylar.stone@consultingco.com",
-      "id": "skylar.stone@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "bailey.taylor@consultingco.com",
-      "id": "bailey.taylor@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "arden.wilson@consultingco.com",
-      "id": "arden.wilson@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "jamie.walker@consultingco.com",
-      "id": "jamie.walker@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "reese.anderson@consultingco.com",
-      "id": "reese.anderson@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "indigo.davis@consultingco.com",
-      "id": "indigo.davis@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "taylor.parker@consultingco.com",
-      "id": "taylor.parker@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "perry.scott@consultingco.com",
-      "id": "perry.scott@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "hayden.moore@consultingco.com",
-      "id": "hayden.moore@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "lennon.quinn@consultingco.com",
-      "id": "lennon.quinn@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "avery.young@consultingco.com",
-      "id": "avery.young@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "indigo.walker@consultingco.com",
-      "id": "indigo.walker@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "kelly.underwood@consultingco.com",
-      "id": "kelly.underwood@consultingco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Startupco",
-      "email": "elliott.evans@startupco.com",
-      "id": "elliott.evans@startupco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Startupco",
-      "email": "jamie.adams@startupco.com",
-      "id": "jamie.adams@startupco.com"
-    },
-    {
-      "type": "person",
-      "organization": "Consultingco",
-      "email": "jordan.lopez@consultingco.com",
-      "id": "jordan.lopez@consultingco.com"
     },
     {
       "type": "person",
@@ -246,14 +30,230 @@
     {
       "type": "person",
       "organization": "Startupco",
+      "email": "elliott.evans@startupco.com",
+      "id": "elliott.evans@startupco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "skylar.stone@consultingco.com",
+      "id": "skylar.stone@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "lennon.quinn@consultingco.com",
+      "id": "lennon.quinn@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "taylor.parker@consultingco.com",
+      "id": "taylor.parker@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "amina@consultingco.com",
+      "id": "amina@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "bailey.taylor@consultingco.com",
+      "id": "bailey.taylor@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "perry.scott@consultingco.com",
+      "id": "perry.scott@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Client14",
+      "email": "drew.young@client14.com",
+      "id": "drew.young@client14.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "shimy@consultingco.com",
+      "id": "shimy@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "bailey.brooks@consultingco.com",
+      "id": "bailey.brooks@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Partnerorg",
+      "email": "faroukyn@partnerorg.org",
+      "id": "faroukyn@partnerorg.org"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "jordan.lopez@consultingco.com",
+      "id": "jordan.lopez@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "hayden.moore@consultingco.com",
+      "id": "hayden.moore@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Startupco",
       "email": "sam.stone@startupco.com",
       "id": "sam.stone@startupco.com"
     },
     {
       "type": "person",
       "organization": "Consultingco",
+      "email": "terry.garcia@consultingco.com",
+      "id": "terry.garcia@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "kelly.underwood@consultingco.com",
+      "id": "kelly.underwood@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "jamie.walker@consultingco.com",
+      "id": "jamie.walker@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "avery.young@consultingco.com",
+      "id": "avery.young@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Startupco",
+      "email": "katy@startupco.com",
+      "id": "katy@startupco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "indigo.davis@consultingco.com",
+      "id": "indigo.davis@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "hollis.murray@consultingco.com",
+      "id": "hollis.murray@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "arden.wilson@consultingco.com",
+      "id": "arden.wilson@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "hesham.a@consultingco.com",
+      "id": "hesham.a@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Startupco",
+      "email": "morgan.allen@startupco.com",
+      "id": "morgan.allen@startupco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Client1",
+      "email": "rowan.garcia@client1.com",
+      "id": "rowan.garcia@client1.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "terry.palmer@consultingco.com",
+      "id": "terry.palmer@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "gray.clark@consultingco.com",
+      "id": "gray.clark@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "indigo.walker@consultingco.com",
+      "id": "indigo.walker@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "oakley.brooks@consultingco.com",
+      "id": "oakley.brooks@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "jules.gray@consultingco.com",
+      "id": "jules.gray@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "charlie.brooks@consultingco.com",
+      "id": "charlie.brooks@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Startupco",
+      "email": "mariel@startupco.com",
+      "id": "mariel@startupco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
       "email": "hicham@consultingco.com",
       "id": "hicham@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "parker.jackson@consultingco.com",
+      "id": "parker.jackson@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "sage.harris@consultingco.com",
+      "id": "sage.harris@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Consultingco",
+      "email": "reese.anderson@consultingco.com",
+      "id": "reese.anderson@consultingco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Startupco",
+      "email": "quinn.baker@startupco.com",
+      "id": "quinn.baker@startupco.com"
+    },
+    {
+      "type": "person",
+      "organization": "Startupco",
+      "email": "jamie.adams@startupco.com",
+      "id": "jamie.adams@startupco.com"
     },
     {
       "type": "email",

@@ -35,6 +35,29 @@ class Participant(BaseModel):
         return v
 
 
+class IndividualEmail(BaseModel):
+    """Individual email within a thread"""
+    from_addr: str = Field(alias='from')
+    to: str
+    cc: Optional[str] = None
+    subject: str
+    date: datetime
+    body_text: str
+    
+    @validator('date', pre=True)
+    def parse_email_date(cls, v):
+        if isinstance(v, str):
+            from dateutil import parser
+            try:
+                return parser.parse(v)
+            except Exception:
+                raise ValueError(f"Cannot parse date: {v}")
+        return v
+    
+    class Config:
+        populate_by_name = True
+
+
 class EmailEvent(BaseModel):
     subject: str
     email_count: int
@@ -42,6 +65,8 @@ class EmailEvent(BaseModel):
     first_date: datetime
     last_date: datetime
     thread_id: Optional[str] = None
+    emails: List[IndividualEmail] = []  # Individual emails in thread
+    combined_body_text: Optional[str] = None  # All email bodies concatenated
     
     @validator('first_date', 'last_date', pre=True)
     def parse_date(cls, v):

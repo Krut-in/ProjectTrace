@@ -98,13 +98,41 @@ class DataPreprocessor:
                 if not cleaned_participants:
                     continue
                 
+                # Parse individual emails in the thread
+                individual_emails = []
+                email_bodies = []
+                
+                for email_obj in item.get('emails', []):
+                    try:
+                        from src.models.schemas import IndividualEmail
+                        ind_email = IndividualEmail(
+                            **{
+                                'from': email_obj.get('from', ''),
+                                'to': email_obj.get('to', ''),
+                                'cc': email_obj.get('cc', ''),
+                                'subject': email_obj.get('subject', ''),
+                                'date': email_obj.get('date', ''),
+                                'body_text': email_obj.get('body_text', '')
+                            }
+                        )
+                        individual_emails.append(ind_email)
+                        email_bodies.append(email_obj.get('body_text', ''))
+                    except Exception as e:
+                        logger.warning(f"Skipping individual email in thread {idx}: {e}")
+                        continue
+                
+                # Combine all email bodies for analysis
+                combined_body = '\n\n---EMAIL SEPARATOR---\n\n'.join(email_bodies)
+                
                 email = EmailEvent(
                     subject=item.get('subject', 'No Subject'),
                     email_count=item.get('email_count', 0),
                     participants=cleaned_participants,
                     first_date=item.get('first_date'),
                     last_date=item.get('last_date'),
-                    thread_id=f"email_thread_{idx}"
+                    thread_id=f"email_thread_{idx}",
+                    emails=individual_emails,
+                    combined_body_text=combined_body if combined_body else None
                 )
                 parsed_emails.append(email)
                 
@@ -194,7 +222,8 @@ class DataPreprocessor:
                 'participants': email.participants,
                 'participant_count': len(email.participants),
                 'email_count': email.email_count,
-                'duration_days': (email.last_date - email.first_date).days
+                'duration_days': (email.last_date - email.first_date).days,
+                'body_text': email.combined_body_text  # Include email body text
             })
         
         # Add calendar events

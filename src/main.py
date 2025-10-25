@@ -7,6 +7,7 @@ import logging
 from pathlib import Path
 import json
 from datetime import datetime
+import pandas as pd
 
 # Add parent directory to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -164,8 +165,10 @@ def main():
                 sentiment_trends.to_csv('outputs/sentiment_trends.csv', index=False)
             
             # Get statistics
-            sentiment_counts = sentiment_df['sentiment'].value_counts()
-            logger.info(f"✓ Sentiment analysis complete: {sentiment_counts.to_dict()}")
+            pattern_counts = sentiment_df['pattern_type'].value_counts()
+            urgency_counts = sentiment_df['urgency_level'].value_counts()
+            logger.info(f"✓ Pattern analysis complete: {pattern_counts.to_dict()}")
+            logger.info(f"✓ Urgency distribution: {urgency_counts.to_dict()}")
         else:
             logger.warning("✗ Sentiment analysis failed")
         
@@ -343,23 +346,103 @@ def generate_summary_report(
                         f"Topic Shift: {phase['similarity_score']:.2%} similarity")
             report.append(f"  New Focus: {', '.join(phase['new_keywords'][:3])}\n")
     
-    # Sentiment Analysis
+    # Communication Pattern Analysis
     if sentiment_df is not None and not sentiment_df.empty:
         report.append("\n" + "─"*70)
-        report.append("SENTIMENT ANALYSIS")
+        report.append("COMMUNICATION PATTERN ANALYSIS")
         report.append("─"*70)
         
-        sentiment_counts = sentiment_df['sentiment'].value_counts()
         total = len(sentiment_df)
         
-        report.append("Overall Distribution:")
-        for sentiment_type in ['positive', 'neutral', 'negative']:
-            count = sentiment_counts.get(sentiment_type, 0)
+        # Urgency levels
+        report.append("\n📊 Urgency Distribution:")
+        urgency_counts = sentiment_df['urgency_level'].value_counts()
+        for level in ['high', 'medium', 'low']:
+            count = urgency_counts.get(level, 0)
             pct = (count / total * 100) if total > 0 else 0
-            report.append(f"  {sentiment_type.title()}: {count} ({pct:.1f}%)")
+            report.append(f"  {level.title()}: {count} ({pct:.1f}%)")
         
-        avg_score = sentiment_df['sentiment_score'].mean()
-        report.append(f"\nAverage Sentiment Score: {avg_score:.2f} (0=negative, 1=positive)")
+        # Pattern types
+        report.append("\n💬 Communication Patterns:")
+        pattern_counts = sentiment_df['pattern_type'].value_counts().head(5)
+        for pattern, count in pattern_counts.items():
+            pct = (count / total * 100) if total > 0 else 0
+            pattern_display = pattern.replace('_', ' ').title()
+            report.append(f"  {pattern_display}: {count} ({pct:.1f}%)")
+        
+        # Formality
+        report.append("\n🎩 Formality Levels:")
+        formality_counts = sentiment_df['formality_level'].value_counts()
+        for level in ['formal', 'neutral', 'casual']:
+            count = formality_counts.get(level, 0)
+            pct = (count / total * 100) if total > 0 else 0
+            report.append(f"  {level.title()}: {count} ({pct:.1f}%)")
+        
+        # Collaboration style
+        report.append("\n🤝 Collaboration Styles:")
+        collab_counts = sentiment_df['collaboration_style'].value_counts()
+        for style, count in collab_counts.items():
+            pct = (count / total * 100) if total > 0 else 0
+            report.append(f"  {style.title()}: {count} ({pct:.1f}%)")
+        
+        # Decision-making & problem-solving
+        decision_count = sentiment_df['has_decision_making'].sum()
+        problem_count = sentiment_df['has_problem_solving'].sum()
+        action_count = sentiment_df.get('has_action_items', pd.Series([False]*len(sentiment_df))).sum()
+        gratitude_count = sentiment_df.get('has_gratitude', pd.Series([False]*len(sentiment_df))).sum()
+        handoff_count = sentiment_df.get('has_handoff_language', pd.Series([False]*len(sentiment_df))).sum()
+        
+        report.append("\n🎯 Key Activities:")
+        report.append(f"  Decision-making events: {decision_count} ({decision_count/total*100:.1f}%)")
+        report.append(f"  Problem-solving events: {problem_count} ({problem_count/total*100:.1f}%)")
+        report.append(f"  Action items present: {action_count} ({action_count/total*100:.1f}%)")
+        report.append(f"  Gratitude expressed: {gratitude_count} ({gratitude_count/total*100:.1f}%)")
+        report.append(f"  Handoff language: {handoff_count} ({handoff_count/total*100:.1f}%)")
+        
+        # Sentiment distribution
+        if 'sentiment' in sentiment_df.columns:
+            report.append("\n💭 Sentiment Analysis:")
+            sentiment_counts = sentiment_df['sentiment'].value_counts()
+            for sent_type in ['positive', 'neutral', 'negative']:
+                count = sentiment_counts.get(sent_type, 0)
+                pct = (count / total * 100) if total > 0 else 0
+                report.append(f"  {sent_type.title()}: {count} ({pct:.1f}%)")
+        
+        # Email efficiency
+        email_data = sentiment_df[
+            (sentiment_df['type'] == 'email') & 
+            (sentiment_df['communication_efficiency'] != 'unknown')
+        ]
+        if not email_data.empty:
+            report.append("\n⚡ Email Response Efficiency:")
+            efficiency_counts = email_data['communication_efficiency'].value_counts()
+            for eff in ['very_fast', 'fast', 'moderate', 'slow']:
+                count = efficiency_counts.get(eff, 0)
+                if count > 0:
+                    pct = (count / len(email_data) * 100)
+                    eff_display = eff.replace('_', ' ').title()
+                    report.append(f"  {eff_display}: {count} ({pct:.1f}%)")
+            
+            avg_response = email_data['response_time_hours'].mean()
+            if not pd.isna(avg_response):
+                report.append(f"  Average response time: {avg_response:.1f} hours")
+        
+        # Most urgent
+        high_urgency = sentiment_df[sentiment_df['urgency_level'] == 'high']
+        if not high_urgency.empty:
+            most_urgent = high_urgency.nlargest(1, 'urgency_score').iloc[0]
+            report.append(f"\n🚨 Highest Urgency Communication:")
+            report.append(f"  Date: {most_urgent['date'].date()}")
+            report.append(f"  Subject: {most_urgent.get('subject', 'N/A')}")
+            report.append(f"  Urgency Score: {most_urgent['urgency_score']:.2f}")
+        
+        # Most collaborative
+        most_collab = sentiment_df.nlargest(1, 'collaboration_score').iloc[0]
+        report.append(f"\n🌟 Most Collaborative Event:")
+        report.append(f"  Date: {most_collab['date'].date()}")
+        report.append(f"  Subject: {most_collab.get('subject', 'N/A')}")
+        report.append(f"  Participants: {most_collab.get('participant_count', 'N/A')}")
+        report.append(f"  Collaboration Score: {most_collab['collaboration_score']:.2f}")
     
     # Influence Rankings
     if influence_df is not None and not influence_df.empty:
