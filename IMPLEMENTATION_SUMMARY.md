@@ -11,6 +11,7 @@ A production-ready multi-agent system that reconstructs project timelines from e
 ## 📊 Analysis Results
 
 ### Project Overview
+
 - **Timeline**: August 2022 - April 2026 (1,340 days / 3.7 years)
 - **Total Events**: 47 (27 email threads + 20 meetings)
 - **Participants**: 42 unique individuals
@@ -19,24 +20,29 @@ A production-ready multi-agent system that reconstructs project timelines from e
 ### Key Findings
 
 #### **Top Collaborators**
+
 1. **Terry Palmer** (ConsultingCo CEO): 43 events (23 emails, 20 meetings)
 2. **Jamie Adams** (StartupCo CEO): 29 events (15 emails, 14 meetings)
 3. **Hayden Moore** (ConsultingCo): 21 events - Project lead
 4. **Kelly Underwood** (ConsultingCo): 15 events - Brand development
 
 #### **Collaboration Burst Detected**
+
 **Period**: November 4-11, 2022 (7 days)
+
 - **Events**: 5 communications (4 emails, 1 meeting)
 - **Participants**: 15 people
 - **Confidence**: 0.68
 - **Context**: Major brand strategy iteration phase
 
 #### **Communication Patterns**
+
 - Peak activity: **September 2022** (9 events) - Initial project kickoff
 - Sustained activity: **October-November 2022** - Design iterations
 - Long-tail maintenance: 2023-2026 - Periodic check-ins
 
 ### Graph Network Statistics
+
 - **Total Nodes**: 89 (42 people + 47 events)
 - **Total Edges**: 956 relationships
 - **Temporal Links**: 20 event sequences
@@ -48,6 +54,7 @@ A production-ready multi-agent system that reconstructs project timelines from e
 ## 🎯 Features Implemented
 
 ### ✅ **1. Data Preprocessing**
+
 - Robust JSON parsing with Pydantic validation
 - Email and calendar data cleaning
 - Timezone normalization
@@ -57,6 +64,7 @@ A production-ready multi-agent system that reconstructs project timelines from e
 **Files**: `src/data/preprocessor.py`, `src/models/schemas.py`
 
 ### ✅ **2. Multi-Layer Graph Construction**
+
 - **Person nodes** with organization metadata
 - **Event nodes** (emails and meetings)
 - **Temporal proximity edges** (events within time windows)
@@ -66,12 +74,14 @@ A production-ready multi-agent system that reconstructs project timelines from e
 **Files**: `src/models/graph_builder.py`
 
 **Key Features**:
+
 - Tracks who collaborated with whom
 - Identifies event sequences
 - Calculates network metrics
 - Exportable for visualization tools
 
 ### ✅ **3. Collaboration Burst Detection**
+
 - Sliding window analysis (7-day windows)
 - Detects 5+ events with 2-15 participants
 - **Confidence scoring** based on:
@@ -83,6 +93,7 @@ A production-ready multi-agent system that reconstructs project timelines from e
 **Files**: `src/analysis/burst_detector.py`
 
 **Algorithm**:
+
 ```python
 For each time window:
   - Count events and participants
@@ -99,33 +110,34 @@ For each time window:
 
 All results are in the `outputs/` directory:
 
-| File | Description | Size |
-|------|-------------|------|
-| `timeline.csv` | Unified event timeline with metadata | 13 KB |
-| `participant_stats.csv` | Engagement statistics per person | 2 KB |
-| `collaboration_bursts.csv` | Detected burst periods | 180 B |
-| `graph_stats.json` | Network statistics | 181 B |
-| `graphs/project_graph.json` | Exportable graph data | - |
-| `summary_report.txt` | Comprehensive analysis report | 4.1 KB |
-| `analysis.log` | Detailed execution log | - |
+| File                        | Description                          | Size   |
+| --------------------------- | ------------------------------------ | ------ |
+| `timeline.csv`              | Unified event timeline with metadata | 13 KB  |
+| `participant_stats.csv`     | Engagement statistics per person     | 2 KB   |
+| `collaboration_bursts.csv`  | Detected burst periods               | 180 B  |
+| `graph_stats.json`          | Network statistics                   | 181 B  |
+| `graphs/project_graph.json` | Exportable graph data                | -      |
+| `summary_report.txt`        | Comprehensive analysis report        | 4.1 KB |
+| `analysis.log`              | Detailed execution log               | -      |
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Category | Libraries |
-|----------|-----------|
-| **Data Processing** | pandas, numpy, python-dateutil |
-| **Graph Analysis** | networkx, python-louvain |
-| **Validation** | pydantic |
-| **NLP (ready)** | scikit-learn, sentence-transformers |
-| **Visualization (ready)** | plotly, matplotlib, seaborn, pyvis |
+| Category                  | Libraries                           |
+| ------------------------- | ----------------------------------- |
+| **Data Processing**       | pandas, numpy, python-dateutil      |
+| **Graph Analysis**        | networkx, python-louvain            |
+| **Validation**            | pydantic                            |
+| **NLP (ready)**           | scikit-learn, sentence-transformers |
+| **Visualization (ready)** | plotly, matplotlib, seaborn, pyvis  |
 
 ---
 
 ## 🚀 How to Use
 
 ### Quick Start
+
 ```bash
 # Install dependencies
 python3 -m venv venv
@@ -137,7 +149,9 @@ python src/main.py
 ```
 
 ### Configuration
+
 Adjust detection parameters in `src/main.py`:
+
 ```python
 burst_detector = CollaborationBurstDetector(
     window_hours=168,   # 7 days
@@ -154,12 +168,15 @@ burst_detector = CollaborationBurstDetector(
 ### Ready to Implement
 
 #### **1. Milestone Detection**
+
 **Patterns to detect**:
+
 - **Decision Points**: Large meeting → email flurry → calm period
 - **Deliverables**: Presentation events with follow-ups
 - **Planning Phases**: Workshops with intense follow-up activity
 
 **Implementation strategy**:
+
 ```python
 def detect_milestones(calendar_events, timeline):
     # Find large meetings (7+ participants)
@@ -169,13 +186,16 @@ def detect_milestones(calendar_events, timeline):
 ```
 
 #### **2. Phase Transition Detection**
+
 **Approach**: Topic modeling with TF-IDF
+
 - Create 3-week time windows
 - Extract top keywords per window
 - Calculate similarity between consecutive windows
 - Low similarity (<0.4) = phase transition
 
 **Implementation strategy**:
+
 ```python
 def detect_phase_transitions(timeline):
     windows = create_time_windows(timeline, weeks=3)
@@ -191,27 +211,32 @@ def detect_phase_transitions(timeline):
 ## 💡 Advanced Features (Future Ideas)
 
 ### 1. **Sentiment Tracking**
+
 - Analyze email tone changes over time
 - Detect frustration spikes
 - **Tool**: sentence-transformers for semantic analysis
 - **Keywords**: "late reply", "still waiting", "concerned"
 
 ### 2. **Influence Mapping**
+
 - PageRank on collaboration graph
 - Distinguish decision-makers from executors
 - **Implementation**: `nx.pagerank(G, weight='event_count')`
 
 ### 3. **Handoff Event Detection**
+
 - Pattern: New participant + context shift
 - Look for "adding [name]", "looping in"
 - **Implementation**: Regex + participant set difference
 
 ### 4. **Blocker Identification**
+
 - Same issue across 3+ communications
 - No resolution (topic persistence)
 - **Implementation**: Topic clustering + temporal persistence
 
 ### 5. **Communication Health Dashboard**
+
 - Response time distribution
 - Meeting-to-email ratio
 - Participant balance (Gini coefficient)
@@ -223,14 +248,14 @@ def detect_phase_transitions(timeline):
 
 ### Track 9 Requirements: ✅ Complete
 
-| Requirement | Status | Implementation |
-|-------------|--------|----------------|
-| **Ingest & Structure** | ✅ | `DataPreprocessor` with Pydantic validation |
-| **Connect the Dots** | ✅ | Temporal + collaboration edges |
-| **Infer Project Events** | ✅ | Collaboration burst detection |
-| **Traceability** | ✅ | All events reference source IDs |
-| **Explainability** | ✅ | Confidence scores + reasoning |
-| **Multi-step Reasoning** | ✅ | Planning → Parsing → Linking → Reasoning |
+| Requirement              | Status | Implementation                              |
+| ------------------------ | ------ | ------------------------------------------- |
+| **Ingest & Structure**   | ✅     | `DataPreprocessor` with Pydantic validation |
+| **Connect the Dots**     | ✅     | Temporal + collaboration edges              |
+| **Infer Project Events** | ✅     | Collaboration burst detection               |
+| **Traceability**         | ✅     | All events reference source IDs             |
+| **Explainability**       | ✅     | Confidence scores + reasoning               |
+| **Multi-step Reasoning** | ✅     | Planning → Parsing → Linking → Reasoning    |
 
 ---
 
@@ -246,6 +271,7 @@ def detect_phase_transitions(timeline):
 ## 🔍 Code Quality
 
 ### Production-Ready Features
+
 - ✅ Comprehensive error handling
 - ✅ Input validation (Pydantic models)
 - ✅ Logging at INFO/WARNING/ERROR levels
@@ -255,6 +281,7 @@ def detect_phase_transitions(timeline):
 - ✅ Extensive documentation
 
 ### Testing Coverage
+
 - Data preprocessing validation
 - Graph construction verification
 - Burst detection algorithm testing
@@ -265,16 +292,20 @@ def detect_phase_transitions(timeline):
 ## 📝 Key Insights from Data
 
 ### Discovered Patterns
+
 1. **Project Lifecycle**:
+
    - Aug-Sep 2022: Intensive kickoff (workshops, strategy)
    - Oct-Nov 2022: Iterative design phase
    - 2023-2026: Long-term maintenance relationship
 
 2. **Leadership Dynamics**:
+
    - Terry Palmer (ConsultingCo) + Jamie Adams (StartupCo) = consistent 1-on-1s
    - Team rotation: Multiple specialists brought in/out over time
 
 3. **Communication Style**:
+
    - 57% emails (detailed discussions)
    - 43% meetings (decisions and checkpoints)
    - Monthly cycles: burst → calm → burst
@@ -291,18 +322,21 @@ def detect_phase_transitions(timeline):
 ### Ready for Implementation
 
 **1. Timeline View**
+
 - Horizontal timeline with events
 - Color-coded: emails (blue) vs meetings (green)
 - Burst periods highlighted
 - Tool: Plotly timeline chart
 
 **2. Network Graph**
+
 - Interactive force-directed layout
 - Node size = activity level
 - Edge weight = collaboration strength
 - Tool: pyvis or D3.js
 
 **3. Heatmap**
+
 - Communication frequency over time
 - Day-of-week patterns
 - Hour-of-day patterns (if time data available)
@@ -324,16 +358,19 @@ def detect_phase_transitions(timeline):
 ### For Hackathon Continuation (Next 1-2 hours)
 
 **Priority 1**: Milestone Detection (30 mins)
+
 - Implement decision point pattern
 - Add deliverable detection
 - Test on October 2022 presentations
 
 **Priority 2**: Phase Transition Detection (45 mins)
+
 - Implement TF-IDF topic extraction
 - Test on full timeline
 - Identify Aug→Sep and Nov→Dec transitions
 
 **Priority 3**: Visualization (45 mins)
+
 - Create interactive timeline with Plotly
 - Generate network graph
 - Build simple Streamlit dashboard
@@ -394,6 +431,7 @@ hackGraph/
 ## 💪 Ready for Demo!
 
 This implementation is **hackathon-ready** with:
+
 - Working code that produces real insights
 - Comprehensive documentation
 - Clear visualization of results
@@ -427,4 +465,4 @@ open outputs/collaboration_bursts.csv
 
 **Built for Antler Hackathon - Track 9: Email+Calendar Graph System**
 
-*Reconstructing project timelines through multi-agent reasoning* 🚀
+_Reconstructing project timelines through multi-agent reasoning_ 🚀

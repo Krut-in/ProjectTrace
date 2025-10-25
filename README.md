@@ -17,19 +17,50 @@ chmod +x setup.sh
 ### 2. Run Analysis
 
 ```bash
+# Activate virtual environment
+source venv/bin/activate
+
+# Run the analysis pipeline
 python src/main.py
 ```
 
-### 3. View Results
+### 3. Launch Interactive Dashboard
+
+```bash
+# Make sure virtual environment is activated
+source venv/bin/activate
+
+# Launch Streamlit dashboard
+streamlit run src/visualization/dashboard.py
+```
+
+Then open your browser to `http://localhost:8501` to explore the interactive dashboard with 6 tabs:
+
+- **Overview:** Timeline and key metrics
+- **Bursts:** Collaboration burst detection
+- **Milestones:** Key project events
+- **Phases:** Phase transitions
+- **Sentiment:** Sentiment analysis
+- **Network:** Interactive collaboration graph
+
+### 4. View Results
 
 Check the `outputs/` directory for analysis results:
+
 - `summary_report.txt` - Comprehensive analysis report
 - `timeline.csv` - Unified event timeline
 - `collaboration_bursts.csv` - Detected collaboration bursts
+- `milestones.csv` - Project milestones and deliverables
+- `phase_transitions.csv` - Project phase shifts
+- `sentiment_timeline.csv` - Sentiment analysis per event
+- `influence_scores.csv` - Participant influence rankings
+- `handoffs.csv` - Team handoff events
 - `participant_stats.csv` - Participant engagement statistics
 - `graph_stats.json` - Graph network statistics
-- `graphs/project_graph.json` - Exportable graph data
+- `visualizations/*.png` - Timeline, bursts, participants charts
 - `analysis.log` - Detailed execution log
+
+📊 **For detailed analysis and insights, see [ANALYSIS.md](ANALYSIS.md)** - A comprehensive breakdown of all outputs, methodologies, and findings.
 
 ## 📁 Project Structure
 
@@ -57,12 +88,14 @@ hackGraph/
 ### Phase 1 (Current)
 
 ✅ **Data Preprocessing**
+
 - Robust JSON parsing with Pydantic validation
 - Email and calendar data cleaning
 - Unified timeline generation
 - Participant extraction and statistics
 
 ✅ **Multi-Layer Graph Construction**
+
 - Person nodes with organization metadata
 - Event nodes (emails and meetings)
 - Temporal proximity edges (events within 48 hours)
@@ -70,6 +103,7 @@ hackGraph/
 - Graph export in multiple formats (JSON, GEXF, GraphML)
 
 ✅ **Collaboration Burst Detection**
+
 - Sliding window analysis (48-hour windows)
 - Detects 8+ events with 3-8 participants
 - Confidence scoring based on:
@@ -81,11 +115,13 @@ hackGraph/
 ### Phase 2 (Next Steps)
 
 🔄 **Milestone Detection** (Ready to implement)
+
 - Large meeting → email flurry → calm pattern
 - Presentation and deliverable identification
 - Planning phase detection
 
 🔄 **Phase Transition Detection** (Ready to implement)
+
 - Topic modeling with TF-IDF
 - Keyword clustering over time windows
 - Phase shift identification
@@ -93,14 +129,16 @@ hackGraph/
 ## 🎯 Key Insights
 
 ### Project Overview
+
 - **Timeline**: August 2022 - September 2025 (3+ years)
 - **Project**: ConsultingCo → StartupCo brand strategy and identity
-- **Key Players**: 
+- **Key Players**:
   - Terry Palmer (ConsultingCo CEO)
   - Jamie Adams (StartupCo CEO)
   - Multiple team rotations
 
 ### Communication Patterns
+
 - Early intensive collaboration (Aug-Nov 2022)
 - Multiple design iteration phases
 - Long-term maintenance relationship
@@ -158,6 +196,7 @@ Burst #1:
 ### Export Graph for Visualization
 
 The graph is automatically exported to `outputs/graphs/project_graph.json` and can be visualized using:
+
 - [Gephi](https://gephi.org/) (import GEXF format)
 - [Cytoscape](https://cytoscape.org/)
 - D3.js or vis.js for web visualization
@@ -190,25 +229,30 @@ person_subgraph = graph_builder.get_subgraph(['person'])
 ## 📝 Next Stage Ideas
 
 ### 1. Sentiment Tracking
+
 - Analyze email tone changes over time
 - Detect frustration spikes
 - Implementation: sentence-transformers for semantic analysis
 
 ### 2. Influence Mapping
+
 - PageRank on collaboration graph
 - Distinguish decision-makers from executors
 - Implementation: `nx.pagerank(G)` on person-person subgraph
 
 ### 3. Handoff Event Detection
+
 - Pattern: New participant + context shift
 - Look for "adding [name]" in communications
 - Implementation: Regex + participant set difference
 
 ### 4. Blocker Identification
+
 - Same issue across 3+ communications without resolution
 - Implementation: Topic clustering + temporal persistence
 
 ### 5. Communication Health Dashboard
+
 - Response time trends
 - Meeting-to-email ratio
 - Participant balance metrics
@@ -217,6 +261,7 @@ person_subgraph = graph_builder.get_subgraph(['person'])
 ## ⚠️ Error Handling
 
 All modules include:
+
 - Pydantic validation for data integrity
 - Comprehensive try-except blocks
 - Detailed logging (INFO/WARNING/ERROR levels)
@@ -225,12 +270,15 @@ All modules include:
 ## 🚨 Troubleshooting
 
 **Issue**: No collaboration bursts detected
+
 - **Solution**: Lower `min_events` threshold in `src/main.py`
 
 **Issue**: File not found error
+
 - **Solution**: Ensure JSON files are in project root directory
 
 **Issue**: Import errors
+
 - **Solution**: Run `./setup.sh` again or `pip install -r requirements.txt`
 
 ## 📄 License
